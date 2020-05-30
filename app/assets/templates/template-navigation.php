@@ -1,7 +1,10 @@
 <!-- Navigation Section Starts Here -->
-<header id="header" class="header header-transparent">
+<header id="header" class="header header-transparent header-layout1">
+  <div class="header__promo-text text-center">
+    <strong>Need Help:</strong><span>Providing Innovative and Sustainable Solutions, Call (002) 01061245741</span>
+  </div>
   <nav class="navbar navbar-expand-lg sticky-navbar">
-    <div class="container">
+    <div class="container-fluid px-0">
       <a class="navbar-brand" href="./">
         <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
         <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
@@ -135,7 +138,7 @@
                       </li> <!-- /.nav-item -->
                       <li class="nav__item"><a class="nav__item-link" href="single-service.html">Content Writing Services</a>
                       </li> <!-- /.nav-item -->
-                  </ul>
+                    </ul>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6 dropdown-menu-col">
                     <h6>Social Media Marketing</h6>
@@ -272,7 +275,7 @@
           </li>
           <li>
             <div class="dropdown">
-              <button  style="display:none" class="module__btn dropdown-toggle" id="langDrobdown" data-toggle="dropdown">
+              <button style="display:none" class="module__btn dropdown-toggle" id="langDrobdown" data-toggle="dropdown">
                 <span>En</span>
               </button>
               <div class="dropdown-menu" aria-labelledby="langDrobdown">
