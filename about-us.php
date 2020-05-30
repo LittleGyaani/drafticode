@@ -173,7 +173,7 @@
     </header><!-- /.Header -->
 
     <!-- ========================
-       page title 
+       page title
     =========================== -->
     <section id="page-title" class="page-title page-title-layout4 text-center bg-overlay bg-parallax">
       <div class="bg-img"><img src="assets/images/page-titles/1.jpg" alt="background"></div>
@@ -401,7 +401,7 @@
       </div><!-- /.container -->
     </section><!-- /.clients 1 -->
 
-    <!-- ========================= 
+    <!-- =========================
           Testimonial #2
     =========================  -->
     <section id="testimonial2" class="testimonial testimonial-2 text-center bg-overlay bg-overlay-grdient-theme pb-90">
@@ -607,7 +607,7 @@
     </section>
     <!-- /.blog Grid -->
 
-    <!-- ========================= 
+    <!-- =========================
           contact 1
     =========================  -->
     <section id="contact1" class="contact contact-1 p-0">

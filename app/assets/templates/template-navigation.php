@@ -31,16 +31,145 @@
               <!-- /.nav-item -->
               <li class="nav__item"><a href="why-us.html" class="nav__item-link">Why Choose Us</a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="leadership-team.html" class="nav__item-link">Leadership Team</a></li>
-              <!-- /.nav-item -->
-              <li class="nav__item"><a href="global-locations.html" class="nav__item-link">Global Locations</a></li>
-              <!-- /.nav-item -->
-              <li class="nav__item"><a href="gallery.html" class="nav__item-link">Our Gallery</a></li>
-              <!-- /.nav-item -->
-              <li class="nav__item"><a href="careers.html" class="nav__item-link">careers</a></li>
+              <li class="nav__item"><a href="careers.html" class="nav__item-link">Careers</a></li>
               <!-- /.nav-item -->
             </ul><!-- /.dropdown-menu -->
           </li><!-- /.nav-item -->
+
+          <li class="nav__item with-dropdown">
+            <a href="services.html" class="dropdown-toggle nav__item-link">Development</a>
+            <i class="fa fa-angle-right" data-toggle="dropdown"></i>
+            <ul class="dropdown-menu wide-dropdown-menu">
+              <li class="nav__item">
+                <div class="row mx-0">
+                  <div class="col-sm-4 dropdown-menu-col">
+                    <h6>Web Development</h6>
+                    <ul class="nav flex-column">
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">PHP</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Laravel</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Codeigniter</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html"> Node JS</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Angular JS</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">React JS</a></li>
+                      <!-- /.nav-item -->
+                    </ul>
+                  </div><!-- /.col-sm-6 -->
+                  <div class="col-sm-4 dropdown-menu-col">
+                    <h6>E- Commerce Development</h6>
+                    <ul class="nav flex-column">
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Magento</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">WooCommerce</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Prestashop</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Open Cart</a></li> <!-- /.nav-item -->
+                      <!-- /.nav-item -->
+                    </ul>
+                  </div><!-- /.col-sm-6 -->
+                  <div class="col-sm-4 dropdown-menu-col">
+                    <h6>CMS Development</h6>
+                    <ul class="nav flex-column">
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Wordpress</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Drupal</a></li> <!-- /.nav-item -->
+                      <!-- /.nav-item -->
+                    </ul>
+                  </div><!-- /.col-sm-6 -->
+                  <div class="col-sm-4 dropdown-menu-col">
+                    <h6>Mobile Apps Development</h6>
+                    <ul class="nav flex-column">
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">IOS</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Android</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Hybrid</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">React Native</a></li> <!-- /.nav-item -->
+                      <!-- /.nav-item -->
+                    </ul>
+                  </div><!-- /.col-sm-6 -->
+                </div><!-- /.row -->
+              </li><!-- /.nav-item -->
+            </ul><!-- /.dropdown-menu -->
+          </li><!-- /.nav-item -->
+
+          <li class="nav__item with-dropdown">
+            <a href="services.html" class="dropdown-toggle nav__item-link">Digital Marketing</a>
+            <i class="fa fa-angle-right" data-toggle="dropdown"></i>
+            <ul class="dropdown-menu wide-dropdown-menu">
+              <li class="nav__item">
+                <div class="row mx-0">
+                  <div class="col-sm-6 dropdown-menu-col">
+                    <h6>Search Engine Optimization</h6>
+                    <ul class="nav flex-column">
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Local SEO Services</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Start-Up SEO</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Codeigniter</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Enterprise SEO</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">E-Commerce SEO Services</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">WooCommerce SEO Services</a></li>
+                      <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Magento SEO Services</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Amazon SEO Services</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Shopify SEO Services</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Guest Blogging Services</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Comprehensive SEO Audit</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Google Penalty Assessment</a></li>
+                      <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Conversion Optimization</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Backlink Audit / Disavow Services</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Mobile SEO</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Free SEO Analysis</a>
+                      </li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Content Writing Services</a>
+                      </li> <!-- /.nav-item -->
+                  </ul>
+                  </div><!-- /.col-sm-6 -->
+                  <div class="col-sm-6 dropdown-menu-col">
+                    <h6>Social Media Marketing</h6>
+                    <ul class="nav flex-column">
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Facebook Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Instagram Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Twiiter Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Linkedin Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Youtube Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Pinterest Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Free Social Media Analysis</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Comprehensive Social Media Audit</a></li> <!-- /.nav-item -->
+                      <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Influencer Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Crisis Management</a></li> <!-- /.nav-item -->
+                    </ul>
+                  </div><!-- /.col-sm-6 -->
+                  <div class="col-sm-6 dropdown-menu-col">
+                    <h6>Paid Campaign Marketing</h6>
+                    <ul class="nav flex-column">
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Google Ads</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Facebook Ads</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Pinterest Ads</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Instagram Ads</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">YouTube Ads</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Linkedin Ads</a></li> <!-- /.nav-item -->
+                      <!-- /.nav-item -->
+                    </ul>
+                  </div><!-- /.col-sm-6 -->
+                </div><!-- /.row -->
+              </li><!-- /.nav-item -->
+            </ul><!-- /.dropdown-menu -->
+          </li><!-- /.nav-item -->
+
           <li class="nav__item with-dropdown">
             <a href="services.html" class="dropdown-toggle nav__item-link">Services</a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
@@ -48,19 +177,19 @@
               <li class="nav__item">
                 <div class="row mx-0">
                   <div class="col-sm-6 dropdown-menu-col">
-                    <h6>Transport Services</h6>
+                    <h6>Digital Services</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Warehousing</a>
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Web Hosting</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Air Freight</a>
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Domain Name</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Ocean Freight</a>
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Email Marketing</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Road Freight</a>
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">SMS Marketing</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Supply Chain</a>
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Payment Gateway</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Packaging</a></li>
+                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Bulk SMS Services</a></li>
                       <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-sm-6 -->
@@ -77,7 +206,20 @@
                           Generation</a></li> <!-- /.nav-item -->
                       <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Food &
                           Beverage</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Oil & Gas</a></li>
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">IT & Hardware</a></li>
+                      <!-- /.nav-item -->
+                    </ul>
+                  </div><!-- /.col-sm-6 -->
+
+                  <div class="col-sm-6 dropdown-menu-col">
+                    <h6>Business Solutions</h6>
+                    <ul class="nav flex-column">
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Company Incorporation</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Trade Mark Registration</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">CA Assisted Services</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">GST Invocing & POS Solutions</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Legal Service</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Business Support Services</a></li>
                       <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-sm-6 -->
@@ -86,34 +228,31 @@
             </ul><!-- /.dropdown-menu -->
           </li><!-- /.nav-item -->
           <li class="nav__item with-dropdown">
-            <a href="blog-grid.html" class="dropdown-toggle nav__item-link">News & Media</a>
+            <a href="blog-grid.html" class="dropdown-toggle nav__item-link">Resources</a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu">
-              <li class="nav__item"><a href="blog-grid.html" class="nav__item-link">blog grid</a></li>
+              <li class="nav__item"><a href="blog-grid.html" class="nav__item-link">Blog</a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="blog-single-post.html" class="nav__item-link">blog single post</a></li>
+              <li class="nav__item"><a href="blog-single-post.html" class="nav__item-link">Case Studies</a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="case-studies.html" class="nav__item-link">case studies</a></li>
+              <li class="nav__item"><a href="case-studies.html" class="nav__item-link">Help & FAQ's</a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="case-studies-single.html" class="nav__item-link">case study Single</a>
+              <li class="nav__item"><a href="case-studies-single.html" class="nav__item-link">Request A Quote</a>
               </li>
               <!-- /.nav-item -->
             </ul><!-- /.dropdown-menu -->
           </li><!-- /.nav-item -->
           <li class="nav__item with-dropdown">
-            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Features</a>
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Portfolio</a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu">
-              <li class="nav__item"><a href="request-quote.html" class="nav__item-link">request a quote</a></li>
+              <li class="nav__item"><a href="request-quote.html" class="nav__item-link"> </a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="track-shipment.html" class="nav__item-link">track and trace</a></li>
+              <li class="nav__item"><a href="track-shipment.html" class="nav__item-link"> </a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="find-location.html" class="nav__item-link">find Location</a></li>
+              <li class="nav__item"><a href="find-location.html" class="nav__item-link"> </a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="rates.html" class="nav__item-link">Rates & Pricing</a></li>
-              <!-- /.nav-item -->
-              <li class="nav__item"><a href="faqs.html" class="nav__item-link">help and faqs</a></li>
-              <!-- /.nav-item -->
+              <li class="nav__item"><a href="rates.html" class="nav__item-link"> </a></li>
             </ul><!-- /.dropdown-menu -->
           </li><!-- /.nav-item -->
           <li class="nav__item">
@@ -124,7 +263,7 @@
       <div class="navbar-modules">
         <ul class="modules__wrapper d-flex align-items-center list-unstyled">
           <li>
-            <a href="#" class="module__btn module__btn-search"><i class="fa fa-search"></i></a>
+            <a style="display:none" href="#" class="module__btn module__btn-search"><i class="fa fa-search"></i></a>
           </li>
           <li class="d-none d-lg-block">
             <a href="request-quote.html" class="module__btn btn__request btn">
@@ -133,7 +272,7 @@
           </li>
           <li>
             <div class="dropdown">
-              <button class="module__btn dropdown-toggle" id="langDrobdown" data-toggle="dropdown">
+              <button  style="display:none" class="module__btn dropdown-toggle" id="langDrobdown" data-toggle="dropdown">
                 <span>En</span>
               </button>
               <div class="dropdown-menu" aria-labelledby="langDrobdown">
