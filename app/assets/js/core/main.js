@@ -1,7 +1,7 @@
 /*---------------------------
       Table of Contents
     --------------------
-    
+    00- Preloader
     01- Mobile Menu
     02- Sticky Navbar
     03- Module Search 
@@ -21,22 +21,28 @@
      
  ----------------------------*/
 
-$(function () {
+$(function() {
 
     // Global variables
     var $win = $(window);
 
+    /*==========  Pre Loading   ==========*/
+    $win.on('load', function() {
+        $(".preloader").fadeOut(5000);
+        $(".preloader").remove();
+    });
+
     /*==========   Mobile Menu   ==========*/
     var $navToggler = $('.navbar-toggler');
-    $navToggler.on('click', function () {
+    $navToggler.on('click', function() {
         $(this).toggleClass('actived');
     })
-    $navToggler.on('click', function () {
+    $navToggler.on('click', function() {
         $('.navbar-collapse').toggleClass('menu-opened');
     })
 
     /*==========   Sticky Navbar   ==========*/
-    $win.on('scroll', function () {
+    $win.on('scroll', function() {
         if ($win.width() >= 992) {
             var $navbar = $('.sticky-navbar');
             if ($win.scrollTop() > 80) {
@@ -51,19 +57,19 @@ $(function () {
     var $moduleBtnSearch = $('.module__btn-search'),
         $moduleSearchContainer = $('.module__search-container');
     // Show Module Search
-    $moduleBtnSearch.on('click', function (e) {
+    $moduleBtnSearch.on('click', function(e) {
         e.preventDefault();
         $moduleSearchContainer.toggleClass('active', 'inActive').removeClass('inActive');
     });
     // Close Module Search
-    $('.close-search').on('click', function () {
+    $('.close-search').on('click', function() {
         $moduleSearchContainer.removeClass('active').addClass('inActive');
     });
 
     /*==========   Scroll Top Button   ==========*/
     var $scrollTopBtn = $('#scrollTopBtn');
     // Show Scroll Top Button
-    $win.on('scroll', function () {
+    $win.on('scroll', function() {
         if ($(this).scrollTop() > 700) {
             $scrollTopBtn.addClass('actived');
         } else {
@@ -71,7 +77,7 @@ $(function () {
         }
     });
     // Animate Body after Clicking on Scroll Top Button
-    $scrollTopBtn.on('click', function () {
+    $scrollTopBtn.on('click', function() {
         $('html, body').animate({
             scrollTop: 0
         }, 500);
@@ -79,14 +85,14 @@ $(function () {
 
     /*==========   Equal Height Elements   ==========*/
     var maxHeight = 0;
-    $(".equal-height").each(function () {
+    $(".equal-height").each(function() {
         if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
     });
     $(".equal-height").height(maxHeight);
 
 
     /*==========   Set Background-img to section   ==========*/
-    $('.bg-img').each(function () {
+    $('.bg-img').each(function() {
         var imgSrc = $(this).children('img').attr('src');
         $(this).parent().css({
             'background-image': 'url(' + imgSrc + ')',
@@ -98,17 +104,17 @@ $(function () {
     });
 
     /*==========   Add active class to accordions   ==========*/
-    $('.accordion__item-header').on('click', function () {
+    $('.accordion__item-header').on('click', function() {
         $(this).addClass('opened')
         $(this).parent().siblings().find('.accordion__item-header').removeClass('opened')
     })
-    $('.accordion__item-title').on('click', function (e) {
+    $('.accordion__item-title').on('click', function(e) {
         e.preventDefault()
     });
 
     /*==========   Load More Items  ==========*/
     function loadMore(loadMoreBtn, loadedItem) {
-        $(loadMoreBtn).on('click', function (e) {
+        $(loadMoreBtn).on('click', function(e) {
             e.preventDefault();
             $(this).fadeOut();
             $(loadedItem).fadeIn();
@@ -121,7 +127,7 @@ $(function () {
 
     /*==========   Add Animation to About Img ==========*/
     if ($(".about").length > 0) {
-        $(window).on('scroll', function () {
+        $(window).on('scroll', function() {
             var skillsOffset = $(".about").offset().top - 200,
                 skillsHight = $(this).outerHeight(),
                 winScrollTop = $(window).scrollTop();
@@ -133,15 +139,15 @@ $(function () {
 
     /*==========   Progress bars  ==========*/
     if ($(".skills").length > 0) {
-        $(window).on('scroll', function () {
+        $(window).on('scroll', function() {
             var skillsOffset = $(".skills").offset().top - 130,
                 skillsHight = $(this).outerHeight(),
                 winScrollTop = $(window).scrollTop();
             if (winScrollTop > skillsOffset - 1 && winScrollTop < skillsOffset + skillsHight - 1) {
-                $('.progress-bar').each(function () {
+                $('.progress-bar').each(function() {
                     $(this).width($(this).attr('aria-valuenow') + '%');
                 });
-                $('.progress__percentage').each(function () {
+                $('.progress__percentage').each(function() {
                     $(this).text($(this).siblings().children('.progress-bar').attr('aria-valuenow') + '%')
                 });
             }
@@ -149,7 +155,7 @@ $(function () {
     }
 
     /*==========   Owl Carousel  ==========*/
-    $('.carousel').each(function () {
+    $('.carousel').each(function() {
         $(this).owlCarousel({
             nav: $(this).data('nav'),
             dots: $(this).data('dots'),
@@ -236,7 +242,7 @@ $(function () {
 
     /*==========   Projects Filtering and Sorting  ==========*/
     $("#filtered-items-wrap").mixItUp();
-    $(".projects-filter li a").on("click", function (e) {
+    $(".projects-filter li a").on("click", function(e) {
         e.preventDefault();
     });
 
