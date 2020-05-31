@@ -2277,9 +2277,9 @@ textarea.form-control {
 }
 
 .navbar .dropdown-menu .nav__item .nav__item-link {
-    color: #51668a !important;
+    color: Black !important;
     text-transform: capitalize;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 36px !important;
     white-space: nowrap;
     position: relative;

@@ -6,7 +6,7 @@
      </div><!-- /.header__promo-text -->
      <nav class="navbar navbar-expand-lg sticky-navbar">
        <div class="container-fluid px-0">
-         <a class="navbar-brand" href="index.html">
+         <a class="navbar-brand" href="./">
            <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
            <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
          </a>
@@ -16,14 +16,8 @@
          <div class="collapse navbar-collapse" id="mainNavigation">
            <ul class="navbar-nav mx-auto">
              <li class="nav__item with-dropdown">
-               <a href="index.html" class="dropdown-toggle nav__item-link active">Home</a>
+               <a href="index.html" class=" nav__item-link active">Home</a>
                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-               <ul class="dropdown-menu">
-                 <li class="nav__item"><a href="index.html" class="nav__item-link">Home Main</a></li>
-                 <!-- /.nav-item -->
-                 <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Home classic</a></li>
-                 <!-- /.nav-item -->
-               </ul><!-- /.dropdown-menu -->
              </li><!-- /.nav-item -->
              <li class="nav__item with-dropdown">
                <a href="about-us.html" class="dropdown-toggle nav__item-link">Company</a>
@@ -37,13 +31,13 @@
                  <!-- /.nav-item -->
                </ul><!-- /.dropdown-menu -->
              </li><!-- /.nav-item -->
-             <li class="nav__item with-dropdown">
+             <li class="nav__item with-dropdown mega-dropdown">
                <a href="Industries-industry-served.html" class="dropdown-toggle nav__item-link">Development</a>
                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-               <ul class="dropdown-menu wide-dropdown-menu">
+               <ul class="dropdown-menu mega-dropdown-menu">
                  <li class="nav__item">
                    <div class="row mx-0">
-                     <div class="col-sm-6 dropdown-menu-col">
+                     <div class="col-md-3 dropdown-menu-col">
                        <h6>Web Development</h6>
                        <ul class="nav flex-column">
                          <li class="nav__item"><a class="nav__item-link"
@@ -59,14 +53,14 @@
                              href="industries-single-industry.html"> Node JS</a>
                          </li> <!-- /.nav-item -->
                          <li class="nav__item"><a class="nav__item-link"
-                             href="industries-single-industry.html">Angular JS</a>
+                             href="industries-single-industry.html">MERN / MEVN</a>
                          </li> <!-- /.nav-item -->
                          <li class="nav__item"><a class="nav__item-link"
                              href="industries-single-industry.html">React JS</a>
                          </li> <!-- /.nav-item -->
                        </ul>
-                     </div><!-- /.col-sm-6 -->
-                     <div class="col-sm-6 dropdown-menu-col">
+                     </div><!-- /.col-md-3 -->
+                     <div class="col-md-3 dropdown-menu-col">
                        <h6>E- Commerce Development</h6>
                        <ul class="nav flex-column">
                          <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Magento</a></li> <!-- /.nav-item -->
@@ -76,36 +70,36 @@
                          <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Open Cart</a></li> <!-- /.nav-item -->
                          <!-- /.nav-item -->
                        </ul>
-                     </div><!-- /.col-sm-6 -->
-                     <div class="col-sm-6 dropdown-menu-col">
+                     </div><!-- /.col-md-3 -->
+                     <div class="col-md-3 dropdown-menu-col">
                        <h6>CMS Development</h6>
                        <ul class="nav flex-column">
                          <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Wordpress</a></li> <!-- /.nav-item -->
                          <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Drupal</a></li> <!-- /.nav-item -->
                        </ul>
-                     </div><!-- /.col-sm-6 -->
-                     <div class="col-sm-6 dropdown-menu-col">
+                     </div><!-- /.col-md-3 -->
+                     <div class="col-md-3 dropdown-menu-col">
                        <h6>Mobile Apps Development</h6>
                        <ul class="nav flex-column">
-                         <li class="nav__item"><a class="nav__item-link" href="single-industry.html">IOS</a></li> <!-- /.nav-item -->
-                         <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Android</a></li> <!-- /.nav-item -->
+                         <li class="nav__item"><a class="nav__item-link" href="single-industry.html">iOS</a></li> <!-- /.nav-item -->
+                         <li class="nav__item"><a class="nav__item-link" href="single-industry.html">android</a></li> <!-- /.nav-item -->
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Hybrid</a></li> <!-- /.nav-item -->
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">React Native</a></li> <!-- /.nav-item -->
                          <!-- /.nav-item -->
                        </ul>
-                     </div><!-- /.col-sm-6 -->
+                     </div><!-- /.col-md-3 -->
                    </div><!-- /.row -->
                  </li><!-- /.nav-item -->
                </ul><!-- /.dropdown-menu -->
              </li><!-- /.nav-item -->
 
-             <li class="nav__item with-dropdown">
+             <li class="nav__item with-dropdown mega-dropdown">
                <a href="Industries-industry-served.html" class="dropdown-toggle nav__item-link">Digital Marketing</a>
                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-               <ul class="dropdown-menu wide-dropdown-menu">
+               <ul class="dropdown-menu mega-dropdown-menu">
                  <li class="nav__item">
                    <div class="row mx-0">
-                     <div class="col-sm-6 dropdown-menu-col">
+                     <div class="col-md-3 dropdown-menu-col">
                        <h6>Search Engine Optimization</h6>
                        <ul class="nav flex-column">
                          <li class="nav__item"><a class="nav__item-link" href="single-service.html">Local SEO Services</a>
@@ -143,8 +137,8 @@
                          <li class="nav__item"><a class="nav__item-link" href="single-service.html">Content Writing Services</a>
                          </li> <!-- /.nav-item -->
                      </ul>
-                     </div><!-- /.col-sm-6 -->
-                     <div class="col-sm-6 dropdown-menu-col">
+                     </div><!-- /.col-md-3 -->
+                     <div class="col-md-3 dropdown-menu-col">
                        <h6>Social Media Marketing</h6>
                        <ul class="nav flex-column">
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Facebook Marketing</a></li> <!-- /.nav-item -->
@@ -159,8 +153,8 @@
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Influencer Marketing</a></li> <!-- /.nav-item -->
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Crisis Management</a></li> <!-- /.nav-item -->
                        </ul>
-                     </div><!-- /.col-sm-6 -->
-                     <div class="col-sm-6 dropdown-menu-col">
+                     </div><!-- /.col-md-3 -->
+                     <div class="col-md-3 dropdown-menu-col">
                        <h6>Paid Campaign Marketing</h6>
                        <ul class="nav flex-column">
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Google Ads</a></li> <!-- /.nav-item -->
@@ -171,19 +165,19 @@
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Linkedin Ads</a></li> <!-- /.nav-item -->
                          <!-- /.nav-item -->
                        </ul>
-                     </div><!-- /.col-sm-6 -->
+                     </div><!-- /.col-md-3 -->
                    </div><!-- /.row -->
                  </li><!-- /.nav-item -->
                </ul><!-- /.dropdown-menu -->
              </li><!-- /.nav-item -->
 
-             <li class="nav__item with-dropdown">
+             <li class="nav__item with-dropdown mega-dropdown">
                <a href="services.html" class="dropdown-toggle nav__item-link">Services</a>
                <i class="fa fa-angle-right" data-toggle="dropdown"></i>
-               <ul class="dropdown-menu wide-dropdown-menu">
+               <ul class="dropdown-menu mega-dropdown-menu">
                  <li class="nav__item">
                    <div class="row mx-0">
-                     <div class="col-sm-6 dropdown-menu-col">
+                     <div class="col-md-3 dropdown-menu-col">
                        <h6>Digital Services</h6>
                        <ul class="nav flex-column">
                          <li class="nav__item"><a class="nav__item-link" href="single-service.html">Web Hosting</a>
@@ -199,8 +193,8 @@
                          <li class="nav__item"><a class="nav__item-link" href="single-service.html">Bulk SMS Services</a></li>
                          <!-- /.nav-item -->
                        </ul>
-                     </div><!-- /.col-sm-6 -->
-                     <div class="col-sm-6 dropdown-menu-col">
+                     </div><!-- /.col-md-3 -->
+                     <div class="col-md-3 dropdown-menu-col">
                        <h6>Industry Solutions</h6>
                        <ul class="nav flex-column">
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Retail &
@@ -216,19 +210,19 @@
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">IT & Hardware</a></li>
                          <!-- /.nav-item -->
                        </ul>
-                     </div><!-- /.col-sm-6 -->
-                     <div class="col-sm-6 dropdown-menu-col">
+                     </div><!-- /.col-md-3 -->
+                     <div class="col-md-3 dropdown-menu-col">
                        <h6>Business Solutions</h6>
                        <ul class="nav flex-column">
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Company Incorporation</a></li> <!-- /.nav-item -->
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Trade Mark Registration</a></li> <!-- /.nav-item -->
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">CA Assisted Services</a></li> <!-- /.nav-item -->
-                         <li class="nav__item"><a class="nav__item-link" href="single-industry.html">GST Invocing & POS Solutions</a></li> <!-- /.nav-item -->
+                         <li class="nav__item"><a class="nav__item-link" href="single-industry.html">GST Invoicing & POS Solutions</a></li> <!-- /.nav-item -->
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Legal Service</a></li> <!-- /.nav-item -->
                          <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Business Support Services</a></li>
                          <!-- /.nav-item -->
                        </ul>
-                     </div><!-- /.col-sm-6 -->
+                     </div><!-- /.col-md-3 -->
                    </div><!-- /.row -->
                  </li><!-- /.nav-item -->
                </ul><!-- /.dropdown-menu -->
@@ -250,7 +244,7 @@
              </li><!-- /.nav-item -->
 
              <li class="nav__item with-dropdown">
-               <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Portfolio</a>
+               <a href="#" data-toggle="dropdown" class="nav__item-link">Portfolio</a>
              </li><!-- /.nav-item -->
 
              <li class="nav__item">
@@ -260,7 +254,7 @@
          </div><!-- /.navbar-collapse -->
          <div class="navbar-modules">
            <ul class="list-unstyled d-flex align-items-center modules__btns-list">
-             <li>
+             <!-- <li>
                <div class="dropdown dropdown__lang">
                  <button style="display:none" class="dropdown-toggle" id="langDrobdown" data-toggle="dropdown">
                    <img src="assets/images/flags/en.png" alt="en"><span>English</span>
@@ -274,7 +268,7 @@
                    </a>
                  </div>
                </div>
-             </li>
+             </li> -->
              <li class="d-none d-lg-block">
                <a href="request-quote.html" class="btn btn__secondary module__btn-request">
                  <span>Request A Quote</span><i class="icon-arrow-right"></i>
