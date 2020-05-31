@@ -12,7 +12,7 @@ if ($site_status === 'DEVELOPMENT')//If Site is still under development
   if ($site_host === 'localhost')//If the Site Host is localhost
     $router->setBasePath('/drafticode/app/'); //Local Demo Path
   else
-    $router->setBasePath('/demo/drafticode'); //Our Demo Website or Preproduction URL
+    $router->setBasePath('/demo/drafticode/'); //Our Demo Website or Preproduction URL
 else
     $router->setBasePath('/'); //Live Production Website
 
