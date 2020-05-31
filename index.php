@@ -1,10 +1,22 @@
-<?php
+   <?php
+
+//Calling Global Configuration file
+require __DIR__ . '/app/config/global.config.php';
 
 //Calling the AltoRouter Routing Library
 require __DIR__ . '/app/tools/router/AltoRouter/AltoRouter.php';
 
 $router = new AltoRouter();
-$router->setBasePath('/drafticode');
+
+if ($site_status === 'DEVELOPMENT')//If Site is still under development
+
+  if ($site_host === 'localhost')//If the Site Host is localhost
+    $router->setBasePath('/drafticode'); //Local Demo Path
+  else
+    $router->setBasePath('/demo/drafticode'); //Our Demo Website or Preproduction URL
+else
+    $router->setBasePath('/'); //Live Production Website
+
 
 //** Define Base Route **//
 $digital_marketing_route = '/digital-marketing';
