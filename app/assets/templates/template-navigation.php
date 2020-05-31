@@ -1,7 +1,8 @@
 
    <header id="header" class="header header-layout1">
      <div class="header__promo-text text-center">
-       <strong>Need Help:</strong><span>Providing Innovative and Sustainable Solutions, Call (002) 01061245741</span>
+       <!-- Notice Section -->
+       <strong>Need Help: </strong><span>Providing Innovative and Sustainable Solutions, Call (002) 01061245741</span>
      </div><!-- /.header__promo-text -->
      <nav class="navbar navbar-expand-lg sticky-navbar">
        <div class="container-fluid px-0">

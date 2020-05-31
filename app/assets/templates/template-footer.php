@@ -109,7 +109,7 @@
       <div class="row align-items-center">
         <div class="col-sm-12 col-md-6 col-lg-6">
           <div class="footer__copyright">
-            <span>&copy; 2019 - <?= date('Y'); ?> Drafticode.</span>
+            <span>&copy; 2019 - <?= date('Y'); ?> <b style="color:#121c45;">DraftiCode</b>. A <strong>Kaisileum LABS</strong> Group Company.</span>
             All rights reserved.
           </div><!-- /.Footer-copyright -->
         </div><!-- /.col-lg-6 -->
