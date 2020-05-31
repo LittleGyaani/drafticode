@@ -1,4 +1,4 @@
-   <?php
+<?php
 
 //Calling Global Configuration file
 require __DIR__ . '/app/config/global.config.php';
@@ -9,14 +9,12 @@ require __DIR__ . '/app/tools/router/AltoRouter/AltoRouter.php';
 $router = new AltoRouter();
 
 if ($site_status === 'DEVELOPMENT')//If Site is still under development
-
   if ($site_host === 'localhost')//If the Site Host is localhost
-    $router->setBasePath('/drafticode'); //Local Demo Path
+    $router->setBasePath('/drafticode/app/'); //Local Demo Path
   else
     $router->setBasePath('/demo/drafticode'); //Our Demo Website or Preproduction URL
 else
     $router->setBasePath('/'); //Live Production Website
-
 
 //** Define Base Route **//
 $digital_marketing_route = '/digital-marketing';
@@ -50,3 +48,4 @@ if ($match && is_callable($match['target'])) {
   header($_SERVER["SERVER_PROTOCOL"] . ' 404 Not Found');
   require __DIR__ . '/app/views/error-404.php';
 }
+?>
