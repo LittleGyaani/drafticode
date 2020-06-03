@@ -1,6 +1,8 @@
 <?php
+
 //Calling the Global Configuration file
-require_once 'app/config/global.config.php';
+require 'app/config/global.config.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
