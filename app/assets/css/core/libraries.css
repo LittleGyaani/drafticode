@@ -14605,8 +14605,8 @@ body.lb-disable-scrolling {
 
 @font-face {
     font-family: icomoon;
-    src: url(../../fonts/icomoon.eot?bxx24e);
-    src: url(../../fonts/icomoon.eot?bxx24e#iefix) format('embedded-opentype'), url(../../fonts/icomoon.ttf?bxx24e) format('truetype'), url(../../fonts/icomoon.woff?bxx24e) format('woff'), url(../../fonts/icomoon.svg?bxx24e#icomoon) format('svg');
+    src: url(../../fonts/icomoon.eot);
+    src: url(../../fonts/icomoon.eot#iefix) format('embedded-opentype'), url(../../fonts/icomoon.ttf) format('truetype'), url(../../fonts/icomoon.woff) format('woff'), url(../../fonts/icomoon.svg#icomoon) format('svg');
     font-weight: 400;
     font-style: normal;
     font-display: block

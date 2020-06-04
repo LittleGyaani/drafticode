@@ -289,7 +289,7 @@
                </div>
              </li> -->
           <li class="d-none d-lg-block">
-            <a href="request-quote.html" class="btn btn__secondary module__btn-request ">
+            <a href="request-quote.html" class="module__btn btn__request btn">
               <span>Request A Quote</span><i class="icon-arrow-right"></i>
             </a>
           </li>

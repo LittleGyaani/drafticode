@@ -1,5 +1,6 @@
 <?php
 
+//Calling the Global configuration file
 require __DIR__ . '/app/config/global.config.php';
 
 //Calling the AltoRouter Routing Library

@@ -21,6 +21,7 @@ require_once 'app/config/global.config.php';
 </head>
 
 <body class="bg-purple">
+
     <div class="wrapper">
         <!-- =========================
         Header
@@ -34,7 +35,7 @@ require_once 'app/config/global.config.php';
         <!-- ========================
        page title 
     =========================== -->
-        <section id="page-title" class="page-title bg-overlay bg-parallax bg-img" style="background-image: url(&quot;assets/images/page-titles/5.jpg&quot;); background-size: cover; background-position: center center;">
+        <section id="page-title" class="page-title bg-overlay bg-parallax bg-img" style="background-image: url('assets/images/page-titles/5.jpg'); background-size: cover; background-position: center center;">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
