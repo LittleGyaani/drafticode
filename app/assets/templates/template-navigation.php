@@ -66,15 +66,15 @@
                   <div class="col-md-3 dropdown-menu-col">
                     <h6>Web Development</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">PHP</a>
+                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">Core PHP</a>
                       </li> <!-- /.nav-item -->
                       <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">Laravel</a>
                       </li> <!-- /.nav-item -->
                       <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">Codeigniter</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html"> Node JS</a>
+                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">Node JS</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">MERN / MEVN</a>
+                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">MERN/MEVN</a>
                       </li> <!-- /.nav-item -->
                       <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">React JS</a>
                       </li> <!-- /.nav-item -->
@@ -84,7 +84,7 @@
                     <h6>E- Commerce Development</h6>
                     <ul class="nav flex-column">
                       <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Magento</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">WooCommerce</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Woocommerce</a></li> <!-- /.nav-item -->
                       <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Prestashop</a></li> <!-- /.nav-item -->
                       <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Open Cart</a></li> <!-- /.nav-item -->
                       <!-- /.nav-item -->
@@ -255,7 +255,7 @@
               <!-- /.nav-item -->
               <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Case Studies</a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Help & FAQ's</a></li>
+              <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Help & FAQs</a></li>
               <!-- /.nav-item -->
               <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Request A Quote</a></li>
               <!-- /.nav-item -->
