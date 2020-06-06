@@ -3,6 +3,9 @@
 //Calling the Global Configuration file
 require 'app/config/global.config.php';
 
+//Calling the SmartObfuscator Library
+require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
