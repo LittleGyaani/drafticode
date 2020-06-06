@@ -46,19 +46,19 @@
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
           </li><!-- /.nav-item -->
           <li class="nav__item with-dropdown">
-            <a href="about-us.html" class="dropdown-toggle nav__item-link">Company</a>
+            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Our Company</a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu">
-              <li class="nav__item"><a href="about-us.html" class="nav__item-link">About Us</a></li>
+              <li class="nav__item"><a href= "<?= $base_URI . $company_route; ?>/about-us" class="nav__item-link">About Us</a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="why-us.html" class="nav__item-link">Why Choose Us</a></li>
+              <li class="nav__item"><a href="<?= $base_URI . $company_route; ?>/why-choose-us" class="nav__item-link">Why Choose Us</a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="careers.html" class="nav__item-link">careers</a></li>
+              <li class="nav__item"><a href="<?= $base_URI . $company_route; ?>/careers" class="nav__item-link">careers</a></li>
               <!-- /.nav-item -->
             </ul><!-- /.dropdown-menu -->
           </li><!-- /.nav-item -->
           <li class="nav__item with-dropdown mega-dropdown">
-            <a href="Industries-industry-served.html" class="dropdown-toggle nav__item-link">Development</a>
+            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Development</a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu mega-dropdown-menu">
               <li class="nav__item">
@@ -66,44 +66,44 @@
                   <div class="col-md-3 dropdown-menu-col">
                     <h6>Web Development</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">Core PHP</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/web-development/core-php">Core PHP</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">Laravel</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/web-development/laravel">Laravel</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">Codeigniter</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/web-development/codeigniter">Codeigniter</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">Node JS</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/web-development/node-js">Node JS</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">MERN/MEVN</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/web-development/MERN-MEVN">MERN/MEVN</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-industry.html">React JS</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/web-development/react-js">React JS</a>
                       </li> <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
                   <div class="col-md-3 dropdown-menu-col">
                     <h6>E- Commerce Development</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Magento</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Woocommerce</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Prestashop</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Open Cart</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-Commerce-development/magento">Magento</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-Commerce-development/woocommerce">Woocommerce</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-Commerce-development/prestashop">Prestashop</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-Commerce-development/open-cart">Open Cart</a></li> <!-- /.nav-item -->
                       <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
                   <div class="col-md-3 dropdown-menu-col">
                     <h6>CMS Development</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Wordpress</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="industries-single-sector.html">Drupal</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/cms-development/wordpress">Wordpress</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/cms-development/drupal">Drupal</a></li> <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
                   <div class="col-md-3 dropdown-menu-col">
                     <h6>Mobile Apps Development</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">iOS</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">android</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Hybrid</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">React Native</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/mobile-apps-development/ios">iOS</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/mobile-apps-development/android">android</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/mobile-apps-development/hybrid">Hybrid</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/mobile-apps-development/react-native">React Native</a></li> <!-- /.nav-item -->
                       <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
@@ -113,7 +113,7 @@
           </li><!-- /.nav-item -->
 
           <li class="nav__item with-dropdown mega-dropdown">
-            <a href="Industries-industry-served.html" class="dropdown-toggle nav__item-link">Digital Marketing</a>
+            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Digital Marketing</a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu mega-dropdown-menu">
               <li class="nav__item">
@@ -121,67 +121,67 @@
                   <div class="col-md-4 dropdown-menu-col">
                     <h6>Search Engine Optimization</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Local SEO Services</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/local-seo-services">Local SEO Services</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Start-Up SEO</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/startup-seo">Start-Up SEO</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Codeigniter</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/codeigniter-seo-services">Codeigniter</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Enterprise SEO</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/enterprise-seo">Enterprise SEO</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">E-Commerce SEO Services</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/e-commerce-seo-services">E-Commerce SEO Services</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">WooCommerce SEO Services</a></li>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/woocommerce-seo-services">WooCommerce SEO Services</a></li>
                       <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Magento SEO Services</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/magento-seo-services">Magento SEO Services</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Amazon SEO Services</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/amazon-seo-services">Amazon SEO Services</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Shopify SEO Services</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/shopify-seo-services">Shopify SEO Services</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Guest Blogging Services</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/guest-blogging-seo-services">Guest Blogging Services</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Comprehensive SEO Audit</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/comprehensive-seo-services">Comprehensive SEO Audit</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Google Penalty Assessment</a></li>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/google-penalty-seo-services">Google Penalty Assessment</a></li>
                       <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Conversion Optimization</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/conversion-optimization">Conversion Optimization</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Backlink Audit / Disavow Services</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/backlink-audit/disavow-services">Backlink Audit / Disavow Services</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Mobile SEO</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/mobile-seo">Mobile SEO</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Free SEO Analysis</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/free-seo-analysis">Free SEO Analysis</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Content Writing Services</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/content-writing-services">Content Writing Services</a>
                       </li> <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
                   <div class="col-md-4 dropdown-menu-col">
                     <h6>Social Media Marketing</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Facebook Marketing</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Instagram Marketing</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Twiiter Marketing</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Linkedin Marketing</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Youtube Marketing</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Pinterest Marketing</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Free Social Media Analysis</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Comprehensive Social Media Audit</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/facebook-marketing">Facebook Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/instagram-marketing">Instagram Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/twitter-marketing">Twitter Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/linkedin-marketing">Linkedin Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/youtube-marketing">Youtube Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/pintrest-marketing">Pinterest Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/free-social-media-analysis">Free Social Media Analysis</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/comprehensive-social-media-audit">Comprehensive Social Media Audit</a></li> <!-- /.nav-item -->
                       <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Influencer Marketing</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Crisis Management</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/influncer-marketing">Influencer Marketing</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/crisis-management">Crisis Management</a></li> <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
                   <div class="col-md-4 dropdown-menu-col">
                     <h6>Paid Campaign Marketing</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Google Ads</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Facebook Ads</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Pinterest Ads</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Instagram Ads</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">YouTube Ads</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Linkedin Ads</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/paid-campaign-marketing/google-ads">Google Ads</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/paid-campaign-marketing/facebook-ads">Facebook Ads</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/paid-campaign-marketing/pintrest-ads">Pinterest Ads</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/paid-campaign-marketing/instagram-ads">Instagram Ads</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/paid-campaign-marketing/youtube-ads">YouTube Ads</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/paid-campaign-marketing/linkedin-ads">Linkedin Ads</a></li> <!-- /.nav-item -->
                       <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->

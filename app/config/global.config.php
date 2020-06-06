@@ -31,6 +31,14 @@ $now = "";
 $server_protocol = "";///HTTP or HTTPS
 $site_host = "";//localhost or live
 
+//** Define Base Routes for Services **//
+$company_route = '/our-ompany';
+$development_route = '/development';
+$digital_marketing_route = '/digital-marketing';
+$services_route = '/services';
+$resources_route = '/resources';
+$potfolio_route = '/portfolio';
+
 //* Varaible Values * //
 
 //Variable Assigns
