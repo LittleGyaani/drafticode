@@ -64,7 +64,7 @@ $router->map('GET', $development_route . '/web-development/node-js',  function (
 }, 'node-js');
 
 //development - web-development/MERN-MEVN
-$router->map('GET', $development_route . '/web-development/MERN-MEVN',  function () {
+$router->map('GET', $development_route . '/web-development/mern-mevn',  function () {
   require __DIR__ . '/app/views/MERN-MEVN.php';
 }, 'MERN-MEVN');
 
@@ -73,23 +73,23 @@ $router->map('GET', $development_route . '/web-development/react-js',  function 
   require __DIR__ . '/app/views/react-js.php';
 }, 'react-js');
 
-//development - e-Commerce-development/magento
-$router->map('GET', $development_route . '/e-Commerce-development/magento',  function () {
+//development - e-commerce/magento
+$router->map('GET', $development_route . '/e-commerce/magento',  function () {
   require __DIR__ . '/app/views/magento.php';
 }, 'magento');
 
-//development - e-Commerce-development/wooCommerce
-$router->map('GET', $development_route . '/e-Commerce-development/wooCommerce',  function () {
+//development - e-commerce/wooCommerce
+$router->map('GET', $development_route . '/e-commerce/wooCommerce',  function () {
   require __DIR__ . '/app/views/wooCommerce.php';
 }, 'wooCommerce');
 
-//development - e-Commerce-development/prestashop
-$router->map('GET', $development_route . '/e-Commerce-development/prestashop',  function () {
+//development - e-commerce/prestashop
+$router->map('GET', $development_route . '/e-commerce/prestashop',  function () {
   require __DIR__ . '/app/views/prestashop.php';
 }, 'prestashop');
 
-//development - e-Commerce-development/open-cart
-$router->map('GET', $development_route . 'e-Commerce-development/open-cart',  function () {
+//development - e-commerce/open-cart
+$router->map('GET', $development_route . 'e-commerce/open-cart',  function () {
   require __DIR__ . '/app/views/open-cart.php';
 }, 'open-cart');
 
@@ -124,89 +124,69 @@ $router->map('GET', $development_route . '/mobile-apps-development/react-native'
 }, 'react-native');
 
 //digital-marketing - search-engine-optimization/local-seo-services
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/local-seo-services',  function () {
+$router->map('GET', $digital_marketing_route . '/seo/local-seo-services',  function () {
   require __DIR__ . '/app/views/local-seo-services.php';
 }, 'local-seo-services');
 
-//digital-marketing - search-engine-optimization/start-up-seo
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/start-up-seo',  function () {
-  require __DIR__ . '/app/views/start-up-seo';
-}, 'start-up-seo');
+//digital-marketing - search-engine-optimization/global-seo-services
+$router->map('GET', $digital_marketing_route . '/seo/global-seo-services',  function () {
+  require __DIR__ . '/app/views/global-seo-services.php';
+}, 'global-seo-services');
 
-//digital-marketing - search-engine-optimization/codeigniter-seo-services
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/codeigniter-seo-services',  function () {
-  require __DIR__ . '/app/views/codeigniter-seo-services.php';
-}, 'codeigniter-seo-services');
+//digital-marketing - search-engine-optimization/seo-audit
+$router->map('GET', $digital_marketing_route . '/seo/seo-audit',  function () {
+  require __DIR__ . '/app/views/seo-audit.php';
+}, 'seo-audit');
 
-//digital-marketing - search-engine-optimization/enterprise-seo
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/enterprise-seo',  function () {
-  require __DIR__ . '/app/views/enterprise-seo.php';
-}, 'enterprise-seo');
+//digital-marketing - search-engine-optimization/off-page-seo
+$router->map('GET', $digital_marketing_route . '/seo/off-page-seo',  function () {
+  require __DIR__ . '/app/views/off-page-seo.php';
+}, 'off-page-seo');
 
-//digital-marketing - search-engine-optimization/e-commerce-seo-services
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/e-commerce-seo-services',  function () {
-  require __DIR__ . '/app/views/e-commerce-seo-services.php';
-}, 'e-commerce-seo-services');
+//digital-marketing - search-engine-optimization/on-page-seo
+$router->map('GET', $digital_marketing_route . '/seo/on-page-seo',  function () {
+  require __DIR__ . '/app/views/on-page-seo.php';
+}, 'on-page-seo');
 
-//digital-marketing - search-engine-optimization/woocommecce-seo-services
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/woocommecce-seo-services',  function () {
-  require __DIR__ . '/app/views/woocommecce-seo-services.php';
-}, 'woocommecce-seo-services');
+//digital-marketing - search-engine-optimization/keyword-analysis
+$router->map('GET', $digital_marketing_route . '/seo/keyword-analysis',  function () {
+  require __DIR__ . '/app/views/keyword-analysis.php';
+}, 'keyword-analysis');
 
-//digital-marketing - search-engine-optimization/magento-seo-services
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/magento-seo-services',  function () {
-  require __DIR__ . '/app/views/magento-seo-services.php';
-}, 'magento-seo-services');
+//digital-marketing - smo/linkedin optimization
+$router->map('GET', $digital_marketing_route . '/smo/linkedin-optimization',  function () {
+  require __DIR__ . '/app/views/linkedin-optimization.php';
+}, 'linkedin-optimization');
 
-//digital-marketing - search-engine-optimization/amazon-seo-services
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/amazon-seo-services',  function () {
-  require __DIR__ . '/app/views/amazon-seo-services.php';
-}, 'amazon-seo-services');
+//digital-marketing - smo/facebook optimization
+$router->map('GET', $digital_marketing_route . '/smo/facebook-optimization',  function () {
+  require __DIR__ . '/app/views/facebook-optimization.php';
+}, 'facebook-optimization');
 
-//digital-marketing - search-engine-optimization/shopify-seo-services
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/shopify-seo-services',  function () {
-  require __DIR__ . '/app/views/shopify-seo-services.php';
-}, 'shopify-seo-services');
+//digital-marketing - smo/twitter optimization
+$router->map('GET', $digital_marketing_route . '/smo/twitter-optimization',  function () {
+  require __DIR__ . '/app/views/twitter-optimization.php';
+}, 'twitter-optimization');
 
-//digital-marketing - search-engine-optimization/guest-blogging-services
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/guest-blogging-services',  function () {
-  require __DIR__ . '/app/views/guest-blogging-services.php';
-}, 'guest-blogging-services');
+//digital-marketing - smo/instagram optimization
+$router->map('GET', $digital_marketing_route . '/smo/instagram-optimization',  function () {
+  require __DIR__ . '/app/views/instagram-optimization.php';
+}, 'instagram-optimization');
 
-//digital-marketing - search-engine-optimization/comprehensive-seo-audit
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/comprehensive-seo-audit',  function () {
-  require __DIR__ . '/app/views/comprehensive-seo-audit.php';
-}, 'comprehensive-seo-audit');
+//digital-marketing - smo/socail-media-analysis
+$router->map('GET', $digital_marketing_route . '/smo/socail-media-analysis',  function () {
+  require __DIR__ . '/app/views/socail-media-analysis.php';
+}, 'socail-media-analysis');
 
-//digital-marketing - search-engine-optimization/google-penalty-assessment
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/google-penalty-assessment',  function () {
-  require __DIR__ . '/app/views/google-penalty-assessment.php';
-}, 'google-penalty-assessment');
+//digital-marketing - smo/infographic-posting
+$router->map('GET', $digital_marketing_route . '/smo/infographic-posting',  function () {
+  require __DIR__ . '/app/views/infographic-posting.php';
+}, 'infographic-posting');
 
-//digital-marketing - search-engine-optimization/google-penalty-assessment
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/conversion-optimization',  function () {
-  require __DIR__ . '/app/views/conversion-optimization.php';
-}, 'conversion-optimization');
-
-//digital-marketing - search-engine-optimization/google-penalty-assessment
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/backlink-audit/disavow-services',  function () {
-  require __DIR__ . '/app/views/backlink-audit-disavow-services.php';
-}, 'backlink-audit/disavow-services');
-
-//digital-marketing - search-engine-optimization/google-penalty-assessment
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/mobile-seo',  function () {
-  require __DIR__ . '/app/views/mobile-seo.php';
-}, 'mobile-seo');
-
-//digital-marketing - search-engine-optimization/google-penalty-assessment
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/free-seo-analysis',  function () {
-  require __DIR__ . '/app/views/free-seo-analysis.php';
-}, 'free-seo-analysis');
-
-//digital-marketing - search-engine-optimization/google-penalty-assessment
-$router->map('GET', $digital_marketing_route . '/search-engine-optimization/content-writing-services',  function () {
-  require __DIR__ . '/app/views/content-writing-services.php';
-}, 'content-writing-services');
+//digital-marketing - smo/social-engagements
+$router->map('GET', $digital_marketing_route . '/smo/social-engagements',  function () {
+  require __DIR__ . '/app/views/social-engagements.php';
+}, 'social-engagements');
 
 //digital-marketing - social-media-marketing/facebook-marketing
 $router->map('GET', $digital_marketing_route . '/social-media-marketing/facebook-marketing',  function () {
@@ -287,6 +267,126 @@ $router->map('GET', $digital_marketing_route . '/ paid-campaign-marketing/youtub
 $router->map('GET', $digital_marketing_route . '/ paid-campaign-marketing/linkedin-ads',  function () {
   require __DIR__ . '/app/views/linkedin-ads.php';
 }, 'linkedin-ads');
+
+//services - digital-services/web-hosting
+$router->map('GET', $services_route . '/digital-services/web-hosting',  function () {
+  require __DIR__ . '/app/views/web-hosting.php';
+}, 'web-hosting ');
+
+//services - digital-services/domain-name
+$router->map('GET', $services_route . '/digital-services/domain-name',  function () {
+  require __DIR__ . '/app/views/domain-name.php';
+}, 'domain-name ');
+
+//services - digital-services/email-marketing
+$router->map('GET', $services_route . '/digital-services/email-marketing',  function () {
+  require __DIR__ . '/app/views/email-marketing.php';
+}, 'email-marketing');
+
+//services - digital-services/sms-marketing
+$router->map('GET', $services_route . '/digital-services/sms-marketing',  function () {
+  require __DIR__ . '/app/views/sms-marketing.php';
+}, 'sms-marketing');
+
+//services - digital-services/paymeny-gateway
+$router->map('GET', $services_route . '/digital-services/paymeny-gateway',  function () {
+  require __DIR__ . '/app/views/paymeny-gateway.php';
+}, 'paymeny-gateway');
+
+//services - digital-services/bulk-sms-services
+$router->map('GET', $services_route . '/digital-services/bulk-sms-services',  function () {
+  require __DIR__ . '/app/views/bulk-sms-services.php';
+}, 'bulk-sms-services');
+
+//services - industry-sloutions/retail-&-consumers
+$router->map('GET', $services_route . '/industry-sloutions/retail-&-consumers',  function () {
+  require __DIR__ . '/app/views/retail-&-consumers.php';
+}, 'retail-&-consumers');
+
+//services - industry-sloutions/science-&-healthcare
+$router->map('GET', $services_route . '/industry-sloutions/science-&-healthcare',  function () {
+  require __DIR__ . '/app/views/science-&-healthcare.php';
+}, 'science-&-healthcare');
+
+//services - industry-sloutions/industrial-&-chemical
+$router->map('GET', $services_route . '/industry-sloutions/industrial-&-chemical',  function () {
+  require __DIR__ . '/app/views/industrial-&-chemical.php';
+}, 'industrial-&-chemical');
+
+//services - industry-sloutions/power-generation
+$router->map('GET', $services_route . '/industry-sloutions/power-generation',  function () {
+  require __DIR__ . '/app/views/power-generation.php';
+}, 'power-generation');
+
+//services - industry-sloutions/food-&-beverage
+$router->map('GET', $services_route . '/industry-sloutions/food-&-beverage',  function () {
+  require __DIR__ . '/app/views/food-&-beverage.php';
+}, 'food-&-beverage');
+
+//services - industry-sloutions/it-&-hardware
+$router->map('GET', $services_route . '/industry-sloutions/it-&-hardware',  function () {
+  require __DIR__ . '/app/views/it-&-hardware.php';
+}, 'it-&-hardware');
+
+//services - business-sloutions/company-incorporation
+$router->map('GET', $services_route . '/business-sloutions/company-incorporation',  function () {
+  require __DIR__ . '/app/views/company-incorporatione.php';
+}, 'company-incorporation');
+
+//services - business-sloutions/trade-mark-registration
+$router->map('GET', $services_route . '/business-sloutions/trade-mark-registration',  function () {
+  require __DIR__ . '/app/views/trade-mark-registration.php';
+}, 'trade-mark-registration');
+
+//services - business-sloutions/ca-asststed-services
+$router->map('GET', $services_route . '/business-sloutions/ca-asststed-services',  function () {
+  require __DIR__ . '/app/views/ca-asststed-services.php';
+}, 'ca-asststed-services');
+
+//services - business-sloutions/gst-invoicing-&-pos-solutions
+$router->map('GET', $services_route . '/business-sloutions/gst-invoicing-&-pos-solutions',  function () {
+  require __DIR__ . '/app/views/gst-invoicing-&-pos-solutions.php';
+}, 'gst-invoicing-&-pos-solutions');
+
+//services - business-sloutions/legal-services
+$router->map('GET', $services_route . '/business-sloutions/legal-services',  function () {
+  require __DIR__ . '/app/views/legal-services.php';
+}, 'legal-services');
+
+//services - business-sloutions/business-support-services
+$router->map('GET', $services_route . '/business-sloutions/business-support-services',  function () {
+  require __DIR__ . '/app/views/business-support-services.php';
+}, 'business-support-services');
+
+//resources - blog
+$router->map('GET', $resources_route . '/blog',  function () {
+  require __DIR__ . '/app/views/blog.php';
+}, 'blog');
+
+//resources - case-studies
+$router->map('GET', $resources_route . '/case-studies',  function () {
+  require __DIR__ . '/app/views/case-studies.php';
+}, 'case-studies');
+
+//resources - help-&-faqs
+$router->map('GET', $resources_route . '/help-&-faqs',  function () {
+  require __DIR__ . '/app/views/help-&-faqs.php';
+}, 'help-&-faqs');
+
+//resources - request-a-quote
+$router->map('GET', $resources_route . '/request-a-quote',  function () {
+  require __DIR__ . '/app/views/request-a-quote.php';
+}, 'request-a-quote');
+
+// //portfolio
+// $router->map('GET', $potfolio_route . '/',  function () {
+//   require __DIR__ . '/app/views/request-a-quote.php';
+// }, 'request-a-quote');
+
+//contact-us
+$router->map('GET', $contact_us_route,  function () {
+  require __DIR__ . '/app/views/contact-us.php';
+}, 'contact-us');
 
 // match current request
 $match = $router->match();

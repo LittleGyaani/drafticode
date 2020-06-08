@@ -28,8 +28,8 @@ $base_URI = "";
 $base_API_Endpoint = "";
 $site_status = ""; // PRODUCTION or DEVELOPMENT
 $now = "";
-$server_protocol = "";///HTTP or HTTPS
-$site_host = "";//localhost or live
+$server_protocol = ""; ///HTTP or HTTPS
+$site_host = ""; //localhost or live
 
 //** Define Base Routes for Services **//
 $company_route = '/our-ompany';
@@ -38,6 +38,7 @@ $digital_marketing_route = '/digital-marketing';
 $services_route = '/services';
 $resources_route = '/resources';
 $potfolio_route = '/portfolio';
+$contact_us_route = '/contact-us';
 
 //* Varaible Values * //
 
@@ -46,17 +47,17 @@ $title_constant = "Web development company, SEO, SMO & Digital Marketing Agency"
 
 $server_protocol = strtolower(substr($_SERVER["SERVER_PROTOCOL"], 0, 5)) == 'https' ? 'https' : 'http';
 
-$server_protocol = isset($_SERVER["HTTPS"]) ? 'https://' : 'http://';//Set the Protocol
+$server_protocol = isset($_SERVER["HTTPS"]) ? 'https://' : 'http://'; //Set the Protocol
 
-$site_host = $_SERVER["HTTP_HOST"];//Find the Current Host
+$site_host = $_SERVER["HTTP_HOST"]; //Find the Current Host
 
-$base_API_Endpoint = "/api/web/v1/requests/";//All API requests are passed here
+$base_API_Endpoint = "/api/web/v1/requests/"; //All API requests are passed here
 
-$site_status = "DEVELOPMENT";//Current status of the Project
+$site_status = "DEVELOPMENT"; //Current status of the Project
 
-if($site_status === 'DEVELOPMENT')//If Site is still under development
+if ($site_status === 'DEVELOPMENT') //If Site is still under development
 
-    if($site_host === 'localhost')//If the Site Host is localhost
+    if ($site_host === 'localhost') //If the Site Host is localhost
         $base_URI = $server_protocol . 'localhost/drafticode'; //Local Demo Website
     else
         $base_URI = $server_protocol . 'mirrordesign.tech/demo/darfticode'; //Our Demo Website or Preproduction URL
@@ -64,7 +65,7 @@ else
     $base_URI = $server_protocol . 'drafticode.com'; //Live Production Website
 
 //Global Values
-$base_URI = $base_URI;//Get the BASE URL from Variable
+$base_URI = $base_URI; //Get the BASE URL from Variable
 
 //Date & Time
 $now = Date('d/m/Y H:i:s');

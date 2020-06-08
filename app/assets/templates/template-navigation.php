@@ -49,7 +49,7 @@
             <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Our Company</a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu">
-              <li class="nav__item"><a href= "<?= $base_URI . $company_route; ?>/about-us" class="nav__item-link">About Us</a></li>
+              <li class="nav__item"><a href="<?= $base_URI . $company_route; ?>/about-us" class="nav__item-link">About Us</a></li>
               <!-- /.nav-item -->
               <li class="nav__item"><a href="<?= $base_URI . $company_route; ?>/why-choose-us" class="nav__item-link">Why Choose Us</a></li>
               <!-- /.nav-item -->
@@ -74,19 +74,19 @@
                       </li> <!-- /.nav-item -->
                       <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/web-development/node-js">Node JS</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/web-development/MERN-MEVN">MERN/MEVN</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/web-development/mern-mevn">MERN/MEVN</a>
                       </li> <!-- /.nav-item -->
                       <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/web-development/react-js">React JS</a>
                       </li> <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
                   <div class="col-md-3 dropdown-menu-col">
-                    <h6>E- Commerce Development</h6>
+                    <h6>e-commerce</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-Commerce-development/magento">Magento</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-Commerce-development/woocommerce">Woocommerce</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-Commerce-development/prestashop">Prestashop</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-Commerce-development/open-cart">Open Cart</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-commerce/magento">Magento</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-commerce/woocommerce">Woocommerce</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-commerce/prestashop">Prestashop</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $development_route; ?>/e-commerce/open-cart">Open Cart</a></li> <!-- /.nav-item -->
                       <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
@@ -113,51 +113,42 @@
           </li><!-- /.nav-item -->
 
           <li class="nav__item with-dropdown mega-dropdown">
-            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Digital Marketing</a>
+            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Digital Marketing <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu mega-dropdown-menu">
               <li class="nav__item">
                 <div class="row mx-0">
-                  <div class="col-md-4 dropdown-menu-col">
-                    <h6>Search Engine Optimization</h6>
+                  <div class="col-md-3 dropdown-menu-col">
+                    <h6>SEO</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/local-seo-services">Local SEO Services</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/seo/local-seo-services">Local SEO Services</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/startup-seo">Start-Up SEO</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/seo/startup-seo">Global SEO Services</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/codeigniter-seo-services">Codeigniter</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/seo/codeigniter-seo-services">SEO Audit</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/enterprise-seo">Enterprise SEO</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/seo/enterprise-seo">Off-Page SEO</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/e-commerce-seo-services">E-Commerce SEO Services</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/seo/e-commerce-seo-services">On-Page SEO</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/woocommerce-seo-services">WooCommerce SEO Services</a></li>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/seo/woocommerce-seo-services">Keyword Analysis</a></li>
                       <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/magento-seo-services">Magento SEO Services</a>
-                      </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/amazon-seo-services">Amazon SEO Services</a>
-                      </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/shopify-seo-services">Shopify SEO Services</a>
-                      </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/guest-blogging-seo-services">Guest Blogging Services</a>
-                      </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/comprehensive-seo-services">Comprehensive SEO Audit</a>
-                      </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/google-penalty-seo-services">Google Penalty Assessment</a></li>
-                      <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/conversion-optimization">Conversion Optimization</a>
-                      </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/backlink-audit/disavow-services">Backlink Audit / Disavow Services</a>
-                      </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/mobile-seo">Mobile SEO</a>
-                      </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/free-seo-analysis">Free SEO Analysis</a>
-                      </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/search-engine-optimization/content-writing-services">Content Writing Services</a>
-                      </li> <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
-                  <div class="col-md-4 dropdown-menu-col">
+                  <div class="col-md-3 dropdown-menu-col">
+                    <h6>SMO</h6>
+                    <ul class="nav flex-column">
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/smo/linked-optimization">Linkedin Optimization</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/smo/facebook-optimization">Facebook Optimization</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/smo/twitter-optimization">titter Optimization</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/smo/insatgram-optimization">Instagram Optimization</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/smo/social-media-analysis">Social Media Analysis</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/smo/infographic-posting">Infographic Posting</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/smo/social-engagements">Social Engagements</a></li> <!-- /.nav-item -->
+                      <!-- /.nav-item -->
+                    </ul>
+                  </div><!-- /.col-md-3 -->
+                  <div class="col-md-3 dropdown-menu-col">
                     <h6>Social Media Marketing</h6>
                     <ul class="nav flex-column">
                       <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/facebook-marketing">Facebook Marketing</a></li> <!-- /.nav-item -->
@@ -173,7 +164,7 @@
                       <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/social-media-marketing/crisis-management">Crisis Management</a></li> <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
-                  <div class="col-md-4 dropdown-menu-col">
+                  <div class="col-md-3 dropdown-menu-col">
                     <h6>Paid Campaign Marketing</h6>
                     <ul class="nav flex-column">
                       <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $digital_marketing_route; ?>/paid-campaign-marketing/google-ads">Google Ads</a></li> <!-- /.nav-item -->
@@ -191,7 +182,7 @@
           </li><!-- /.nav-item -->
 
           <li class="nav__item with-dropdown mega-dropdown">
-            <a href="services.html" class="dropdown-toggle nav__item-link">Services</a>
+            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Services</a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu mega-dropdown-menu">
               <li class="nav__item">
@@ -199,46 +190,46 @@
                   <div class="col-md-3 dropdown-menu-col">
                     <h6>Digital Services</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Web Hosting</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/digital-services/web-hosting">Web Hosting</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Domain Name</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/digital-services/domain-name">Domain Name</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Email Marketing</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/digital-services/email-marketing">Email Marketing</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">SMS Marketing</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/digital-services/sms-marketing">SMS Marketing</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Payment Gateway</a>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/digital-services/payment-gateway">Payment Gateway</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-service.html">Bulk SMS Services</a></li>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/digital-services/bulk-sms-services">Bulk SMS Services</a></li>
                       <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
                   <div class="col-md-3 dropdown-menu-col">
                     <h6>Industry Solutions</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Retail &
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/industry-sloutions/retail-&-consumer">Retail &
                           Consumer</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Sciences &
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/industry-sloutions/science-&-healthcare">Sciences &
                           Healthcare</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Industrial &
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/industry-sloutions/industrial-&-chemical">Industrial &
                           Chemical</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Power
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/industry-sloutions/power-generation">Power
                           Generation</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Food &
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/industry-sloutions/food-&-beverage">Food &
                           Beverage</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">IT & Hardware</a></li>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/industry-sloutions/it-&-hardware">IT & Hardware</a></li>
                       <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
                   <div class="col-md-3 dropdown-menu-col">
                     <h6>Business Solutions</h6>
                     <ul class="nav flex-column">
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Company Incorporation</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Trade Mark Registration</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">CA Assisted Services</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">GST Invoicing & POS Solutions</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Legal Service</a></li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="single-industry.html">Business Support Services</a></li>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/business-sloutions/comapny-incorporation">Company Incorporation</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/business-sloutions/trade-mark-registration">Trade Mark Registration</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/business-sloutions/ca-assisted-services">CA Assisted Services</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/business-sloutions/gst-invoicing-&-pos-solutions">GST Invoicing & POS Solutions</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/business-sloutions/legal-services">Legal Service</a></li> <!-- /.nav-item -->
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/business-sloutions/business-support-services">Business Support Services</a></li>
                       <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
@@ -248,26 +239,26 @@
           </li><!-- /.nav-item -->
 
           <li class="nav__item with-dropdown">
-            <a href="services.html" class="dropdown-toggle nav__item-link">Resources</a>
+            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Resources</a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu">
-              <li class="nav__item"><a href="index.html" class="nav__item-link">Blog</a></li>
+              <li class="nav__item"><a href="<?= $base_URI . $resources_route; ?>/blog" class="nav__item-link">Blog</a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Case Studies</a></li>
+              <li class="nav__item"><a href="<?= $base_URI . $resources_route; ?>/case-studies" class="nav__item-link">Case Studies</a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Help & FAQs</a></li>
+              <li class="nav__item"><a href="<?= $base_URI . $resources_route; ?>/help-&-faqs" class="nav__item-link">Help & FAQs</a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Request A Quote</a></li>
+              <li class="nav__item"><a href="<?= $base_URI . $resources_route; ?>/request-a-quote" class="nav__item-link">Request A Quote</a></li>
               <!-- /.nav-item -->
             </ul><!-- /.dropdown-menu -->
           </li><!-- /.nav-item -->
 
           <li class="nav__item with-dropdown">
-            <a href="#" data-toggle="dropdown" class="nav__item-link">Portfolio</a>
+            <a href="javascript:void(0);" data-toggle="dropdown" class="nav__item-link">Portfolio</a>
           </li><!-- /.nav-item -->
 
           <li class="nav__item">
-            <a href="contacs.html" class="nav__item-link">Contact Us</a>
+            <a href="<?= $base_URI . $contact_us_route; ?>" class="nav__item-link">Contact Us</a>
           </li><!-- /.nav-item -->
         </ul><!-- /.navbar-nav -->
       </div><!-- /.navbar-collapse -->
