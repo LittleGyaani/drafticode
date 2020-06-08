@@ -46,7 +46,7 @@
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
           </li><!-- /.nav-item -->
           <li class="nav__item with-dropdown">
-            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Our Company</a>
+            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Our Company <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu">
               <li class="nav__item"><a href="<?= $base_URI . $company_route; ?>/about-us" class="nav__item-link">About Us</a></li>
@@ -58,7 +58,7 @@
             </ul><!-- /.dropdown-menu -->
           </li><!-- /.nav-item -->
           <li class="nav__item with-dropdown mega-dropdown">
-            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Development</a>
+            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Development <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu mega-dropdown-menu">
               <li class="nav__item">
@@ -182,7 +182,7 @@
           </li><!-- /.nav-item -->
 
           <li class="nav__item with-dropdown mega-dropdown">
-            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Services</a>
+            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Services <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu mega-dropdown-menu">
               <li class="nav__item">
@@ -239,7 +239,7 @@
           </li><!-- /.nav-item -->
 
           <li class="nav__item with-dropdown">
-            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Resources</a>
+            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Resources <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu">
               <li class="nav__item"><a href="<?= $base_URI . $resources_route; ?>/blog" class="nav__item-link">Blog</a></li>
@@ -254,7 +254,7 @@
           </li><!-- /.nav-item -->
 
           <li class="nav__item with-dropdown">
-            <a href="javascript:void(0);" data-toggle="dropdown" class="nav__item-link">Portfolio</a>
+            <a href="javascript:void(0);" data-toggle="dropdown" class="nav__item-link">Portfolio <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
           </li><!-- /.nav-item -->
 
           <li class="nav__item">
