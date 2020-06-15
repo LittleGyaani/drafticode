@@ -33,8 +33,8 @@
   <nav class="navbar navbar-expand-lg sticky-navbar">
     <div class="container-fluid px-10">
       <a class="navbar-brand" href="./">
-        <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-        <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+        <img src="<?= $base_URI; ?>/app/assets/images/logo/DC-Logo.png" class="logo-light" alt="logo">
+        <img src="<?= $base_URI; ?>/app/assets/images/logo/DC-Logo.png" class="logo-dark" alt="logo">
       </a>
       <button class="navbar-toggler" type="button">
         <span class="menu-lines"><span></span></span>
