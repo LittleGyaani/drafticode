@@ -43,14 +43,13 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
       <div class="owl-carousel thumbs-carousel carousel-arrows" data-slider-id="slider1" data-dots="false"
         data-autoplay="true" data-nav="true" data-transition="fade" data-animate-out="fadeOut" data-animate-in="fadeIn">
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/1.jpg" alt="slide img"></div>
+          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider1.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
                 <div class="slide__content">
-                  <h2 class="slide__title">Fast, Certified & Felxible Solutions.</h2>
-                  <p class="slide__desc">Through integrated supply chain solutions, our drives sustainable competitive
-                    advantages to some of the largest companies allover the world.</p>
+                  <h2 class="slide__title">Build Up Your Business Online</h2>
+                  <p class="slide__desc">Our approach and experience in all aspects of Website Development and Digital Marketing, assisting our potential clients reaching out their requirements.</p>
                   <a href="#" class="btn btn__primary btn__hover2 mr-30">Our Services</a>
                   <a href="#" class="btn btn__white">About Us</a>
                 </div><!-- /.slide-content -->
@@ -59,14 +58,14 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/4.jpg" alt="slide img"></div>
+          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider2.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
                 <div class="slide__content">
-                  <h2 class="slide__title">Affordable Price & Great Solutions.</h2>
-                  <p class="slide__desc">Through integrated supply chain solutions, our drives sustainable competitive
-                    advantages to some of the largest companies allover the world.</p>
+                  <h2 class="slide__title">Affordable Prices and Great Solutions</h2>
+                  <p class="slide__desc">Through our design, technology and marketing strategy, you can connect with and engage your
+                    audience at extremely competitive prices.</p>
                   <a href="#" class="btn btn__white mr-30">About Us</a>
                   <a href="#" class="btn btn__primary btn__hover2">Our Services</a>
                 </div><!-- /.slide-content -->
@@ -75,14 +74,13 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/5.jpg" alt="slide img"></div>
+          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider3.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
                 <div class="slide__content">
-                  <h2 class="slide__title">Solutions Matchs Your Needs. </h2>
-                  <p class="slide__desc">Through integrated supply chain solutions, our drives sustainable competitive
-                    advantages to some of the largest companies allover the world.</p>
+                  <h2 class="slide__title">Focused on Business</h2>
+                  <p class="slide__desc">We are focused on satisfaction of our customers and their business success. We make life easy for everyone.</p>
                   <a href="#" class="btn btn__primary btn__hover2 mr-30">Our Services</a>
                   <a href="#" class="btn btn__white">About Us</a>
                 </div><!-- /.slide-content -->
@@ -91,14 +89,14 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/3.jpg" alt="slide img"></div>
+          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider4.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
                 <div class="slide__content">
-                  <h2 class="slide__title">Affordable Price, Certified experts &</h2>
-                  <p class="slide__desc">Through integrated supply chain solutions, our drives sustainable competitive
-                    advantages to some of the largest companies allover the world.</p>
+                  <h2 class="slide__title">Give Wings To Your Business</h2>
+                  <p class="slide__desc">We go beyond traditional development and strategies approach. We help brands to
+                     increase their visibility, engagement, and revenue.</p>
                   <a href="#" class="btn btn__white mr-30">Get Started</a>
                   <a href="#" class="btn btn__primary btn__hover2">Our Services</a>
                 </div><!-- /.slide-content -->
@@ -113,19 +111,19 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             <div class="owl-thumbs thumbs-dots" data-slider-id="slider1">
               <button class="owl-thumb-item">
                 <i class="icon-forklift-1"></i>
-                <span>Warehousing <br> Services</span>
+                <span>Website <br> Development</span>
               </button>
               <button class="owl-thumb-item">
                 <i class="icon-air-freight"></i>
-                <span>Air Freight<br> Services</span>
+                <span>Mobile App<br> Development</span>
               </button>
               <button class="owl-thumb-item">
                 <i class="icon-cargo-ship"></i>
-                <span>Ocean Freight<br> Services</span>
+                <span>Digital<br> Marketing</span>
               </button>
               <button class="owl-thumb-item">
                 <i class="icon-truck"></i>
-                <span>Road Freight<br> Services</span>
+                <span>Logo<br> Designing</span>
               </button>
             </div><!-- /.owl-thumbs -->
           </div><!-- /.col-lg-12 -->
@@ -153,12 +151,11 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             <span class="heading__subtitle">Real Solutions, Real Fast!</span>
           </div><!-- /.col-lg-12 -->
           <div class="col-sm-12 col-md-12 col-lg-6">
-            <h2 class="heading__title">Delivering the Best Global Logistics Solutions.</h2>
+            <h2 class="heading__title">One Stop Solution</h2>
           </div><!-- /.col-lg-5 -->
           <div class="col-sm-12 col-md-12 col-lg-6 ">
-            <p class="heading__desc">Our global logistics expertise, advanced supply chain technology & customized
-              logistics solutions will help you analyze, develop and implement successful supply chain management
-              strategies.</p>
+            <p class="heading__desc">You name it and leave all the hard work to us. From web and mobile design & development to digital
+              marketing and e-commerce development, we do it all. We handle your business as our own and measure our success with yours.</p>
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
         <div class="row text-center">
@@ -166,9 +163,9 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             <div class="service-item">
               <div class="service__icon"><i class="icon-air-freight"></i></div>
               <div class="service__content">
-                <h4 class="service__title">Air Freight</h4>
-                <p class="service__desc">We can arrange and provides with the comprehensive service in the sphere of
-                  urgent, valuable, fragile or any cargoes conscientious accelerated delivery by air.</p>
+                <h4 class="service__title">Website Development </h4>
+                <p class="service__desc">We provide customized and need-based solutions
+                   for E-Commerce Websites, Dynamic or Static Websites, along with round-the-clock support.</p>
                 <a href="#" class="btn btn__white">
                   <span>Read More</span><i class="icon-arrow-right"></i>
                 </a>
@@ -179,9 +176,9 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             <div class="service-item">
               <div class="service__icon"><i class="icon-cargo-ship"></i></div>
               <div class="service__content">
-                <h4 class="service__title">Ocean Freight</h4>
-                <p class="service__desc">We provides with the main types of basic conditions International sea
-                  transportation is implemented by our partners’ vessels, the largest ocean carriers.</p>
+                <h4 class="service__title">Design </h4>
+                <p class="service__desc">Create fluid and mobile-first web designs with
+                   attractive graphics and engaging content with our web design company in India.</p>
                 <a href="#" class="btn btn__white">
                   <span>Read More</span><i class="icon-arrow-right"></i>
                 </a>
@@ -192,9 +189,9 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             <div class="service-item">
               <div class="service__icon"><i class="icon-truck"></i></div>
               <div class="service__content">
-                <h4 class="service__title">Road Freight</h4>
-                <p class="service__desc">We provides with the main types of basic conditions International sea
-                  transportation is implemented by our partners’ vessels, the largest ocean carriers.</p>
+                <h4 class="service__title">Digital Marketing </h4>
+                <p class="service__desc">Get comprehensive solutions and expert
+                  guidance on SEO, paid campaigns, ORM, data analytics, social media marketing services, and other digital marketing campaigns.</p>
                 <a href="#" class="btn btn__white">
                   <span>Read More</span><i class="icon-arrow-right"></i>
                 </a>
@@ -222,8 +219,8 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             <div class="heading text-center mb-40">
               <span class="heading__subtitle">Our Features</span>
               <h2 class="heading__title color-white">Why Choose Us!</h2>
-              <p class="heading__desc">We continue to pursue that same vision in today's complex, uncertain world,
-                working every day to earn our customers’ trust!</p>
+              <p class="heading__desc">We continue to pursue that same
+                 vision in today's complex, uncertain world, working every day to earn our customers’ trust!</p>
             </div><!-- /.heading -->
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -237,8 +234,8 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <i class="icon-wallet"></i>
                 </div><!-- /.fancybox-icon -->
                 <div class="fancybox__content">
-                  <h4 class="fancybox__title">Transparent Pricing</h4>
-                  <p class="fancybox__desc">International supply chains involves challenging regulations.</p>
+                  <h4 class="fancybox__title">Well Designed </h4>
+                  <p class="fancybox__desc">Responsive and user-friendly design for all movable platforms.</p>
                 </div><!-- /.fancybox-content -->
               </div><!-- /.fancybox-item -->
               <!-- fancybox item #2 -->
@@ -247,8 +244,9 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <i class="icon-search"></i>
                 </div><!-- /.fancybox-icon -->
                 <div class="fancybox__content">
-                  <h4 class="fancybox__title">Real-Time Tracking</h4>
-                  <p class="fancybox__desc">Ensure customers’ supply chains are fully compliant by practices.</p>
+                  <h4 class="fancybox__title">Well Coded </h4>
+                  <p class="fancybox__desc">Latest technologies HTML5, CSS3, Bootstrap, jQuery,
+                    JavaScript. Integrated with Content Management System.</p>
                 </div><!-- /.fancybox-content -->
               </div><!-- /.fancybox-item -->
               <!-- fancybox item #3 -->
@@ -257,8 +255,8 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <i class="icon-trolley"></i>
                 </div><!-- /.fancybox-icon -->
                 <div class="fancybox__content">
-                  <h4 class="fancybox__title">Warehouse Storage</h4>
-                  <p class="fancybox__desc">Depending on your product, we provide warehouse activities.</p>
+                  <h4 class="fancybox__title">Focused on Business </h4>
+                  <p class="fancybox__desc">- Focused on satisfaction to customers and their business success.</p>
                 </div><!-- /.fancybox-content -->
               </div><!-- /.fancybox-item -->
               <!-- fancybox item #4 -->
@@ -267,8 +265,8 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <i class="icon-package-6"></i>
                 </div><!-- /.fancybox-icon -->
                 <div class="fancybox__content">
-                  <h4 class="fancybox__title">Security For Cargo</h4>
-                  <p class="fancybox__desc">High security requirements and are certified to local standards.</p>
+                  <h4 class="fancybox__title">Web Custom Design Packages </h4>
+                  <p class="fancybox__desc">Crafted to create unique identity for every business needs.</p>
                 </div><!-- /.fancybox-content -->
               </div><!-- /.fancybox-item -->
               <!-- fancybox item #5 -->
@@ -277,8 +275,8 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <i class="icon-payment-method"></i>
                 </div><!-- /.fancybox-icon -->
                 <div class="fancybox__content">
-                  <h4 class="fancybox__title">Easy Payment Methods</h4>
-                  <p class="fancybox__desc">You can make use the easy payment options, listed below.</p>
+                  <h4 class="fancybox__title">Deliver What You Want </h4>
+                  <p class="fancybox__desc">Logical approach with latest technology.</p>
                 </div><!-- /.fancybox-content -->
               </div><!-- /.fancybox-item -->
               <!-- fancybox item #6 -->
@@ -287,8 +285,8 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <i class="icon-delivery-4"></i>
                 </div><!-- /.fancybox-icon -->
                 <div class="fancybox__content">
-                  <h4 class="fancybox__title">Fast & Efficient Delivery</h4>
-                  <p class="fancybox__desc">We enhance our operations by relieving you of the worries.</p>
+                  <h4 class="fancybox__title">Optimize Your Brand </h4>
+                  <p class="fancybox__desc">Success with massive traffic, ranking and online presence.</p>
                 </div><!-- /.fancybox-content -->
               </div><!-- /.fancybox-item -->
               <!-- fancybox item #7 -->
@@ -612,7 +610,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
       <div class="container-fluid col-padding-0">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 background-banner bg-overlay">
-            <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/banners/7.jpg" alt="background"></div>
+            <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/banners/banner1.jpg" alt="background"></div>
             <div class="video__btn video__btn-white video__btn-right-center">
               <a class="popup-video" href="https://www.youtube.com/watch?4=&v=TKnufs85hXk">
                 <span class="video__player-animation"></span>
@@ -626,11 +624,10 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="inner-padding">
               <div class="heading heading-3 heading-white mb-50">
-                <h2 class="heading__title">Flexible Pricing Policy <br>& Decades Of Experience!</h2>
-                <p class="heading__desc">We believe that the services, offered by our company, should satisfy the high
-                  expectations of our customers. We are dedicated in creating added value for our customers by
-                  implementing modern technology in our work. That is why the desire of constant improvement is the
-                  driving force behind our transportation business.</p>
+                <h2 class="heading__title">Creative Web Design <br>& Trusted Digital Marketing Company</h2>
+                <p class="heading__desc">Our team understands the complexities involved in providing web design, development and marketing
+                  solutions. We also know that no two companies are the same, and hence our solutions can’t be either.
+                  We treat every client as a unique entity, and we endeavour to give the best possible solutions at competitive prices.</p>
               </div><!-- /.heading -->
               <div class="counters-white d-flex flex-wrap justify-content-between">
                 <div class="counter-item">
@@ -646,9 +643,9 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <p class="counter__desc">Miles Driven</p>
                 </div>
               </div><!-- /.counters -->
-              <p class="color-white mb-20">Providing the best transport and shipping services currently available
-                allover the world. Our skilled personnel, utilising the latest communications, new tracking and
-                processing software, combined with decades of experience!</p>
+              <p class="color-white mb-20">We provide our clients with stunning interfaces that are user-friendly,
+                unique and responsive at the shortest turnaround time possible. We deal with clients
+                from various industries across the globe and our clients always come back to us for more business.</p>
               <img src="<?= $base_URI; ?>/app/assets/images/about/singnture2.png" alt="singnture">
             </div>
           </div><!-- /.col-lg-6 -->
@@ -754,17 +751,18 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             <div class="inner-padding">
               <div class="heading heading-3 mb-30">
                 <i class="icon-tag"></i>
-                <span class="heading__subtitle">Affordable Price, Certified Forwarders</span>
-                <h2 class="heading__title">Safe, Reliable & Express Logistic Solutions That Saves Your Time!</h2>
-                <p class="heading__desc">We pride ourselves on providing the best transport and shipping services
-                  available allover the world. Our skilled personnel, utilising the latest communications, tracking and
-                  processing software, combined with decades of experience.</p>
+                <!-- <span class="heading__subtitle">Affordable Price, Certified Forwarders</span> -->
+                <h2 class="heading__title">Our Trademarked Process & Workflow.</h2>
+                <p class="heading__desc">We promote each other in every effort to attain excellence and are not satisfied until
+                  projects meet our quality requirements. We mean it when we say quality work delivered at the right time.
+                   We're a team of expert & experienced designers and developers who work hard & smart. We strive to deliver
+                    the best and stand by our commitment at all times.</p>
               </div><!-- /.heading -->
               <a href="#" class="btn btn__primary">Schedule An Appointment</a>
             </div>
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-6 bg-overlay  background-banner">
-            <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/banners/1.jpg" alt="background"></div>
+            <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/banners/banner2.jpg" alt="background"></div>
             <div class="skills skills-panel">
               <div class="heading mb-30">
                 <h2 class="heading__title">What We Achieved!</h2>
