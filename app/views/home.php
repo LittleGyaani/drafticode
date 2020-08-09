@@ -199,12 +199,6 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             </div><!-- /.service-item -->
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="text__link mb-0">Logistic & Transport Solutions Saves Your Time <a href="#">Find your solution</a>
-            </p>
-          </div><!-- /.col-lg-12 -->
-        </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.Services -->
     <!-- ===========================
@@ -245,8 +239,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                 </div><!-- /.fancybox-icon -->
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">Well Coded </h4>
-                  <p class="fancybox__desc">Latest technologies HTML5, CSS3, Bootstrap, jQuery,
-                    JavaScript. Integrated with Content Management System.</p>
+                  <p class="fancybox__desc">With Latest technologies with integrated with CMS</p>
                 </div><!-- /.fancybox-content -->
               </div><!-- /.fancybox-item -->
               <!-- fancybox item #3 -->
@@ -256,7 +249,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                 </div><!-- /.fancybox-icon -->
                 <div class="fancybox__content">
                   <h4 class="fancybox__title">Focused on Business </h4>
-                  <p class="fancybox__desc">- Focused on satisfaction to customers and their business success.</p>
+                  <p class="fancybox__desc">Fully focused on customers’ business success.</p>
                 </div><!-- /.fancybox-content -->
               </div><!-- /.fancybox-item -->
               <!-- fancybox item #4 -->
@@ -265,7 +258,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <i class="icon-package-6"></i>
                 </div><!-- /.fancybox-icon -->
                 <div class="fancybox__content">
-                  <h4 class="fancybox__title">Web Custom Design Packages </h4>
+                  <h4 class="fancybox__title">Web Custom Design</h4>
                   <p class="fancybox__desc">Crafted to create unique identity for every business needs.</p>
                 </div><!-- /.fancybox-content -->
               </div><!-- /.fancybox-item -->
@@ -427,11 +420,11 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                     </div><!-- /.request__form-body -->
                     <div class="widget widget-download bg-theme">
                       <div class="widget__content">
-                        <h5>Industry<br>Solutions!</h5>
-                        <p>Our worldwide presence ensures the timeliness, cost efficiency and compliance adherence
-                          required to ensure your production timelines are met.</p>
+                        <h5>Our<br>Agenda</h5>
+                        <p>Our Mission is to achieve the reputation of a quality, high standard &
+                          reliable solution & service Provider Company in the IT and Digital market industry. </p>
                         <a href="#" class="btn btn__secondary btn__hover2 btn__block">
-                          <span>Download 2019 Brochure</span><i class="icon-arrow-right"></i>
+                          <span>Download 2020 Brochure</span><i class="icon-arrow-right"></i>
                         </a>
                       </div><!-- /.widget__content -->
                     </div><!-- /.widget-download -->

@@ -34,8 +34,7 @@
         <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
           <div class="footer__widget-content">
             <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
-            <p>Our global Optimecs expertise, advanced supply chain technology & customized Optimecs solutions
-              will help you develop and implement successful supply.</p>
+            <p>DraftiCode is an Indian based company with full service provider over Digital Marketing, Website Design and Development. </p>
             <ul class="contact__list list-unstyled">
               <li><span>Email:</span><span>Optime@7oroof.com</span></li>
               <li><span>Phone:</span><span>+01234567890</span></li>
