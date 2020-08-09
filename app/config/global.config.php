@@ -60,7 +60,7 @@ if ($site_status === 'DEVELOPMENT') //If Site is still under development
     if ($site_host === 'localhost') //If the Site Host is localhost
         $base_URI = $server_protocol . 'localhost/drafticode'; //Local Demo Website
     else
-        $base_URI = $server_protocol . 'mirrordesign.tech/demo/darfticode'; //Our Demo Website or Preproduction URL
+        $base_URI = $server_protocol . 'drafticode.com/demo/darfticode'; //Our Demo Website or Preproduction URL
 else
     $base_URI = $server_protocol . 'drafticode.com'; //Live Production Website
 
