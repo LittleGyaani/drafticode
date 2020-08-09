@@ -173,7 +173,7 @@
     </header><!-- /.Header -->
 
     <!-- ========================
-       page title 
+       page title
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
       <div class="bg-img"><img src="assets/images/page-titles/14.jpg" alt="background"></div>
