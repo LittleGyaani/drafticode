@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Optime Logistics &amp; Transportation Templatei">
+  <meta name="description" content=" Drafticode Templatei">
   <link href="assets/images/favicon/DC-Logo.png" rel="icon">
-  <title>Optime Logistics &amp; Transportation Template</title>
+  <title> Drafticode Template</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7cPoppins:400,600,700&display=swap">
   <link rel="stylesheet" href="assets/css/libraries.css" />
@@ -173,7 +173,7 @@
     </header><!-- /.Header -->
 
     <!-- ========================
-       page title 
+       page title
     =========================== -->
     <section id="page-title" class="page-title page-title-layout3 text-center bg-overlay bg-parallax">
       <div class="bg-img"><img src="assets/images/page-titles/2.jpg" alt="background"></div>
@@ -223,7 +223,7 @@
       </div><!-- /.container -->
     </section><!-- /.About 1 -->
 
-    <!-- =========================== 
+    <!-- ===========================
       fancybox Layout 1
     ============================= -->
     <section id="fancyboxLayout1" class="fancybox-layout1 pt-90 pb-50">
@@ -281,7 +281,7 @@
       </div><!-- /.container -->
     </section><!-- /.fancybox Layout1 -->
 
-    <!-- =========================== 
+    <!-- ===========================
       projects Grid layout 2
     ============================= -->
     <section id="projectsGrid" class="projects projects-grid projects-grid-layout2 pb-50">
@@ -405,7 +405,7 @@
       </div><!-- /.container -->
     </section><!-- /.clients 1 -->
 
-    <!-- ========================= 
+    <!-- =========================
             Testimonial #3
     =========================  -->
     <section id="testimonial3" class="testimonial testimonial-3 bg-overlay pt-120 pb-120">
@@ -420,7 +420,7 @@
                 <div class=" testimonial-item">
                   <div class="testimonial__content">
                     <p class="testimonial__desc">In my career, I’ve seen great companies serving logistics. But not to
-                      the point where you feel that comfort and trust that we get with Optime Company.</p>
+                      the point where you feel that comfort and trust that we get with DrafticodeCompany.</p>
                   </div><!-- /.testimonial-content -->
                   <div class="d-flex align-items-center">
                     <div class="testimonial__thumb">
@@ -435,7 +435,7 @@
                 <!-- Testimonial #2 -->
                 <div class=" testimonial-item">
                   <div class="testimonial__content">
-                    <p class="testimonial__desc">Optime Logistics International customer service is some of the best we
+                    <p class="testimonial__desc">Drafticode International customer service is some of the best we
                       have ever had with ocean forwarders we like to ship as much as possible with you all.</p>
                   </div><!-- /.testimonial-content -->
                   <div class="d-flex align-items-center">
@@ -451,7 +451,7 @@
                 <!-- Testimonial #3 -->
                 <div class=" testimonial-item">
                   <div class="testimonial__content">
-                    <p class="testimonial__desc">Optime Logistics International customer service is some of the best we
+                    <p class="testimonial__desc">Drafticode International customer service is some of the best we
                       have ever had with ocean forwarders we like to ship as much as possible with you all.</p>
                   </div><!-- /.testimonial-content -->
                   <div class="d-flex align-items-center">
@@ -471,7 +471,7 @@
       </div><!-- /.container -->
     </section><!-- /.testimonial3 -->
 
-    <!-- =========================== 
+    <!-- ===========================
       awards
     ============================= -->
     <section id="awards" class="awards pb-80">
@@ -572,8 +572,8 @@
                 <p>Our global Optimecs expertise, advanced supply chain technology & customized Optimecs solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">
-                  <li><span>Email:</span><span>Optime@7oroof.com</span></li>
-                  <li><span>Phone:</span><span>+01234567890</span></li>
+                  <li><span>Email:</span><span>contact@drafticode.com</span></li>
+                  <li><span>Phone:</span><span>++91 6370 071 649</span></li>
                 </ul>
               </div>
             </div><!-- /.col-lg-4 -->

@@ -36,8 +36,8 @@
             <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
             <p>DraftiCode is an Indian based company with full service provider over Digital Marketing, Website Design and Development. </p>
             <ul class="contact__list list-unstyled">
-              <li><span>Email:</span><span>Optime@7oroof.com</span></li>
-              <li><span>Phone:</span><span>+01234567890</span></li>
+              <li><span>Email:</span><span>contact@drafticode.com</span></li>
+              <li><span>Phone:</span><span>++91 6370 071 649</span></li>
             </ul>
           </div>
         </div><!-- /.col-lg-4 -->

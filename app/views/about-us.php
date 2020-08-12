@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Optime Logistics &amp; Transportation Templatei">
+  <meta name="description" content=" Drafticode Templatei">
   <link href="assets/images/favicon/DC-Logo.png" rel="icon">
-  <title>Optime Logistics &amp; Transportation Template</title>
+  <title> Drafticode Template</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7cPoppins:400,600,700&display=swap">
   <link rel="stylesheet" href="assets/css/libraries.css" />
@@ -428,7 +428,7 @@
                   <img src="assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
-                  <p class="testimonial__desc">Optime Logistics International customer service is some of the best we
+                  <p class="testimonial__desc">Drafticode International customer service is some of the best we
                     have ever had with ocean forwarders we like to ship as much as possible with you all.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
@@ -457,7 +457,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">In my career, I’ve seen great companies serving logistics. But not to the
-                    point where you feel that comfort and trust that we get with Optime Company.</p>
+                    point where you feel that comfort and trust that we get with DrafticodeCompany.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
                   <img src="assets/images/testimonials/signature3.png" alt="signature">
@@ -499,7 +499,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">In my career, I’ve seen great companies serving logistics. But not to the
-                    point where you feel that comfort and trust that we get with Optime Company.</p>
+                    point where you feel that comfort and trust that we get with DrafticodeCompany.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
                   <img src="assets/images/testimonials/signature3.png" alt="signature">
@@ -713,8 +713,8 @@
                 <p>Our global logistics expertise, advanced supply chain technology & customized logistics solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">
-                  <li><span>Email:</span><span>Optime@7oroof.com</span></li>
-                  <li><span>Phone:</span><span>+01234567890</span></li>
+                  <li><span>Email:</span><span>contact@drafticode.com</span></li>
+                  <li><span>Phone:</span><span>++91 6370 071 649</span></li>
                 </ul>
               </div>
             </div><!-- /.col-lg-4 -->

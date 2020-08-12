@@ -314,8 +314,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="request__form">
               <nav class="nav nav-tabs">
-                <a class="nav__link active" data-toggle="tab" href="#quote">Request A Quote</a>
-                <a class="nav__link" data-toggle="tab" href="#track">Track & Trace</a>
+                <a class="nav__link active" data-toggle="tab" href="#quote">Request A Quote</a>              
               </nav>
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="quote">
@@ -340,79 +339,39 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                             <input type="text" class="form-control" placeholder="Phone">
                           </div>
                         </div><!-- /.col-lg-6 -->
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                          <h6 class="mt-5">Shipment Data</h6>
-                        </div><!-- /.col-lg-12 -->
                         <div class="col-sm-6 col-md-4 col-lg-4">
                           <div class="form-group form-group-select">
                             <select class="form-control">
-                              <option>Freight Type</option>
-                              <option>Freight Type 1</option>
-                              <option>Freight Type 2</option>
+                              <option>Company type</option>
+                              <option>Sole Propreitorship</option>
+                              <option>Pvt Ltd</option>
+                              <option>Public Limited</option>
+                              <option>Partnership</option>
+                              <option>LLP</option>
+                              <option>Not registered</option>
                             </select>
                           </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-sm-6 col-md-4 col-lg-4">
                           <div class="form-group">
-                            <input type="email" class="form-control" placeholder="City of Departure">
+                            <input type="email" class="form-control" placeholder="Company name">
                           </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-sm-6 col-md-4 col-lg-4">
                           <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Delivery City">
+                            <input type="text" class="form-control" placeholder="Location">
                           </div>
                         </div><!-- /.col-lg-6 -->
                         <div class="col-sm-6 col-md-4 col-lg-4">
-                          <div class="form-group form-group-select">
-                            <select class="form-control">
-                              <option>Incoterms</option>
-                              <option>Incoterms 1</option>
-                              <option>Incoterms 2</option>
-                            </select>
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Website URL(if any)">
                           </div>
                         </div><!-- /.col-lg-6 -->
-                        <div class="col-sm-6 col-md-4 col-lg-4 d-flex">
-                          <div class="form-group mr-20">
-                            <input type="email" class="form-control" placeholder="Weight">
-                          </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4">
                           <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Height">
+                            <input type="text" class="form-control" placeholder="Message">
                           </div>
-                        </div><!-- /.col-lg-3 -->
-                        <div class="col-sm-6 col-md-4 col-lg-4  d-flex">
-                          <div class="form-group mr-20">
-                            <input type="email" class="form-control" placeholder="Width">
-                          </div>
-                          <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Length">
-                          </div>
-                        </div><!-- /.col-lg-4 -->
-                        <div class="col-sm-12 col-md-12 col-lg-12 d-flex flex-wrap">
-                          <div class="form-group input-radio">
-                            <label class="label-radio">Fragile
-                              <input type="radio" name="radioGroup2" checked="">
-                              <span class="radio-indicator"></span>
-                            </label>
-                          </div>
-                          <div class="form-group input-radio">
-                            <label class="label-radio">Express Delivery
-                              <input type="radio" name="radioGroup2">
-                              <span class="radio-indicator"></span>
-                            </label>
-                          </div>
-                          <div class="form-group input-radio">
-                            <label class="label-radio">Insurance
-                              <input type="radio" name="radioGroup2">
-                              <span class="radio-indicator"></span>
-                            </label>
-                          </div>
-                          <div class="form-group input-radio">
-                            <label class="label-radio">Packaging
-                              <input type="radio" name="radioGroup2">
-                              <span class="radio-indicator"></span>
-                            </label>
-                          </div>
-                        </div><!-- /.col-lg-12 -->
+                        </div><!-- /.col-lg-6 -->
                         <div class="col-sm-12 col-md-12 col-lg-12">
                           <button class="btn btn__secondary btn__block">Request A Quote</button>
                         </div><!-- /.col-lg-12 -->
@@ -430,76 +389,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                     </div><!-- /.widget-download -->
                   </div><!-- /.request-quote-panel-->
                 </div><!-- /.tab -->
-                <div class="tab-pane fade" id="track">
-                  <div class="request-quote-panel">
-                    <div class="request__form-body">
-                      <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                          <div class="form-group">
-                            <label>Shipment Type</label>
-                            <div class="form-group form-group-select">
-                              <select class="form-control">
-                                <option>Packaging</option>
-                                <option>Packaging 1</option>
-                                <option>Packaging 2</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div><!-- /.col-lg-12 -->
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                          <div class="form-group">
-                            <label>Tracking Number</label>
-                            <div class="form-group">
-                              <textarea class="form-control"
-                                placeholder="You can enter up to a maximum of 10 airway bill numbers for tracking."></textarea>
-                            </div>
-                          </div>
-                        </div><!-- /.col-lg-12 -->
-                        <div class="col-sm-12 col-md-12 col-lg-12 d-flex flex-wrap">
-                          <div class="form-group input-radio">
-                            <label class="label-radio">Fragile
-                              <input type="radio" name="radioGroup2" checked="">
-                              <span class="radio-indicator"></span>
-                            </label>
-                          </div>
-                          <div class="form-group input-radio">
-                            <label class="label-radio">Express Delivery
-                              <input type="radio" name="radioGroup2">
-                              <span class="radio-indicator"></span>
-                            </label>
-                          </div>
-                          <div class="form-group input-radio">
-                            <label class="label-radio">Insurance
-                              <input type="radio" name="radioGroup2">
-                              <span class="radio-indicator"></span>
-                            </label>
-                          </div>
-                          <div class="form-group input-radio">
-                            <label class="label-radio">Packaging
-                              <input type="radio" name="radioGroup2">
-                              <span class="radio-indicator"></span>
-                            </label>
-                          </div>
-                        </div><!-- /.col-lg-12 -->
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                          <button class="btn btn__secondary btn__block">Track & Trace</button>
-                        </div><!-- /.col-lg-12 -->
-                      </div>
 
-
-                    </div><!-- /.request__form-body -->
-                    <div class="widget widget-download bg-theme">
-                      <div class="widget__content">
-                        <h5>Industry<br>Solutions!</h5>
-                        <p>Our worldwide presence ensures the timeliness, cost efficiency and compliance adherence
-                          required to ensure your production timelines are met.</p>
-                        <a href="#" class="btn btn__secondary btn__hover2 btn__block">
-                          <span>Download 2019 Brochure</span><i class="icon-arrow-right"></i>
-                        </a>
-                      </div><!-- /.widget__content -->
-                    </div><!-- /.widget-download -->
-                  </div><!-- /.request-quote-panel-->
-                </div><!-- /.tab -->
               </div><!-- /.tab-content -->
             </div><!-- /.request-form -->
           </div><!-- /.col-lg-12 -->

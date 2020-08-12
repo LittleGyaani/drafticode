@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Optime Logistics &amp; Transportation Templatei">
+  <meta name="description" content=" Drafticode Templatei">
   <link href="assets/images/favicon/DC-Logo.png" rel="icon">
-  <title>Optime Logistics &amp; Transportation Template</title>
+  <title> Drafticode Template</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7cPoppins:400,600,700&display=swap">
   <link rel="stylesheet" href="assets/css/libraries.css" />
@@ -307,7 +307,7 @@
               <div class="heading heading-3 heading-white mb-40">
                 <p class="heading__subtitle">Unbeatable Logistics & Transport Solutions!</p>
                 <h2 class="heading__title">Competitive Advantages To The Largest Companies!</h2>
-                <p class="heading__desc">Optime is a representative logistics operator providing full range of service
+                <p class="heading__desc">Drafticodeis a representative logistics operator providing full range of service
                   in the sphere of customs clearance and transportation worldwide for any type of cargo. We pride
                   ourselves on providing the best transport services currently available all over the world. Our skilled
                   personnel, utilising the latest communications, tracking and processing software, combined with
@@ -482,8 +482,8 @@
                 <p>Our global Optimecs expertise, advanced supply chain technology & customized Optimecs solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">
-                  <li><span>Email:</span><span>Optime@7oroof.com</span></li>
-                  <li><span>Phone:</span><span>+01234567890</span></li>
+                  <li><span>Email:</span><span>contact@drafticode.com</span></li>
+                  <li><span>Phone:</span><span>++91 6370 071 649</span></li>
                 </ul>
               </div>
             </div><!-- /.col-lg-4 -->

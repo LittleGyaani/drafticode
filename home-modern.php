@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Optime Logistics &amp; Transportation Templatei">
+  <meta name="description" content=" Drafticode Templatei">
   <link href="assets/images/favicon/DC-Logo.png" rel="icon">
-  <title>Optime Logistics &amp; Transportation Template</title>
+  <title> Drafticode Template</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7cPoppins:400,600,700&display=swap">
   <link rel="stylesheet" href="assets/css/libraries.css" />
@@ -25,10 +25,10 @@
           <div class="row">
             <div class="col-sm-12 col-md-7 col-lg-7">
               <ul class="contact__list list-unstyled">
-                <li><i class="icon-call"></i><span>Phone: +55 654 541 17</span></li>
+                <li><i class="icon-call"></i><span>Phone: +91 6370 071 649</span></li>
                 <li><i class="icon-clock"></i><span>Hours: Mon-Fri: 8am – 7pm</span></li>
                 <li><i class="icon-envelope"></i>
-                  <span>Email: <a href="mailto:optime@7oroof.com">optime@7oroof.com</a></span>
+                  <span>Email: <a href="mailto:contact@drafticode.com">contact@drafticode.com</a></span>
                 </li>
               </ul>
             </div><!-- /.col-lg-7 -->
@@ -332,7 +332,7 @@
               <div class="heading heading-3 heading-white mb-40">
                 <p class="heading__subtitle">Unbeatable Logistics & Transport Solutions!</p>
                 <h2 class="heading__title">Competitive Advantages To The Largest Companies!</h2>
-                <p class="heading__desc">Optime is a representative logistics operator providing full range of service
+                <p class="heading__desc">Drafticodeis a representative logistics operator providing full range of service
                   in the sphere of customs clearance and transportation worldwide for any type of cargo. We pride
                   ourselves on providing the best transport services currently available all over the world. Our skilled
                   personnel, utilising the latest communications, tracking and processing software, combined with
@@ -619,7 +619,7 @@
                   <img src="assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
-                  <p class="testimonial__desc">Optime Logistics International customer service is some of the best we
+                  <p class="testimonial__desc">Drafticode International customer service is some of the best we
                     have ever had with ocean forwarders we like to ship as much as possible with you all.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
@@ -648,7 +648,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">In my career, I’ve seen great companies serving logistics. But not to the
-                    point where you feel that comfort and trust that we get with Optime Company.</p>
+                    point where you feel that comfort and trust that we get with DrafticodeCompany.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
                   <img src="assets/images/testimonials/signature3.png" alt="signature">
@@ -690,7 +690,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">In my career, I’ve seen great companies serving logistics. But not to the
-                    point where you feel that comfort and trust that we get with Optime Company.</p>
+                    point where you feel that comfort and trust that we get with DrafticodeCompany.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
                   <img src="assets/images/testimonials/signature3.png" alt="signature">
@@ -840,8 +840,8 @@
                 <p>Our global Optimecs expertise, advanced supply chain technology & customized Optimecs solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">
-                  <li><span>Email:</span><span>Optime@7oroof.com</span></li>
-                  <li><span>Phone:</span><span>+01234567890</span></li>
+                  <li><span>Email:</span><span>contact@drafticode.com</span></li>
+                  <li><span>Phone:</span><span>++91 6370 071 649</span></li>
                 </ul>
               </div>
             </div><!-- /.col-lg-4 -->

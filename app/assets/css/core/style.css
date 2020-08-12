@@ -2363,6 +2363,8 @@ textarea.form-control {
 }
 
 .header__topbar .contact__list {
+    left: 0px;
+    position: absolute;
     display: flex;
     flex-wrap: wrap
 }

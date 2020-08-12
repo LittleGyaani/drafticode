@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="description" content="Optime">
   <link href="assets/images/favicon/DC-Logo.png" rel="icon">
-  <title>Optime Logistics &amp; Transportation Template</title>
+  <title> Drafticode Template</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7cPoppins:400,600,700">
   <link rel="stylesheet" href="assets/css/libraries.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -250,7 +250,7 @@
               </div><!-- /.contact-panel-header -->
               <ul class="contact__list list-unstyled">
                 <li>002 010123456789</li>
-                <li>Email: <a href="milto:Optime@7oroof.com">Optime@7oroof.com</a></li>
+                <li>Email: <a href="milto:contact@drafticode.com">contact@drafticode.com</a></li>
                 <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
                 <li>Hours: Mon-Fri: 8am – 7pm</li>
               </ul><!-- /.contact-list -->
@@ -270,7 +270,7 @@
               </div><!-- /.contact-panel-header -->
               <ul class="contact__list list-unstyled">
                 <li>002 010123456789</li>
-                <li>Email: <a href="milto:Optime@7oroof.com">Optime@7oroof.com</a></li>
+                <li>Email: <a href="milto:contact@drafticode.com">contact@drafticode.com</a></li>
                 <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
                 <li>Hours: Mon-Fri: 8am – 7pm</li>
               </ul><!-- /.contact-list -->
@@ -290,7 +290,7 @@
               </div><!-- /.contact-panel-header -->
               <ul class="contact__list list-unstyled">
                 <li>002 010123456789</li>
-                <li>Email: <a href="milto:Optime@7oroof.com">Optime@7oroof.com</a></li>
+                <li>Email: <a href="milto:contact@drafticode.com">contact@drafticode.com</a></li>
                 <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
                 <li>Hours: Mon-Fri: 8am – 7pm</li>
               </ul><!-- /.contact-list -->
@@ -344,8 +344,8 @@
                 <p>Our global Optimecs expertise, advanced supply chain technology & customized Optimecs solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">
-                  <li><span>Email:</span><span>Optime@7oroof.com</span></li>
-                  <li><span>Phone:</span><span>+01234567890</span></li>
+                  <li><span>Email:</span><span>contact@drafticode.com</span></li>
+                  <li><span>Phone:</span><span>++91 6370 071 649</span></li>
                 </ul>
               </div>
             </div><!-- /.col-lg-4 -->

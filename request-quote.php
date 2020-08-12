@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Optime Logistics &amp; Transportation Templatei">
+  <meta name="description" content=" Drafticode Templatei">
   <link href="assets/images/favicon/DC-Logo.png" rel="icon">
-  <title>Optime Logistics &amp; Transportation Template</title>
+  <title> Drafticode Template</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7cPoppins:400,600,700&display=swap">
   <link rel="stylesheet" href="assets/css/libraries.css" />
@@ -173,7 +173,7 @@
     </header><!-- /.Header -->
 
     <!-- ========================
-       page title 
+       page title
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
       <div class="bg-img"><img src="assets/images/page-titles/14.jpg" alt="background"></div>
@@ -433,7 +433,7 @@
       </div><!-- /.container -->
     </section><!-- /.Request Quote -->
 
-    <!-- ========================= 
+    <!-- =========================
             contact 1
       =========================  -->
     <section id="contact1" class="contact contact-1 p-0">
@@ -470,8 +470,8 @@
               <div id="collapse2" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">
                   <ul class="contact__list list-unstyled">
-                    <li>002 010123456789</li>
-                    <li>Email: Logisti@7oroof.com</li>
+                    <li>‎+91 6370 071 649</li>
+                    <li>Email: contact@drafticode.com</li>
                     <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
@@ -539,8 +539,8 @@
                 <p>Our global logistics expertise, advanced supply chain technology & customized logistics solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">
-                  <li><span>Email:</span><span>Optime@7oroof.com</span></li>
-                  <li><span>Phone:</span><span>+01234567890</span></li>
+                  <li><span>Email:</span><span>contact@drafticode.com</span></li>
+                  <li><span>Phone:</span><span>++91 6370 071 649</span></li>
                 </ul>
               </div>
             </div><!-- /.col-lg-4 -->

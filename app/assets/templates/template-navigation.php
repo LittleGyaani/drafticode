@@ -2,17 +2,17 @@
 <header id="header" class="header header-layout1">
   <div class="header__promo-text text-center">
     <!-- Notice Section -->
-    <strong>Need Help: </strong><span>Providing Innovative and Sustainable Solutions, Call (002) 01061245741</span>
+    <strong>Need Help: </strong><span>Providing Innovative and Sustainable Solutions, Call +91 6370 071 649</span>
   </div><!-- /.header__promo-text -->
   <div class="header__topbar d-none d-xl-block">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-7 col-lg-7">
           <ul class="contact__list list-unstyled">
-            <li><i class="icon-call"></i><span>Phone: +55 654 541 17</span></li>
+            <li><i class="icon-call"></i><span>Phone: +91 6370 071 649</span></li>
             <li><i class="icon-clock"></i><span>Hours: Mon-Fri: 8am – 7pm</span></li>
             <li><i class="icon-envelope"></i>
-              <span>Email: <a href="mailto:optime@7oroof.com">optime@7oroof.com</a></span>
+              <span>Email: <a href="mailto:contact@drafticode.com">contact@drafticode.com</a></span>
             </li>
           </ul>
         </div><!-- /.col-lg-7 -->
