@@ -53,7 +53,7 @@ $site_host = $_SERVER["HTTP_HOST"]; //Find the Current Host
 
 $base_API_Endpoint = "/api/web/v1/requests/"; //All API requests are passed here
 
-$site_status = "DEVELOPMENT"; //Current status of the Project
+$site_status = "DEVELOPMENT"; //Current status of the Project | 'DEVELOPMENT' OR 'PRODUCTION'
 
 if ($site_status === 'DEVELOPMENT') //If Site is still under development
 
