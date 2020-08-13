@@ -110,19 +110,19 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           <div class="col-sm-12 col-md-12 col-lg-12 d-none d-lg-block">
             <div class="owl-thumbs thumbs-dots" data-slider-id="slider1">
               <button class="owl-thumb-item">
-                <i class="icon-forklift-1"></i>
+                <i class="icon-ecommerce"></i>
                 <span>Website <br> Development</span>
               </button>
               <button class="owl-thumb-item">
-                <i class="icon-air-freight"></i>
+                <i class="icon-smartphone"></i>
                 <span>Mobile App<br> Development</span>
               </button>
               <button class="owl-thumb-item">
-                <i class="icon-cargo-ship"></i>
+                <i class="icon-signboard"></i>
                 <span>Digital<br> Marketing</span>
               </button>
               <button class="owl-thumb-item">
-                <i class="icon-truck"></i>
+                <i class="icon-ribbon"></i>
                 <span>Logo<br> Designing</span>
               </button>
             </div><!-- /.owl-thumbs -->
@@ -161,7 +161,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
         <div class="row text-center">
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="service-item">
-              <div class="service__icon"><i class="icon-air-freight"></i></div>
+              <div class="service__icon"><i class="icon-ecommerce"></i></div>
               <div class="service__content">
                 <h4 class="service__title">Website Development </h4>
                 <p class="service__desc">We provide customized and need-based solutions
@@ -174,7 +174,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.col-lg-4 -->
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="service-item">
-              <div class="service__icon"><i class="icon-cargo-ship"></i></div>
+              <div class="service__icon"><i class="icon-ribbon"></i></div>
               <div class="service__content">
                 <h4 class="service__title">Design </h4>
                 <p class="service__desc">Create fluid and mobile-first web designs with
@@ -187,7 +187,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.col-lg-4 -->
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="service-item">
-              <div class="service__icon"><i class="icon-truck"></i></div>
+              <div class="service__icon"><i class="icon-signboard"></i></div>
               <div class="service__content">
                 <h4 class="service__title">Digital Marketing </h4>
                 <p class="service__desc">Get comprehensive solutions and expert
@@ -314,7 +314,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="request__form">
               <nav class="nav nav-tabs">
-                <a class="nav__link active" data-toggle="tab" href="#quote">Request A Quote</a>              
+                <a class="nav__link active" data-toggle="tab" href="#quote">Request A Quote</a>
               </nav>
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="quote">
@@ -654,46 +654,46 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
               </div><!-- /.heading -->
               <!-- progress 1 -->
               <div class="progress-item">
-                <h6 class="progress__title">Warehousing</h6>
+                <h6 class="progress__title">Development </h6>
+                <span class="progress__percentage"></span>
+                <div class="progress">
+                  <div class="progress-bar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" role="progressbar">
+                  </div>
+                </div><!-- /.progress -->
+              </div><!-- /.progress-item  -->
+              <!-- progress 2 -->
+              <div class="progress-item">
+                <h6 class="progress__title">Design </h6>
+                <span class="progress__percentage"></span>
+                <div class="progress">
+                  <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" role="progressbar">
+                  </div>
+                </div><!-- /.progress -->
+              </div><!-- /.progress-item  -->
+              <!-- progress 3 -->
+              <div class="progress-item">
+                <h6 class="progress__title">Digital Marketing</h6>
                 <span class="progress__percentage"></span>
                 <div class="progress">
                   <div class="progress-bar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" role="progressbar">
                   </div>
                 </div><!-- /.progress -->
               </div><!-- /.progress-item  -->
-              <!-- progress 2 -->
-              <div class="progress-item">
-                <h6 class="progress__title">Air Freight</h6>
-                <span class="progress__percentage"></span>
-                <div class="progress">
-                  <div class="progress-bar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" role="progressbar">
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.progress-item  -->
-              <!-- progress 3 -->
-              <div class="progress-item">
-                <h6 class="progress__title">Ocean Freight</h6>
-                <span class="progress__percentage"></span>
-                <div class="progress">
-                  <div class="progress-bar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" role="progressbar">
-                  </div>
-                </div><!-- /.progress -->
-              </div><!-- /.progress-item  -->
               <!-- progress 4 -->
               <div class="progress-item">
-                <h6 class="progress__title">Road Freight</h6>
+                <h6 class="progress__title">Branding & Promotion</h6>
                 <span class="progress__percentage"></span>
                 <div class="progress">
-                  <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" role="progressbar">
+                  <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" role="progressbar">
                   </div>
                 </div><!-- /.progress -->
               </div><!-- /.progress-item  -->
               <!-- progress 8 -->
               <div class="progress-item">
-                <h6 class="progress__title">Supply Chain</h6>
+                <h6 class="progress__title">Service & Satisfaction</h6>
                 <span class="progress__percentage"></span>
                 <div class="progress">
-                  <div class="progress-bar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" role="progressbar">
+                  <div class="progress-bar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" role="progressbar">
                   </div>
                 </div><!-- /.progress -->
               </div><!-- /.progress-item  -->

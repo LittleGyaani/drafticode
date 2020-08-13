@@ -36,8 +36,9 @@
             <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
             <p>DraftiCode is an Indian based company with full service provider over Digital Marketing, Website Design and Development. </p>
             <ul class="contact__list list-unstyled">
-              <li><span>Email:</span><span>contact@drafticode.com</span></li>
-              <li><span>Phone:</span><span>++91 6370 071 649</span></li>
+              <li><span>Email:</span><span></i><a href="mailto:contact@drafticode.com">contact@drafticode.com</a></span></li>
+              <li><span>Phone:</span><span></i><span><a href="tel: +91 6370 071 649"> +91 6370 071 649</a></span></li>
+
             </ul>
           </div>
         </div><!-- /.col-lg-4 -->
@@ -61,12 +62,14 @@
           <div class="footer__widget-content">
             <nav>
               <ul class="list-unstyled">
-                <li><a href="#">Warehousing</a></li>
-                <li><a href="#">Air Freight</a></li>
-                <li><a href="#">Ocean Freight</a></li>
-                <li><a href="#">Road Freight</a></li>
-                <li><a href="#">Supply Chain</a></li>
-                <li><a href="#">Packaging</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">E-Commerce</a></li>
+                <li><a href="#">CMS Development</a></li>
+                <li><a href="#">Apps Development</a></li>
+                <li><a href="#">SEO</a></li>
+                <li><a href="#">SMO</a></li>
+                <li><a href="#">Social Media Marketing</a></li>
+                <li><a href="#">Paid Campaign Marketing</a></li>
               </ul>
             </nav>
           </div><!-- /.footer-widget-content -->
@@ -76,12 +79,12 @@
           <div class="footer__widget-content">
             <nav>
               <ul class="list-unstyled">
-                <li><a href="#">Retail & Consumer</a></li>
-                <li><a href="#">Sciences & Healthcare</a></li>
-                <li><a href="#">Industrial & Chemical</a></li>
-                <li><a href="#">Power Generation</a></li>
-                <li><a href="#">Food & Beverage</a></li>
-                <li><a href="#">Oil & Gas</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Digital Services</a></li>
+                <li><a href="#">Industry Solutions</a></li>
+                <li><a href="#">Business Solutions</a></li>
+                <!-- <li><a href="#">Oil & Gas</a></li> -->
               </ul>
             </nav>
           </div><!-- /.footer-widget-content -->
@@ -92,9 +95,9 @@
             <nav>
               <ul class="list-unstyled">
                 <li><a href="#">Request A Quote</a></li>
-                <li><a href="#">Track & Trace</a></li>
-                <li><a href="#">Find A Location</a></li>
-                <li><a href="#">Global Agents</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Locate Us</a></li>
+                <li><a href="#">Blog</a></li>
                 <li><a href="#">Help & FAQ</a></li>
               </ul>
             </nav>
@@ -115,7 +118,7 @@
         <div class="col-sm-12 col-md-6 col-lg-6">
           <nav>
             <ul class="list-unstyled footer__copyright-links d-flex flex-wrap justify-content-end">
-              <li><a href="#">Terms & Conditions </a></li>
+              <li><a href="#">Terms-and-Conditions </a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Sitemap</a></li>
             </ul>

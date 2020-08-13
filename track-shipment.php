@@ -488,7 +488,7 @@
             <div class="col-sm-12 col-md-6 col-lg-6">
               <nav>
                 <ul class="list-unstyled footer__copyright-links d-flex flex-wrap justify-content-end">
-                  <li><a href="#">Terms & Conditions </a></li>
+                  <li><a href="#">Terms-and-Conditions </a></li>
                   <li><a href="#">Privacy Policy</a></li>
                   <li><a href="#">Sitemap</a></li>
                 </ul>
