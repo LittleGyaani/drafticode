@@ -852,7 +852,8 @@ Thanks to “DRAFTI CODE ” 👍</p>
                   <ul class="contact__list list-unstyled">
                     <li><a href="tel: +91 79751 89067"> +91 79751 89067</a></li>
                     <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
-                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
+                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,
+                      <br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->
@@ -860,14 +861,14 @@ Thanks to “DRAFTI CODE ” 👍</p>
             </div><!-- /.accordion-item -->
             <div class="accordion-item">
               <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse2">
-                <a class="accordion__item-title" href="#">Bhuneshwar Office - Saheed Nagar</a>
+                <a class="accordion__item-title" href="#">Bhubaneswar Office - Saheed Nagar</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse2" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">
                   <ul class="contact__list list-unstyled">
                     <li><a href="tel: +91 63700 71649"> +91 63700 71649</a></li>
                     <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
-                    <li>2, Arihant Plaza<br> In-front of OMFED Office<br> Swash Lane, Saheed Nagar<br> Bhubaneswar<br>
+                    <li>2, Arihant Plaza<br> In-front of OMFED Office<br> Swash Lane, Saheed Nagar<br>Bhubaneswar<br>
                       Odisha- 751007 IN</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
@@ -876,14 +877,14 @@ Thanks to “DRAFTI CODE ” 👍</p>
             </div><!-- /.accordion-item -->
             <div class="accordion-item">
               <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse3">
-                <a class="accordion__item-title" href="#">Bhuneshwar Office -  Patia</a>
+                <a class="accordion__item-title" href="#">Bhubaneswar Office -  Patia</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse3" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">
                   <ul class="contact__list list-unstyled">
                   <li><a href="tel: +91 98532 33951"> +91 98532 33951</a></li>
                     <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
-                    <li>Near TBI<br>Patia KIIT Square<br>Bhuneshwar- 751024</li>
+                    <li>Near KIIT TBI<br>Patia, KIIT Square<br>Bhubaneswar,<br>ODISHA- 751024 IN</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->

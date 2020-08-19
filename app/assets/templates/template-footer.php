@@ -34,7 +34,7 @@
         <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
           <div class="footer__widget-content">
             <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
-            <p>DraftiCode is an Indian based company with full service provider over Digital Marketing, Website Design and Development. </p>
+            <p>Drafticode is an Indian based company with full service provider over Digital Marketing, Website Design and Development. </p>
             <ul class="contact__list list-unstyled">
               <li><span>Email:</span><span></i><a href="mailto:contact@drafticode.com">contact@drafticode.com</a></span></li>
               <li><span>Phone:</span><span></i><span><a href="tel: +91 6370 071 649"> +91 6370 071 649</a></span></li>
@@ -111,7 +111,7 @@
       <div class="row align-items-center">
         <div class="col-sm-12 col-md-6 col-lg-6">
           <div class="footer__copyright">
-            <span>&copy; 2019 - <?= date('Y'); ?> <b style="color:#121c45;">DraftiCode</b>. A <strong>Kaisileum LABS</strong> Group Company.</span>
+            <span>&copy; 2019 - <?= date('Y'); ?> <b style="color:#121c45;">Drafticode</b>. A <strong>Kaisileum LABS</strong> Group Company.</span>
             All rights reserved.
           </div><!-- /.Footer-copyright -->
         </div><!-- /.col-lg-6 -->

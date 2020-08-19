@@ -341,7 +341,7 @@
             </div><!-- /.accordion-item -->
             <div class="accordion-item">
               <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse2">
-                <a class="accordion__item-title" href="#">Bhuneshwar Office - Saheed Nagar</a>
+                <a class="accordion__item-title" href="#">Bhubaneswar Office - Saheed Nagar</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse2" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">
@@ -356,7 +356,7 @@
             </div><!-- /.accordion-item -->
             <div class="accordion-item">
               <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse3">
-                <a class="accordion__item-title" href="#">Bhuneshwar Office -  Patia</a>
+                <a class="accordion__item-title" href="#">Bhubaneswar Office -  Patia</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse3" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">

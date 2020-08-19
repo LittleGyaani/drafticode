@@ -110,8 +110,8 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="inner-padding">
               <div class="heading heading-3 heading-white mb-50">
-                <h2 class="heading__title">About DraftiCode Web Solutions</h2>
-                <p class="heading__desc">DraftiCode is one of the most experienced website design, development, and digital
+                <h2 class="heading__title">About Drafticode Web Solutions</h2>
+                <p class="heading__desc">Drafticode is one of the most experienced website design, development, and digital
                    marketing agency in India. As custom web designers and developers, we deliver websites that meet your
                    specific unique requirements.Our web designers and web developers will work with you to provide a
                     better website design that is search optimized</p>
@@ -499,7 +499,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             </div><!-- /.accordion-item -->
             <div class="accordion-item">
               <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse2">
-                <a class="accordion__item-title" href="#">Bhuneshwar Office - Saheed Nagar</a>
+                <a class="accordion__item-title" href="#">Bhubaneswar Office - Saheed Nagar</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse2" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">
@@ -514,7 +514,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             </div><!-- /.accordion-item -->
             <div class="accordion-item">
               <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse3">
-                <a class="accordion__item-title" href="#">Bhuneshwar Office -  Patia</a>
+                <a class="accordion__item-title" href="#">Bhubaneswar Office -  Patia</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse3" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">
