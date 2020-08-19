@@ -251,7 +251,7 @@
               <ul class="contact__list list-unstyled">
                 <li>002 010123456789</li>
                 <li>Email: <a href="milto:contact@drafticode.com">contact@drafticode.com</a></li>
-                <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
                 <li>Hours: Mon-Fri: 8am – 7pm</li>
               </ul><!-- /.contact-list -->
               <a href="#" class="btn btn__primary btn__hover3">
@@ -271,7 +271,7 @@
               <ul class="contact__list list-unstyled">
                 <li>002 010123456789</li>
                 <li>Email: <a href="milto:contact@drafticode.com">contact@drafticode.com</a></li>
-                <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
                 <li>Hours: Mon-Fri: 8am – 7pm</li>
               </ul><!-- /.contact-list -->
               <a href="#" class="btn btn__primary btn__hover3">
@@ -291,7 +291,7 @@
               <ul class="contact__list list-unstyled">
                 <li>002 010123456789</li>
                 <li>Email: <a href="milto:contact@drafticode.com">contact@drafticode.com</a></li>
-                <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
                 <li>Hours: Mon-Fri: 8am – 7pm</li>
               </ul><!-- /.contact-list -->
               <a href="#" class="btn btn__primary btn__hover3">

@@ -845,14 +845,14 @@ Thanks to “DRAFTI CODE ” 👍</p>
           <div id="accordion">
             <div class="accordion-item">
               <div class="accordion__item-header opened" data-toggle="collapse" data-target="#collapse1">
-                <a class="accordion__item-title" href="#">London Office</a>
+                <a class="accordion__item-title" href="#">Banglore Office</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse1" class="collapse  show" data-parent="#accordion">
                 <div class="accordion__item-body">
                   <ul class="contact__list list-unstyled">
-                    <li>002 010123456789</li>
-                    <li>Email: Logisti@7oroof.com</li>
-                    <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                    <li><a href="tel: +91 79751 89067"> +91 79751 89067</a></li>
+                    <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
+                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->
@@ -860,14 +860,15 @@ Thanks to “DRAFTI CODE ” 👍</p>
             </div><!-- /.accordion-item -->
             <div class="accordion-item">
               <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse2">
-                <a class="accordion__item-title" href="#">Berlin Office</a>
+                <a class="accordion__item-title" href="#">Bhuneshwar Office - Saheed Nagar</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse2" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">
                   <ul class="contact__list list-unstyled">
-                    <li>002 010123456789</li>
-                    <li>Email: Logisti@7oroof.com</li>
-                    <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                    <li><a href="tel: +91 63700 71649"> +91 63700 71649</a></li>
+                    <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
+                    <li>2, Arihant Plaza<br> In-front of OMFED Office<br> Swash Lane, Saheed Nagar<br> Bhubaneswar<br>
+                      Odisha- 751007 IN</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->
@@ -875,14 +876,14 @@ Thanks to “DRAFTI CODE ” 👍</p>
             </div><!-- /.accordion-item -->
             <div class="accordion-item">
               <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse3">
-                <a class="accordion__item-title" href="#">Manchester Office</a>
+                <a class="accordion__item-title" href="#">Bhuneshwar Office -  Patia</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse3" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">
                   <ul class="contact__list list-unstyled">
-                    <li>002 010123456789</li>
-                    <li>Email: Logisti@7oroof.com</li>
-                    <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                  <li><a href="tel: +91 98532 33951"> +91 98532 33951</a></li>
+                    <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
+                    <li>Near TBI<br>Patia KIIT Square<br>Bhuneshwar- 751024</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->

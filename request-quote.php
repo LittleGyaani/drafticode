@@ -450,14 +450,14 @@
           <div id="accordion">
             <div class="accordion-item">
               <div class="accordion__item-header opened" data-toggle="collapse" data-target="#collapse1">
-                <a class="accordion__item-title" href="#">London Office</a>
+                <a class="accordion__item-title" href="#">Banglore Office</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse1" class="collapse  show" data-parent="#accordion">
                 <div class="accordion__item-body">
                   <ul class="contact__list list-unstyled">
                     <li>002 010123456789</li>
-                    <li>Email: Logisti@7oroof.com</li>
-                    <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                    <li>Email: info@drafticode.com</li>
+                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->
@@ -465,14 +465,14 @@
             </div><!-- /.accordion-item -->
             <div class="accordion-item">
               <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse2">
-                <a class="accordion__item-title" href="#">Berlin Office</a>
+                <a class="accordion__item-title" href="#">Bhuneshwar Office - Saheed Nagar</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse2" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">
                   <ul class="contact__list list-unstyled">
                     <li>‎+91 6370 071 649</li>
                     <li>Email: contact@drafticode.com</li>
-                    <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->
@@ -480,14 +480,14 @@
             </div><!-- /.accordion-item -->
             <div class="accordion-item">
               <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse3">
-                <a class="accordion__item-title" href="#">Manchester Office</a>
+                <a class="accordion__item-title" href="#">Bhuneshwar Office -  Patia</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse3" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">
                   <ul class="contact__list list-unstyled">
                     <li>002 010123456789</li>
-                    <li>Email: Logisti@7oroof.com</li>
-                    <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                    <li>Email: info@drafticode.com</li>
+                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->
