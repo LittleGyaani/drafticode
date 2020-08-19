@@ -23,8 +23,8 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -158,10 +158,10 @@
                   </button>
                   <div class="dropdown-menu" aria-labelledby="langDrobdown">
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/united-states.png" alt="us"><span>Us</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/united-states.png" alt="us"><span>Us</span>
                     </a>
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/germany.png" alt="germany"><span>germany</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/germany.png" alt="germany"><span>germany</span>
                     </a>
                   </div>
                 </div>
@@ -176,7 +176,7 @@
        page title
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="assets/images/page-titles/14.jpg" alt="background"></div>
+      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/page-titles/14.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -229,7 +229,7 @@
                   <!-- post item #1 -->
                   <div class="widget-post-item">
                     <div class="widget__post-img">
-                      <a href="#"><img src="assets/images/blog/thumbs/1.jpg" alt="product"></a>
+                      <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/blog/thumbs/1.jpg" alt="product"></a>
                     </div><!-- /.widget-post-img -->
                     <div class="widget__post-content">
                       <div class="d-flex flex-wrap align-items-center">
@@ -245,7 +245,7 @@
                   <!-- post item #2 -->
                   <div class="widget-post-item">
                     <div class="widget__post-img">
-                      <a href="#"><img src="assets/images/blog/thumbs/2.jpg" alt="product"></a>
+                      <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/blog/thumbs/2.jpg" alt="product"></a>
                     </div><!-- /.widget-post-img -->
                     <div class="widget__post-content">
                       <div class="d-flex flex-wrap align-items-center">
@@ -266,7 +266,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/single/1.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/single/1.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -328,7 +328,7 @@
               <div class="blog__prev">
                 <a href="#">
                   <div class="blog__nav-img">
-                    <img src="assets/images/blog/thumbs/1.jpg" alt="blog thumb">
+                      <img src="<?= $base_URI; ?>/app/assets/images/blog/thumbs/1.jpg" alt="blog thumb">
                     <i class="icon-arrow-left"></i>
                   </div>
                   <div class="blog__nav-content">
@@ -344,7 +344,7 @@
                     <h6>Cargo flow through better supply chain visibility.</h6>
                   </div>
                   <div class="blog__nav-img">
-                    <img src="assets/images/blog/thumbs/2.jpg" alt="blog thumb">
+                      <img src="<?= $base_URI; ?>/app/assets/images/blog/thumbs/2.jpg" alt="blog thumb">
                     <i class="icon-arrow-right"></i>
                   </div>
                 </a>
@@ -353,7 +353,7 @@
             <div class="blog-widget">
               <div class="blog-author">
                 <div class="blog__author-avatar">
-                  <img src="assets/images/blog/author/1.jpg" alt="avatar">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/author/1.jpg" alt="avatar">
                 </div><!-- /.author-avatar  -->
                 <div class="blog__author-content">
                   <h6 class="blog__author-name">Mahmoud Baghagho</h6>
@@ -375,7 +375,7 @@
               <ul class="comments-list">
                 <li class="comment__item">
                   <div class="comment__avatar">
-                    <img src="assets/images/blog/author/2.jpg" alt="avatar">
+                      <img src="<?= $base_URI; ?>/app/assets/images/blog/author/2.jpg" alt="avatar">
                   </div>
                   <div class="comment__content">
                     <h6 class="comment__author">Richard Muldoone</h6>
@@ -389,7 +389,7 @@
                   <ul class="nested__comment">
                     <li class="comment__item">
                       <div class="comment__avatar">
-                        <img src="assets/images/blog/author/3.jpg" alt="avatar">
+                          <img src="<?= $base_URI; ?>/app/assets/images/blog/author/3.jpg" alt="avatar">
                       </div>
                       <div class="comment__content">
                         <h6 class="comment__author">Mike Dooley</h6>
@@ -477,7 +477,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
               <div class="footer__widget-content">
-                <img src="assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
+                  <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
                 <p>Our global logistics expertise, advanced supply chain technology & customized logistics solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">

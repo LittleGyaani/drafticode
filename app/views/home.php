@@ -22,7 +22,6 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
   //Calling Header Section
   include 'app/assets/templates/template-header.php';
   ?>
-
 </head>
 
 <body>
@@ -43,7 +42,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
       <div class="owl-carousel thumbs-carousel carousel-arrows" data-slider-id="slider1" data-dots="false"
         data-autoplay="true" data-nav="true" data-transition="fade" data-animate-out="fadeOut" data-animate-in="fadeIn">
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider1.jpg" alt="slide img"></div>
+          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider-1.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
@@ -58,7 +57,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider2.jpg" alt="slide img"></div>
+          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider-2.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
@@ -422,13 +421,13 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
-                  <p class="testimonial__desc">They are the best of the best, and expertly trained team members who take
-                    the extra step and go the extra mile, all to fulfill our dedicated promise to deliver innovative and
-                    dynamic solutions to our customers to fit the needs of a rapidly changing global environment.</p>
+                  <p class="testimonial__desc">DraftIcode is one of the best web development company , they provide best service . They know what Client requirements very well. They made one of my website and I really like that one.
+And thanks to Swati she provide me logo and that was really cool.☺️
+Best of luck Draftcode .</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
-                  <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature.png" alt="signature">
-                  <p class="testimonial__meta-desc">The Move Inc</p>
+                  <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature-2.jpg" alt="signature">
+                  <p class="testimonial__meta-desc">Subhasish Sahoo</p>
                 </div><!-- /.testimonial-meta -->
               </div><!-- /. testimonial-item -->
               <!-- Testimonial #2 -->
@@ -437,14 +436,47 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
-                  <p class="testimonial__desc">Logisti team is the best of the best, and expertly trained team members
-                    who take the extra step and go the extra mile, all to fulfill our dedicated promise to deliver
-                    innovative and dynamic solutions to our customers to fit the needs of a rapidly changing global
-                    environment.</p>
+                  <p class="testimonial__desc">Thanks for that wonderful posters u made for our association.
+                    The content was completely covered with making it clumsy...and the colour.
+                    Combination u used were so superb .looking forward to work with u even more ..keep growing </p>
+                </div><!-- /.testimonial-content -->
+                <div class="testimonial__meta">
+                  <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature-1.jpg" alt="signature">
+                  <p class="testimonial__meta-desc">Ragini Mitra<br>
+Odisha State tennis cricket association<br>
+FLIER AND POSTERS DESIGNER</p>
+                </div><!-- /.testimonial-meta -->
+              </div><!-- /. testimonial-item -->
+              <!-- Testimonial #1 -->
+              <div class=" testimonial-item">
+                <div class="testimonial__thumb">
+                  <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                </div><!-- /.testimonial-thumb -->
+                <div class="testimonial__content">
+                  <p class="testimonial__desc">I am really impressed by the quality of services I received from Flatworld Solutions.
+                    You were right on schedule, charged reasonable prices, were professional and courteous in dealings,
+                    and delivered items well before time. I have got a good e-commerce site for my products.
+                     My revenue has increased because of Flatworld and I will definitely use your services again.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
                   <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature.png" alt="signature">
-                  <p class="testimonial__meta-desc">The Move Inc</p>
+                  <p class="testimonial__meta-desc">General Manager<br>ENCORE GROUP</p>
+                </div><!-- /.testimonial-meta -->
+              </div><!-- /. testimonial-item -->
+              <!-- Testimonial #1 -->
+              <div class=" testimonial-item">
+                <div class="testimonial__thumb">
+                  <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                </div><!-- /.testimonial-thumb -->
+                <div class="testimonial__content">
+                  <p class="testimonial__desc">A Website mirrors the company identity, That gives it a face and a soul. Web Designers from the firm ‘MIRROR DESIGN’ Express did that for “Landscape Ventures.” They instantly knew what we wanted to accomplish, they were fast, responsive and relatively affordable.
+The final product was very functional, tasteful and aesthetically nice to look at.
+We already recommended them to other customers and I think that would be the best testimonial and the ultimate recognition.
+Thanks to “DRAFTI CODE ” 👍</p>
+                </div><!-- /.testimonial-content -->
+                <div class="testimonial__meta">
+                  <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature.png" alt="signature">
+                  <p class="testimonial__meta-desc">DEBABRATA<br>LANDSCAPE VENTURES</p>
                 </div><!-- /.testimonial-meta -->
               </div><!-- /. testimonial-item -->
             </div>
@@ -463,22 +495,22 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             <div class="carousel owl-carousel" data-slide="6" data-slide-md="4" data-slide-sm="2" data-autoplay="true"
               data-nav="false" data-dots="false" data-space="20" data-loop="true" data-speed="700">
               <div class="client">
-                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/9.png" alt="client"></a>
+                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/logo-1.jpg" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/10.png" alt="client"></a>
+                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/logo-2.jpg" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/11.png" alt="client"></a>
+                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/logo-3.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/12.png" alt="client"></a>
+                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/logo-4.jpg" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/13.png" alt="client"></a>
+                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/logo-5.jpg" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/11.png" alt="client"></a>
+                <a href="#"><img src="<?= $base_URI; ?>/app/assets/images/clients/logo-6.jpg" alt="client"></a>
               </div><!-- /.client -->
             </div><!-- /.carousel -->
           </div><!-- /.col-lg-12 -->

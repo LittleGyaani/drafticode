@@ -23,8 +23,8 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -158,10 +158,10 @@
                   </button>
                   <div class="dropdown-menu" aria-labelledby="langDrobdown">
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/united-states.png" alt="us"><span>Us</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/united-states.png" alt="us"><span>Us</span>
                     </a>
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/germany.png" alt="germany"><span>germany</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/germany.png" alt="germany"><span>germany</span>
                     </a>
                   </div>
                 </div>
@@ -176,7 +176,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="assets/images/page-titles/5.jpg" alt="background"></div>
+      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/page-titles/5.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -203,7 +203,7 @@
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/1.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/1.jpg" alt="project img">
                 <a href="assets/images/case-studies/grid/1.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
               </div><!-- /.project-img -->
             </div><!-- /.project-item -->
@@ -212,7 +212,7 @@
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/2.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/2.jpg" alt="project img">
                 <a href="assets/images/case-studies/grid/2.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
               </div><!-- /.project-img -->
             </div><!-- /.project-item -->
@@ -221,7 +221,7 @@
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/3.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/3.jpg" alt="project img">
                 <a href="assets/images/case-studies/grid/3.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
               </div><!-- /.project-img -->
             </div><!-- /.project-item -->
@@ -230,7 +230,7 @@
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/4.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/4.jpg" alt="project img">
                 <a href="assets/images/case-studies/grid/4.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
               </div><!-- /.project-img -->
             </div><!-- /.project-item -->
@@ -239,7 +239,7 @@
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/5.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/5.jpg" alt="project img">
                 <a href="assets/images/case-studies/grid/5.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
               </div><!-- /.project-img -->
             </div><!-- /.project-item -->
@@ -248,7 +248,7 @@
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/6.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/6.jpg" alt="project img">
                 <a href="assets/images/case-studies/grid/6.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
               </div><!-- /.project-img -->
             </div><!-- /.project-item -->
@@ -257,7 +257,7 @@
           <div class="col-sm-6 col-md-6 col-lg-4 project-hidden">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/1.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/1.jpg" alt="project img">
                 <a href="assets/images/case-studies/grid/1.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
               </div><!-- /.project-img -->
             </div><!-- /.project-item -->
@@ -266,7 +266,7 @@
           <div class="col-sm-6 col-md-6 col-lg-4 project-hidden">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/3.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/3.jpg" alt="project img">
                 <a href="assets/images/case-studies/grid/3.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
               </div><!-- /.project-img -->
             </div><!-- /.project-item -->
@@ -275,7 +275,7 @@
           <div class="col-sm-6 col-md-6 col-lg-4 project-hidden">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/2.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/2.jpg" alt="project img">
                 <a href="assets/images/case-studies/grid/2.jpg" data-lightbox="lightbox" class="zoom__icon"></a>
               </div><!-- /.project-img -->
             </div><!-- /.project-item -->
@@ -321,7 +321,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
               <div class="footer__widget-content">
-                <img src="assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
+                  <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
                 <p>Our global Optimecs expertise, advanced supply chain technology & customized Optimecs solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">

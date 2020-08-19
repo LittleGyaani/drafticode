@@ -23,8 +23,8 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -158,10 +158,10 @@
                   </button>
                   <div class="dropdown-menu" aria-labelledby="langDrobdown">
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/united-states.png" alt="us"><span>Us</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/united-states.png" alt="us"><span>Us</span>
                     </a>
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/germany.png" alt="germany"><span>germany</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/germany.png" alt="germany"><span>germany</span>
                     </a>
                   </div>
                 </div>
@@ -176,7 +176,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="assets/images/page-titles/8.jpg" alt="background"></div>
+      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/page-titles/8.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -215,7 +215,7 @@
                 </div><!-- /.widget-content -->
               </div><!-- /.widget-categories -->
               <div class="widget widget-help bg-overlay bg-overlay-grdient-secondary">
-                <div class="bg-img"><img src="assets/images/sidebar/1.jpg" alt="background"></div>
+                <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/sidebar/1.jpg" alt="background"></div>
                 <div class="widget__content">
                   <h5>How Can <br> We Help You!</h5>
                   <p>We understand the importance approaching each work integrally and believe in the power of simple
@@ -227,11 +227,11 @@
                 <h5 class="widget__title color-white">Download Brochures</h5>
                 <div class="widget__content">
                   <a href="#" class="btn btn__secondary btn__block mb-20">
-                    <img src="assets/images/icons/pdf.png" alt="pdf">
+                      <img src="<?= $base_URI; ?>/app/assets/images/icons/pdf.png" alt="pdf">
                     <span>2020 Brochure</span>
                   </a>
                   <a href="#" class="btn btn__secondary btn__block">
-                    <img src="assets/images/icons/pdf.png" alt="pdf">
+                      <img src="<?= $base_URI; ?>/app/assets/images/icons/pdf.png" alt="pdf">
                     <span>Presentation Brochure</span>
                   </a>
                 </div><!-- /.widget-content -->
@@ -278,7 +278,7 @@
                     </div><!-- /.text-block -->
                   </div><!-- /.col-lg-7 -->
                   <div class="col-sm-12 col-md-5 col-lg-5">
-                    <img src="assets/images/charts/2.png" alt="chart" class="img-fluid mt-50 mb-30">
+                      <img src="<?= $base_URI; ?>/app/assets/images/charts/2.png" alt="chart" class="img-fluid mt-50 mb-30">
                   </div><!-- /.col-lg-5 -->
                 </div><!-- /.row -->
                 <div class="text__block">
@@ -290,7 +290,7 @@
                   </p>
                 </div><!-- /.text-block -->
                 <div class="video-banner bg-overlay mb-50">
-                  <div class="bg-img"><img src="assets/images/banners/2.jpg" alt="background"></div>
+                  <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/banners/2.jpg" alt="background"></div>
                   <div class="video__btn video__btn-white video__btn-left-bottom">
                     <a class="popup-video" href="https://www.youtube.com/watch?4=&amp;v=TKnufs85hXk">
                       <span class="video__player-animation"></span>
@@ -442,7 +442,7 @@
                     data-speed="800">
                     <div class="project-item">
                       <div class="project__img">
-                        <img src="assets/images/case-studies/grid/1.jpg" alt="project img">
+                          <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/1.jpg" alt="project img">
                         <div class="project__cat">
                           <a href="#">Analystics</a><a href="#">Optimization</a>
                         </div><!-- /.project-cat -->
@@ -458,7 +458,7 @@
                     </div><!-- /.project-item -->
                     <div class="project-item">
                       <div class="project__img">
-                        <img src="assets/images/case-studies/grid/2.jpg" alt="project img">
+                          <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/2.jpg" alt="project img">
                         <div class="project__cat">
                           <a href="#">Warehousing</a><a href="#">Distribution</a>
                         </div><!-- /.project-cat -->
@@ -474,7 +474,7 @@
                     </div><!-- /.project-item -->
                     <div class="project-item">
                       <div class="project__img">
-                        <img src="assets/images/case-studies/grid/3.jpg" alt="project img">
+                          <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/3.jpg" alt="project img">
                         <div class="project__cat">
                           <a href="#">Logistics</a><a href="#">Analytics</a>
                         </div><!-- /.project-cat -->
@@ -490,7 +490,7 @@
                     </div><!-- /.project-item -->
                     <div class="project-item">
                       <div class="project__img">
-                        <img src="assets/images/case-studies/grid/4.jpg" alt="project img">
+                          <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/4.jpg" alt="project img">
                         <div class="project__cat">
                           <a href="#">Optimization</a><a href="#">Warehousing</a>
                         </div><!-- /.project-cat -->
@@ -550,7 +550,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
               <div class="footer__widget-content">
-                <img src="assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
+                  <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
                 <p>Our global Optimecs expertise, advanced supply chain technology & customized Optimecs solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">

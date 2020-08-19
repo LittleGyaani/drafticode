@@ -24,8 +24,8 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
           </a>
           <div class="header__topbar d-none d-lg-block">
             <div class="d-flex flex-wrap">
@@ -204,7 +204,7 @@
         data-slide-sm="1" data-autoplay="false" data-nav="true" data-dots="false" data-space="0" data-loop="true"
         data-speed="3000" data-transition="fade" data-animate-out="fadeOut" data-animate-in="fadeIn">
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="assets/images/sliders/3.jpg" alt="slide img"></div>
+          <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/sliders/3.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8 col-xl-6">
@@ -219,7 +219,7 @@
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="assets/images/sliders/5.jpg" alt="slide img"></div>
+          <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/sliders/5.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8 col-xl-6">
@@ -261,7 +261,7 @@
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-9 col-lg-6">
             <div class="about__img">
-              <img src="assets/images/about/1.jpg" alt="about img" class="img-fluid">
+                <img src="<?= $base_URI; ?>/app/assets/images/about/1.jpg" alt="about img" class="img-fluid">
               <div class="counter-item-wrapper counters-white">
                 <div class="counter-item">
                   <div class="counter__icon">
@@ -349,7 +349,7 @@
       <div class="container-fluid col-padding-0">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 background-banner bg-overlay">
-            <div class="bg-img"><img src="assets/images/banners/7.jpg" alt="background"></div>
+            <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/banners/7.jpg" alt="background"></div>
             <div class="video__btn video__btn-white video__btn-right-center">
               <a class="popup-video" href="https://www.youtube.com/watch?4=&v=TKnufs85hXk">
                 <span class="video__player-animation"></span>
@@ -386,7 +386,7 @@
               <p class="color-white mb-20">Providing the best transport and shipping services currently available
                 allover the world. Our skilled personnel, utilising the latest communications, new tracking and
                 processing software, combined with decades of experience!</p>
-              <img src="assets/images/about/singnture2.png" alt="singnture">
+                <img src="<?= $base_URI; ?>/app/assets/images/about/singnture2.png" alt="singnture">
             </div>
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -414,7 +414,7 @@
               data-autoplay="true" data-nav="false" data-dots="true" data-space="30" data-loop="true" data-speed="800">
               <div class="project-item">
                 <div class="project__img">
-                  <img src="assets/images/case-studies/grid/1.jpg" alt="project img">
+                    <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/1.jpg" alt="project img">
                   <div class="project__cat">
                     <a href="#">Analystics</a><a href="#">Optimization</a>
                   </div><!-- /.project-cat -->
@@ -430,7 +430,7 @@
               </div><!-- /.project-item -->
               <div class="project-item">
                 <div class="project__img">
-                  <img src="assets/images/case-studies/grid/2.jpg" alt="project img">
+                    <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/2.jpg" alt="project img">
                   <div class="project__cat">
                     <a href="#">Warehousing</a><a href="#">Distribution</a>
                   </div><!-- /.project-cat -->
@@ -446,7 +446,7 @@
               </div><!-- /.project-item -->
               <div class="project-item">
                 <div class="project__img">
-                  <img src="assets/images/case-studies/grid/3.jpg" alt="project img">
+                    <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/3.jpg" alt="project img">
                   <div class="project__cat">
                     <a href="#">Logistics</a><a href="#">Analytics</a>
                   </div><!-- /.project-cat -->
@@ -462,7 +462,7 @@
               </div><!-- /.project-item -->
               <div class="project-item">
                 <div class="project__img">
-                  <img src="assets/images/case-studies/grid/4.jpg" alt="project img">
+                    <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/4.jpg" alt="project img">
                   <div class="project__cat">
                     <a href="#">Optimization</a><a href="#">Warehousing</a>
                   </div><!-- /.project-cat -->
@@ -492,22 +492,22 @@
             <div class="carousel owl-carousel" data-slide="6" data-slide-md="4" data-slide-sm="2" data-autoplay="true"
               data-nav="false" data-dots="false" data-space="20" data-loop="true" data-speed="700">
               <div class="client">
-                <a href="#"><img src="assets/images/clients/9.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/9.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/10.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/10.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/11.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/11.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/12.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/12.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/13.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/13.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/11.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/11.png" alt="client"></a>
               </div><!-- /.client -->
             </div><!-- /.carousel -->
           </div><!-- /.col-lg-12 -->
@@ -519,7 +519,7 @@
             Testimonial #3
     =========================  -->
     <section id="testimonial3" class="testimonial testimonial-3 bg-overlay pt-120 pb-120">
-      <div class="bg-img"><img src="assets/images/backgrounds/6.jpg" alt="background"></div>
+      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/backgrounds/6.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-6">
@@ -534,7 +534,7 @@
                   </div><!-- /.testimonial-content -->
                   <div class="d-flex align-items-center">
                     <div class="testimonial__thumb">
-                      <img src="assets/images/testimonials/thumbs/3.jpg" alt="author thumb">
+                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/3.jpg" alt="author thumb">
                     </div><!-- /.testimonial-thumb -->
                     <div class="testimonial__meta">
                       <h5 class="testimonial__meta-title">Martin Hope</h5>
@@ -551,7 +551,7 @@
                   </div><!-- /.testimonial-content -->
                   <div class="d-flex align-items-center">
                     <div class="testimonial__thumb">
-                      <img src="assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
+                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
                     </div><!-- /.testimonial-thumb -->
                     <div class="testimonial__meta">
                       <h5 class="testimonial__meta-title">Ahmed Abdallah</h5>
@@ -568,7 +568,7 @@
                   </div><!-- /.testimonial-content -->
                   <div class="d-flex align-items-center">
                     <div class="testimonial__thumb">
-                      <img src="assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
                     </div><!-- /.testimonial-thumb -->
                     <div class="testimonial__meta">
                       <h5 class="testimonial__meta-title">Begha</h5>
@@ -604,7 +604,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/1.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/1.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -630,7 +630,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/2.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/2.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -655,7 +655,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/3.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/3.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -717,7 +717,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
               <div class="footer__widget-content">
-                <img src="assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
+                  <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
                 <p>Our global logistics expertise, advanced supply chain technology & customized logistics solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">

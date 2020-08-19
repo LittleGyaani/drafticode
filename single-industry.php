@@ -23,8 +23,8 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -158,10 +158,10 @@
                   </button>
                   <div class="dropdown-menu" aria-labelledby="langDrobdown">
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/united-states.png" alt="us"><span>Us</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/united-states.png" alt="us"><span>Us</span>
                     </a>
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/germany.png" alt="germany"><span>germany</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/germany.png" alt="germany"><span>germany</span>
                     </a>
                   </div>
                 </div>
@@ -176,7 +176,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="assets/images/page-titles/9.jpg" alt="background"></div>
+      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/page-titles/9.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -215,7 +215,7 @@
                 </div><!-- /.widget-content -->
               </div><!-- /.widget-categories -->
               <div class="widget widget-help bg-overlay bg-overlay-grdient-secondary">
-                <div class="bg-img"><img src="assets/images/sidebar/1.jpg" alt="background"></div>
+                <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/sidebar/1.jpg" alt="background"></div>
                 <div class="widget__content">
                   <h5>How Can <br> We Help You!</h5>
                   <p>We understand the importance approaching each work integrally and believe in the power of simple
@@ -227,11 +227,11 @@
                 <h5 class="widget__title color-white">Download Brochures</h5>
                 <div class="widget__content">
                   <a href="#" class="btn btn__secondary btn__block mb-20">
-                    <img src="assets/images/icons/pdf.png" alt="pdf">
+                      <img src="<?= $base_URI; ?>/app/assets/images/icons/pdf.png" alt="pdf">
                     <span>2020 Brochure</span>
                   </a>
                   <a href="#" class="btn btn__secondary btn__block">
-                    <img src="assets/images/icons/pdf.png" alt="pdf">
+                      <img src="<?= $base_URI; ?>/app/assets/images/icons/pdf.png" alt="pdf">
                     <span>Presentation Brochure</span>
                   </a>
                 </div><!-- /.widget-content -->
@@ -252,7 +252,7 @@
                     freight as direct. We'll also see if our sea-air service is a better solution for</p>
                 </div><!-- /.text-block -->
                 <div class="video-banner bg-overlay mb-50">
-                  <div class="bg-img"><img src="assets/images/banners/2.jpg" alt="background"></div>
+                  <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/banners/2.jpg" alt="background"></div>
                   <div class="video__btn video__btn-white video__btn-left-bottom">
                     <a class="popup-video" href="https://www.youtube.com/watch?4=&amp;v=TKnufs85hXk">
                       <span class="video__player-animation"></span>
@@ -294,7 +294,7 @@
             </div><!-- /.row -->
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12">
-                <img src="assets/images/charts/1.png" alt="chart" class="img-fluid mb-50">
+                  <img src="<?= $base_URI; ?>/app/assets/images/charts/1.png" alt="chart" class="img-fluid mb-50">
               </div><!-- /.col-lg-12 -->
             </div><!-- /.row -->
             <div class="row">
@@ -435,7 +435,7 @@
               <div class="col-sm-12 col-md-12 col-lg-12">
                 <div class="cta cta-banner bg-overlay">
                   <div class="bg-img">
-                    <img src="assets/images/banners/4.jpg" alt="background">
+                      <img src="<?= $base_URI; ?>/app/assets/images/banners/4.jpg" alt="background">
                   </div>
                   <h2 class="cta__title">Reliable & Express Logistic Solutions!!</h2>
                   <p class="cta__desc">Competitive advantages to some of the largest companies allover the world.</p>
@@ -485,7 +485,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
               <div class="footer__widget-content">
-                <img src="assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
+                  <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
                 <p>Our global Optimecs expertise, advanced supply chain technology & customized Optimecs solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">

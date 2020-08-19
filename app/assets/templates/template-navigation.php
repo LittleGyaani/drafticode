@@ -267,14 +267,14 @@
           <!-- <li>
                <div class="dropdown dropdown__lang">
                  <button style="display:none" class="dropdown-toggle" id="langDrobdown" data-toggle="dropdown">
-                   <img src="assets/images/flags/en.png" alt="en"><span>English</span>
+                     <img src="<?= $base_URI; ?>/app/assets/images/flags/en.png" alt="en"><span>English</span>
                  </button>
                  <div class="dropdown-menu" aria-labelledby="langDrobdown">
                    <a class="dropdown-item" href="#">
-                     <img src="assets/images/flags/fr.png" alt="fr"><span>France</span>
+                       <img src="<?= $base_URI; ?>/app/assets/images/flags/fr.png" alt="fr"><span>France</span>
                    </a>
                    <a class="dropdown-item" href="#">
-                     <img src="assets/images/flags/gr.png" alt="gr"><span>germany</span>
+                       <img src="<?= $base_URI; ?>/app/assets/images/flags/gr.png" alt="gr"><span>germany</span>
                    </a>
                  </div>
                </div>

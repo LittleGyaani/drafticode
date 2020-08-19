@@ -23,8 +23,8 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -158,10 +158,10 @@
                   </button>
                   <div class="dropdown-menu" aria-labelledby="langDrobdown">
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/united-states.png" alt="us"><span>Us</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/united-states.png" alt="us"><span>Us</span>
                     </a>
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/germany.png" alt="germany"><span>germany</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/germany.png" alt="germany"><span>germany</span>
                     </a>
                   </div>
                 </div>
@@ -176,7 +176,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="assets/images/page-titles/14.jpg" alt="background"></div>
+      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/page-titles/14.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -216,7 +216,7 @@
               </div><!-- /.widget-categories -->
 
               <div class="widget widget-help bg-overlay bg-overlay-grdient-secondary">
-                <div class="bg-img"><img src="assets/images/sidebar/1.jpg" alt="background"></div>
+                <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/sidebar/1.jpg" alt="background"></div>
                 <div class="widget__content">
                   <h5>How Can <br> We Help You!</h5>
                   <p>We understand the importance approaching each work integrally and believe in the power of simple
@@ -229,11 +229,11 @@
                 <h5 class="widget__title color-white">Download Brochures</h5>
                 <div class="widget__content">
                   <a href="#" class="btn btn__secondary btn__block mb-20">
-                    <img src="assets/images/icons/pdf.png" alt="pdf">
+                      <img src="<?= $base_URI; ?>/app/assets/images/icons/pdf.png" alt="pdf">
                     <span>2020 Brochure</span>
                   </a>
                   <a href="#" class="btn btn__secondary btn__block">
-                    <img src="assets/images/icons/pdf.png" alt="pdf">
+                      <img src="<?= $base_URI; ?>/app/assets/images/icons/pdf.png" alt="pdf">
                     <span>Presentation Brochure</span>
                   </a>
                 </div><!-- /.widget-content -->
@@ -251,7 +251,7 @@
                 or cost. Your answers to these and other questions help us decide if you should book the air freight
                 as direct. We'll also see if our sea-air service is a better solution for</p>
               <div class="video-banner bg-overlay mb-60">
-                <div class="bg-img"><img src="assets/images/banners/3.jpg" alt="background"></div>
+                <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/banners/3.jpg" alt="background"></div>
                 <div class="video__btn video__btn-white video__btn-left-bottom">
                   <a class="popup-video" href="https://www.youtube.com/watch?4=&amp;v=TKnufs85hXk">
                     <span class="video__player-animation"></span>
@@ -289,7 +289,7 @@
                 collaboratively. Working as one team, we’ve been able to focus on attacking costs, improving customer
                 service, and managing continuous improvement across all aspects of our operations.</p>
             </div><!-- /.text-block -->
-            <img src="assets/images/charts/1.png" alt="chart" class="img-fluid mb-50">
+              <img src="<?= $base_URI; ?>/app/assets/images/charts/1.png" alt="chart" class="img-fluid mb-50">
             <h5>Key Benifits</h5>
             <div id="accordion" class="mb-50">
               <div class="accordion-item">
@@ -330,7 +330,7 @@
               </div><!-- /.accordion-item -->
             </div>
             <div class="testimonial testimonial-2 testimonial-4 text-center bg-overlay bg-overlay-theme mb-70">
-              <div class="bg-img"><img src="assets/images/banners/8.jpg" alt="background"></div>
+              <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/banners/8.jpg" alt="background"></div>
               <div class="testimonial-panel-wrap">
                 <div class="carousel owl-carousel" data-slide="1" data-slide-md="1" data-slide-sm="1"
                   data-autoplay="true" data-nav="false" data-dots="false" data-space="30" data-loop="true"
@@ -338,7 +338,7 @@
                   <!-- Testimonial #1 -->
                   <div class=" testimonial-item">
                     <div class="testimonial__thumb">
-                      <img src="assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
+                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
                     </div><!-- /.testimonial-thumb -->
                     <div class="testimonial__content">
                       <p class="testimonial__desc">Drafticode International customer service is some of the best
@@ -346,14 +346,14 @@
                         have ever had with ocean forwarders we like to ship as much as possible with you all.</p>
                     </div><!-- /.testimonial-content -->
                     <div class="testimonial__meta">
-                      <img src="assets/images/testimonials/signature2.png" alt="signature">
+                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature2.png" alt="signature">
                       <p class="testimonial__meta-desc">The Move Inc</p>
                     </div><!-- /.testimonial-meta -->
                   </div><!-- /. testimonial-item -->
                   <!-- Testimonial #2 -->
                   <div class=" testimonial-item">
                     <div class="testimonial__thumb">
-                      <img src="assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
                     </div><!-- /.testimonial-thumb -->
                     <div class="testimonial__content">
                       <p class="testimonial__desc">Expertly trained members who take the step to fulfill dedicated
@@ -361,14 +361,14 @@
                         to deliver innovative and solutions to customers to fit the needs of a changing world.</p>
                     </div><!-- /.testimonial-content -->
                     <div class="testimonial__meta">
-                      <img src="assets/images/testimonials/signature.png" alt="signature">
+                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature.png" alt="signature">
                       <p class="testimonial__meta-desc">The Move Inc</p>
                     </div><!-- /.testimonial-meta -->
                   </div><!-- /. testimonial-item -->
                   <!-- Testimonial #3 -->
                   <div class=" testimonial-item">
                     <div class="testimonial__thumb">
-                      <img src="assets/images/testimonials/thumbs/3.jpg" alt="author thumb">
+                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/3.jpg" alt="author thumb">
                     </div><!-- /.testimonial-thumb -->
                     <div class="testimonial__content">
                       <p class="testimonial__desc">In my career, I’ve seen great companies serving logistics. But not to
@@ -376,7 +376,7 @@
                         point where you feel that comfort and trust that we get with DrafticodeCompany.</p>
                     </div><!-- /.testimonial-content -->
                     <div class="testimonial__meta">
-                      <img src="assets/images/testimonials/signature3.png" alt="signature">
+                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature3.png" alt="signature">
                       <p class="testimonial__meta-desc">The Move Inc</p>
                     </div><!-- /.testimonial-meta -->
                   </div><!-- /. testimonial-item -->
@@ -500,7 +500,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
               <div class="footer__widget-content">
-                <img src="assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
+                  <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
                 <p>Our global logistics expertise, advanced supply chain technology & customized logistics solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">

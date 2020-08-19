@@ -23,8 +23,8 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -158,10 +158,10 @@
                   </button>
                   <div class="dropdown-menu" aria-labelledby="langDrobdown">
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/united-states.png" alt="us"><span>Us</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/united-states.png" alt="us"><span>Us</span>
                     </a>
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/germany.png" alt="germany"><span>germany</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/germany.png" alt="germany"><span>germany</span>
                     </a>
                   </div>
                 </div>
@@ -176,7 +176,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title page-title-layout2 bg-overlay bg-parallax">
-      <div class="bg-img"><img src="assets/images/page-titles/7.jpg" alt="background"></div>
+      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/page-titles/7.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-8">
@@ -309,7 +309,7 @@
             </div>
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-6 bg-overlay  background-banner">
-            <div class="bg-img"><img src="assets/images/banners/1.jpg" alt="background"></div>
+            <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/banners/1.jpg" alt="background"></div>
             <div class="skills skills-panel">
               <div class="heading mb-30">
                 <h2 class="heading__title">What We Achieved!</h2>
@@ -371,7 +371,7 @@
             Testimonial #1
     =========================  -->
     <section id="testimonial" class="testimonial testimonial-1 text-center pb-70">
-      <div class="bg-img"><img src="assets/images/backgrounds/2.png" alt="background"></div>
+      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/backgrounds/2.png" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -389,7 +389,7 @@
               <!-- Testimonial #1 -->
               <div class=" testimonial-item">
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">They are the best of the best, and expertly trained team members who take
@@ -397,14 +397,14 @@
                     dynamic solutions to our customers to fit the needs of a rapidly changing global environment.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
-                  <img src="assets/images/testimonials/signature.png" alt="signature">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature.png" alt="signature">
                   <p class="testimonial__meta-desc">The Move Inc</p>
                 </div><!-- /.testimonial-meta -->
               </div><!-- /. testimonial-item -->
               <!-- Testimonial #2 -->
               <div class=" testimonial-item">
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">Logisti team is the best of the best, and expertly trained team members
@@ -413,7 +413,7 @@
                     environment.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
-                  <img src="assets/images/testimonials/signature.png" alt="signature">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature.png" alt="signature">
                   <p class="testimonial__meta-desc">The Move Inc</p>
                 </div><!-- /.testimonial-meta -->
               </div><!-- /. testimonial-item -->
@@ -433,22 +433,22 @@
             <div class="carousel owl-carousel" data-slide="6" data-slide-md="4" data-slide-sm="2" data-autoplay="true"
               data-nav="false" data-dots="false" data-space="20" data-loop="true" data-speed="700">
               <div class="client">
-                <a href="#"><img src="assets/images/clients/9.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/9.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/10.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/10.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/11.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/11.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/12.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/12.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/13.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/13.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/11.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/11.png" alt="client"></a>
               </div><!-- /.client -->
             </div><!-- /.carousel -->
           </div><!-- /.col-lg-12 -->
@@ -557,7 +557,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
               <div class="footer__widget-content">
-                <img src="assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
+                  <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
                 <p>Our global Optimecs expertise, advanced supply chain technology & customized Optimecs solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">

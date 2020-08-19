@@ -49,8 +49,8 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -184,10 +184,10 @@
                   </button>
                   <div class="dropdown-menu" aria-labelledby="langDrobdown">
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/united-states.png" alt="us"><span>Us</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/united-states.png" alt="us"><span>Us</span>
                     </a>
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/germany.png" alt="germany"><span>germany</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/germany.png" alt="germany"><span>germany</span>
                     </a>
                   </div>
                 </div>
@@ -206,7 +206,7 @@
         data-slide-md="1" data-slide-sm="1" data-autoplay="true" data-nav="true" data-dots="true" data-space="0"
         data-loop="true" data-speed="3000" data-transition="fade" data-animate-out="fadeOut" data-animate-in="fadeIn">
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="assets/images/sliders/2.jpg" alt="slide img"></div>
+          <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/sliders/2.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
@@ -220,7 +220,7 @@
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="assets/images/sliders/6.jpg" alt="slide img"></div>
+          <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/sliders/6.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
@@ -294,7 +294,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-7">
             <div class="video-banner p-0">
-              <img src="assets/images/banners/6.jpg" alt="background">
+                <img src="<?= $base_URI; ?>/app/assets/images/banners/6.jpg" alt="background">
               <div class="video__btn video__btn-right-center">
                 <a class="popup-video" href="https://www.youtube.com/watch?4=&amp;v=TKnufs85hXk">
                   <span class="video__player-animation"></span>
@@ -313,7 +313,7 @@
               <p class="heading__desc mb-30">We pride ourselves on providing the best transport and shipping services
                 available allover the world. Our skilled personnel, utilising the latest communications, tracking and
                 processing software, combined with decades of experience.</p>
-              <img src="assets/images/about/singnture.png" alt="singnture" class="mr-30">
+                <img src="<?= $base_URI; ?>/app/assets/images/about/singnture.png" alt="singnture" class="mr-30">
               <a href="#" class="btn btn__primary btn__lg">Schedule An Appointment</a>
             </div><!-- /.heading -->
           </div><!-- /.col-lg-5 -->
@@ -353,7 +353,7 @@
             </div>
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-6 background-banner bg-overlay bg-parallax">
-            <div class="bg-img"><img src="assets/images/banners/5.jpg" alt="background"></div>
+            <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/banners/5.jpg" alt="background"></div>
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
@@ -381,7 +381,7 @@
               <!-- service item #1 -->
               <div class="service-item">
                 <div class="service__img">
-                  <img src="assets/images/services/1.jpg" alt="service">
+                    <img src="<?= $base_URI; ?>/app/assets/images/services/1.jpg" alt="service">
                 </div><!-- /.service-img -->
                 <div class="service__content">
                   <h4 class="service__title">Air Freight</h4>
@@ -395,7 +395,7 @@
               <!-- service item #2 -->
               <div class="service-item">
                 <div class="service__img">
-                  <img src="assets/images/services/2.jpg" alt="service">
+                    <img src="<?= $base_URI; ?>/app/assets/images/services/2.jpg" alt="service">
                 </div><!-- /.service-img -->
                 <div class="service__content">
                   <h4 class="service__title">Ocean Freight</h4>
@@ -409,7 +409,7 @@
               <!-- service item #3 -->
               <div class="service-item">
                 <div class="service__img">
-                  <img src="assets/images/services/3.jpg" alt="service">
+                    <img src="<?= $base_URI; ?>/app/assets/images/services/3.jpg" alt="service">
                 </div><!-- /.service-img -->
                 <div class="service__content">
                   <h4 class="service__title">Road Freight</h4>
@@ -423,7 +423,7 @@
               <!-- service item #4 -->
               <div class="service-item">
                 <div class="service__img">
-                  <img src="assets/images/services/2.jpg" alt="service">
+                    <img src="<?= $base_URI; ?>/app/assets/images/services/2.jpg" alt="service">
                 </div><!-- /.service-img -->
                 <div class="service__content">
                   <h4 class="service__title">Packaging</h4>
@@ -437,7 +437,7 @@
               <!-- service item #5 -->
               <div class="service-item">
                 <div class="service__img">
-                  <img src="assets/images/services/4.jpg" alt="service">
+                    <img src="<?= $base_URI; ?>/app/assets/images/services/4.jpg" alt="service">
                 </div><!-- /.service-img -->
                 <div class="service__content">
                   <h4 class="service__title">Warehousing</h4>
@@ -451,7 +451,7 @@
               <!-- service item #6 -->
               <div class="service-item">
                 <div class="service__img">
-                  <img src="assets/images/services/3.jpg" alt="service">
+                    <img src="<?= $base_URI; ?>/app/assets/images/services/3.jpg" alt="service">
                 </div><!-- /.service-img -->
                 <div class="service__content">
                   <h4 class="service__title">Supply Chain</h4>
@@ -473,7 +473,7 @@
     ============================= -->
     <section id="projectsGrid" class="projects projects-grid projects-grid-layout2 pb-50">
       <div class="projects-bg bg-overlay bg-overlay-gradient-secondary-2">
-        <div class=" bg-img"><img src="assets/images/backgrounds/4.jpg" alt="background"></div>
+        <div class=" bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/backgrounds/4.jpg" alt="background"></div>
       </div>
       <div class="container">
         <div class="row">
@@ -491,7 +491,7 @@
           <div class="col-sm-12 col-md-4 col-lg-4">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/1.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/1.jpg" alt="project img">
                 <div class="project__cat">
                   <a href="#">Analystics</a><a href="#">Optimization</a>
                 </div><!-- /.project-cat -->
@@ -510,7 +510,7 @@
           <div class="col-sm-12 col-md-4 col-lg-4">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/2.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/2.jpg" alt="project img">
                 <div class="project__cat">
                   <a href="#">Warehousing</a><a href="#">Distribution</a>
                 </div><!-- /.project-cat -->
@@ -529,7 +529,7 @@
           <div class="col-sm-12 col-md-4 col-lg-4">
             <div class="project-item">
               <div class="project__img">
-                <img src="assets/images/case-studies/grid/3.jpg" alt="project img">
+                  <img src="<?= $base_URI; ?>/app/assets/images/case-studies/grid/3.jpg" alt="project img">
                 <div class="project__cat">
                   <a href="#">Logistics</a><a href="#">Analytics</a>
                 </div><!-- /.project-cat -->
@@ -569,22 +569,22 @@
             <div class="carousel owl-carousel" data-slide="6" data-slide-md="4" data-slide-sm="2" data-autoplay="true"
               data-nav="false" data-dots="false" data-space="20" data-loop="true" data-speed="700">
               <div class="client">
-                <a href="#"><img src="assets/images/clients/9.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/9.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/10.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/10.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/11.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/11.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/12.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/12.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/13.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/13.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/11.png" alt="client"></a>
+                <a href="#">  <img src="<?= $base_URI; ?>/app/assets/images/clients/11.png" alt="client"></a>
               </div><!-- /.client -->
             </div><!-- /.carousel -->
           </div><!-- /.col-lg-12 -->
@@ -596,7 +596,7 @@
             Testimonial #2
     =========================  -->
     <section id="testimonial2" class="testimonial testimonial-2 text-center bg-overlay bg-overlay-grdient-theme pb-90">
-      <div class="bg-img"><img src="assets/images/backgrounds/7.jpg" alt="background"></div>
+      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/backgrounds/7.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -616,84 +616,84 @@
               <!-- Testimonial #1 -->
               <div class=" testimonial-item">
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">Drafticode International customer service is some of the best we
                     have ever had with ocean forwarders we like to ship as much as possible with you all.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
-                  <img src="assets/images/testimonials/signature2.png" alt="signature">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature2.png" alt="signature">
                   <p class="testimonial__meta-desc">The Move Inc</p>
                 </div><!-- /.testimonial-meta -->
               </div><!-- /. testimonial-item -->
               <!-- Testimonial #2 -->
               <div class=" testimonial-item">
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">Expertly trained members who take the step to fulfill dedicated promise
                     to deliver innovative and solutions to customers to fit the needs of a changing world.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
-                  <img src="assets/images/testimonials/signature.png" alt="signature">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature.png" alt="signature">
                   <p class="testimonial__meta-desc">The Move Inc</p>
                 </div><!-- /.testimonial-meta -->
               </div><!-- /. testimonial-item -->
               <!-- Testimonial #3 -->
               <div class=" testimonial-item">
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/3.jpg" alt="author thumb">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/3.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">In my career, I’ve seen great companies serving logistics. But not to the
                     point where you feel that comfort and trust that we get with DrafticodeCompany.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
-                  <img src="assets/images/testimonials/signature3.png" alt="signature">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature3.png" alt="signature">
                   <p class="testimonial__meta-desc">The Move Inc</p>
                 </div><!-- /.testimonial-meta -->
               </div><!-- /. testimonial-item -->
               <!-- Testimonial #4 -->
               <div class=" testimonial-item">
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">Expertly trained members who take the step to fulfill dedicated promise
                     to deliver innovative and solutions to customers to fit the needs of a changing world.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
-                  <img src="assets/images/testimonials/signature.png" alt="signature">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature.png" alt="signature">
                   <p class="testimonial__meta-desc">The Move Inc</p>
                 </div><!-- /.testimonial-meta -->
               </div><!-- /. testimonial-item -->
               <!-- Testimonial #5 -->
               <div class=" testimonial-item">
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">Expertly trained members who take the step to fulfill dedicated promise
                     to deliver innovative and solutions to customers to fit the needs of a changing world.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
-                  <img src="assets/images/testimonials/signature.png" alt="signature">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature.png" alt="signature">
                   <p class="testimonial__meta-desc">The Move Inc</p>
                 </div><!-- /.testimonial-meta -->
               </div><!-- /. testimonial-item -->
               <!-- Testimonial #6 -->
               <div class=" testimonial-item">
                 <div class="testimonial__thumb">
-                  <img src="assets/images/testimonials/thumbs/3.jpg" alt="author thumb">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/3.jpg" alt="author thumb">
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__content">
                   <p class="testimonial__desc">In my career, I’ve seen great companies serving logistics. But not to the
                     point where you feel that comfort and trust that we get with DrafticodeCompany.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="testimonial__meta">
-                  <img src="assets/images/testimonials/signature3.png" alt="signature">
+                    <img src="<?= $base_URI; ?>/app/assets/images/testimonials/signature3.png" alt="signature">
                   <p class="testimonial__meta-desc">The Move Inc</p>
                 </div><!-- /.testimonial-meta -->
               </div><!-- /. testimonial-item -->
@@ -724,7 +724,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/1.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/1.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -749,7 +749,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/2.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/2.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -773,7 +773,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/3.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/3.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -836,7 +836,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
               <div class="footer__widget-content">
-                <img src="assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
+                  <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
                 <p>Our global Optimecs expertise, advanced supply chain technology & customized Optimecs solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">

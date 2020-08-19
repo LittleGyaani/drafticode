@@ -23,8 +23,8 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+              <img src="<?= $base_URI; ?>/app/assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -158,10 +158,10 @@
                   </button>
                   <div class="dropdown-menu" aria-labelledby="langDrobdown">
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/united-states.png" alt="us"><span>Us</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/united-states.png" alt="us"><span>Us</span>
                     </a>
                     <a class="dropdown-item" href="#">
-                      <img src="assets/images/flags/germany.png" alt="germany"><span>germany</span>
+                        <img src="<?= $base_URI; ?>/app/assets/images/flags/germany.png" alt="germany"><span>germany</span>
                     </a>
                   </div>
                 </div>
@@ -176,7 +176,7 @@
        page title 
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
-      <div class="bg-img"><img src="assets/images/page-titles/14.jpg" alt="background"></div>
+      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/page-titles/14.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
@@ -203,7 +203,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/1.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/1.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -228,7 +228,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/2.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/2.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -252,7 +252,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/3.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/3.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -277,7 +277,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/4.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/4.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -301,7 +301,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/5.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/5.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -325,7 +325,7 @@
             <div class="blog-item">
               <div class="blog__img">
                 <a href="#">
-                  <img src="assets/images/blog/grid/6.jpg" alt="blog image">
+                    <img src="<?= $base_URI; ?>/app/assets/images/blog/grid/6.jpg" alt="blog image">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -397,7 +397,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about">
               <div class="footer__widget-content">
-                <img src="assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
+                  <img src="<?= $base_URI; ?>/app/assets/images/logo\DC-Logo.png" alt="logo" class="footer-logo">
                 <p>Our global logistics expertise, advanced supply chain technology & customized logistics solutions
                   will help you develop and implement successful supply.</p>
                 <ul class="contact__list list-unstyled">
