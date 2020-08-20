@@ -845,7 +845,7 @@ Thanks to “DRAFTI CODE ” 👍</p>
           <div id="accordion">
             <div class="accordion-item">
               <div class="accordion__item-header opened" data-toggle="collapse" data-target="#collapse1">
-                <a class="accordion__item-title" href="#">Banglore Office</a>
+                <a class="accordion__item-title" href="#">Bangalore Office</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse1" class="collapse  show" data-parent="#accordion">
                 <div class="accordion__item-body">
@@ -853,7 +853,7 @@ Thanks to “DRAFTI CODE ” 👍</p>
                     <li><a href="tel: +91 79751 89067"> +91 79751 89067</a></li>
                     <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
                     <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,
-                      <br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
+                      <br>BTM Layout Stage 1,Near Gamgotri circle<br>Bangalore<br>Karnataka - 560068</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->
@@ -866,7 +866,7 @@ Thanks to “DRAFTI CODE ” 👍</p>
               <div id="collapse2" class="collapse" data-parent="#accordion">
                 <div class="accordion__item-body">
                   <ul class="contact__list list-unstyled">
-                    <li><a href="tel: +91 63700 71649"> +91 63700 71649</a></li>
+                    <li><a href="tel: +91 63700 71649"> +91 70083 08511</a></li>
                     <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
                     <li>2, Arihant Plaza<br> In-front of OMFED Office<br> Swash Lane, Saheed Nagar<br>Bhubaneswar<br>
                       Odisha- 751007 IN</li>

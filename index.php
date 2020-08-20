@@ -34,9 +34,9 @@ $router->map('GET', $company_route . '/about-us',  function () {
 }, 'about');
 
 //Why choose Us Page Route
-$router->map('GET', $company_route . '/why-choose-us',  function () {
-  require __DIR__ . '/app/views/why-choose-us-us.php';
-}, 'why choose us');
+$router->map('GET', $company_route . '/why-us',  function () {
+  require __DIR__ . '/app/views/why-us.php';
+}, 'why-us');
 
 //careers
 $router->map('GET', $company_route . '/careers',  function () {
@@ -267,6 +267,13 @@ $router->map('GET', $digital_marketing_route . '/ paid-campaign-marketing/youtub
 $router->map('GET', $digital_marketing_route . '/ paid-campaign-marketing/linkedin-ads',  function () {
   require __DIR__ . '/app/views/linkedin-ads.php';
 }, 'linkedin-ads');
+
+// services
+
+$router->map('GET', $services_route ,  function () {
+  require __DIR__ . '/app/views/services.php';
+}, 'services');
+
 
 //services - digital-services/web-hosting
 $router->map('GET', $services_route . '/digital-services/web-hosting',  function () {

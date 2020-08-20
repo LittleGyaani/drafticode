@@ -327,7 +327,7 @@
                   <ul class="contact__list list-unstyled">
                     <li>002 010123456789</li>
                     <li>Email: info@drafticode.com</li>
-                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
+                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bangalore<br>Karnataka - 560068</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->
@@ -342,7 +342,7 @@
                   <ul class="contact__list list-unstyled">
                     <li>002 010123456789</li>
                     <li>Email: info@drafticode.com</li>
-                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
+                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bangalore<br>Karnataka - 560068</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->
@@ -357,7 +357,7 @@
                   <ul class="contact__list list-unstyled">
                     <li>002 010123456789</li>
                     <li>Email: info@drafticode.com</li>
-                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bengaluru<br>Karnataka - 560068</li>
+                    <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,<br>BTM Layout Stage 1,Near Gamgotri circle<br>Bangalore<br>Karnataka - 560068</li>
                     <li>Hours: Mon-Fri: 8am – 7pm</li>
                   </ul>
                 </div><!-- /.accordion-item-body -->

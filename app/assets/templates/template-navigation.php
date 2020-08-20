@@ -51,7 +51,7 @@
             <ul class="dropdown-menu">
               <li class="nav__item"><a href="<?= $base_URI . $company_route; ?>/about-us" class="nav__item-link">About Us</a></li>
               <!-- /.nav-item -->
-              <li class="nav__item"><a href="<?= $base_URI . $company_route; ?>/why-choose-us" class="nav__item-link">Why Choose Us</a></li>
+              <li class="nav__item"><a href="<?= $base_URI . $company_route; ?>/why-us" class="nav__item-link">Why Choose Us</a></li>
               <!-- /.nav-item -->
               <li class="nav__item"><a href="<?= $base_URI . $company_route; ?>/careers" class="nav__item-link">careers</a></li>
               <!-- /.nav-item -->
@@ -182,7 +182,7 @@
           </li><!-- /.nav-item -->
 
           <li class="nav__item with-dropdown mega-dropdown">
-            <a href="javascript:void(0);" class="dropdown-toggle nav__item-link">Services <i class="" aria-hidden="true"></i></a>
+            <a href="<?= $base_URI . $services_route; ?>" class="dropdown-toggle nav__item-link">Services <i class="" aria-hidden="true"></i></a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
             <ul class="dropdown-menu mega-dropdown-menu">
               <li class="nav__item">
@@ -200,7 +200,8 @@
                       </li> <!-- /.nav-item -->
                       <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/digital-services/payment-gateway">Payment Gateway</a>
                       </li> <!-- /.nav-item -->
-                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/digital-services/bulk-sms-services">Bulk SMS Services</a></li>
+                      <li class="nav__item"><a class="nav__item-link" href="<?= $base_URI . $services_route; ?>/digital-services/bulk-sms-services">Bulk SMS Services</a>
+                      </li>
                       <!-- /.nav-item -->
                     </ul>
                   </div><!-- /.col-md-3 -->
