@@ -69,7 +69,7 @@
                 <li><a href="#">SEO</a></li>
                 <li><a href="#">SMO</a></li>
                 <li><a href="#">Social Media Marketing</a></li>
-                <li><a href="#">Paid Campaign Marketing</a></li>
+                <li><a href="#">Paid Marketing</a></li>
               </ul>
             </nav>
           </div><!-- /.footer-widget-content -->

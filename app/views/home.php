@@ -845,7 +845,7 @@ Thanks to “DRAFTI CODE ” 👍</p>
           <div id="accordion">
             <div class="accordion-item">
               <div class="accordion__item-header opened" data-toggle="collapse" data-target="#collapse1">
-                <a class="accordion__item-title" href="#">Bangalore Office</a>
+                <a class="accordion__item-title" href="#">Bangalore Office - BTM Layout</a>
               </div><!-- /.accordion-item-header -->
               <div id="collapse1" class="collapse  show" data-parent="#accordion">
                 <div class="accordion__item-body">
