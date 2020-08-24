@@ -2,15 +2,15 @@
 <header id="header" class="header header-layout1">
   <div class="header__promo-text text-center">
     <!-- Notice Section -->
-    <strong>Drafticode :</strong><span> Web Development & Designing Company, SEO, SMO & Digital Marketing Agency in India, Call +91 6370 071 649</span>
+    <strong>COVID-19 OFFER :</strong><span style="color:red; font-weight:bold;"> Get E-Commerce Website at ₹9,999*/- and stay connected with world. Contact Us today on <a href="tel:+916370071649">+91 63700 71649</a></span>
   </div><!-- /.header__promo-text -->
   <div class="header__topbar d-none d-xl-block">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-7 col-lg-7">
           <ul class="contact__list list-unstyled">
-            <li><i class="icon-call"></i><span>Phone: +91 6370 071 649</span></li>
-            <li><i class="icon-clock"></i><span>Hours: Mon-Fri: 8am – 7pm</span></li>
+            <li><i class="icon-call"></i><span>Phone: <a href="tel:+916370071649">+91 6370 071 649</a></span></li>
+            <li><i class="icon-clock"></i><span>Hours: Mon-Fri : 9am – 6pm</span></li>
             <li><i class="icon-envelope"></i>
               <span>Email: <a href="mailto:contact@drafticode.com">contact@drafticode.com</a></span>
             </li>
@@ -18,7 +18,7 @@
         </div><!-- /.col-lg-7 -->
         <div class="col-sm-12 col-md-5 col-lg-5 d-flex align-items-center justify-content-end">
           <ul class="header__topbar-links list-unstyled">
-            <li><a href="#">Contacts</a></li>
+            <li><a href="<?= $base_URI . $contact_us_route; ?>">Contact Us</a></li>
             <li><a href="#">Careers</a></li>
           </ul>
           <div class="social__icons justify-content-end">
@@ -32,7 +32,7 @@
   </div>
   <nav class="navbar navbar-expand-lg sticky-navbar">
     <div class="container-fluid px-10">
-      <a class="navbar-brand" href="./">
+      <a class="navbar-brand" href="<?= $base_URI; ?>">
         <img src="<?= $base_URI; ?>/app/assets/images/logo/DC-Logo.png" class="logo-light" alt="logo">
         <img src="<?= $base_URI; ?>/app/assets/images/logo/DC-Logo.png" class="logo-dark" alt="logo">
       </a>
@@ -42,7 +42,7 @@
       <div class="collapse navbar-collapse" id="mainNavigation">
         <ul class="navbar-nav mx-auto">
           <li class="nav__item with-dropdown">
-            <a href="./" class=" nav__item-link active">Home</a>
+            <a href="<?= $base_URI; ?>" class=" nav__item-link active">Home</a>
             <i class="fa fa-angle-right" data-toggle="dropdown"></i>
           </li><!-- /.nav-item -->
           <li class="nav__item with-dropdown">

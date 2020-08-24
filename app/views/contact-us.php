@@ -55,7 +55,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
             <div class="heading text-center mb-50">
-              <span class="heading__subtitle">Let DraftiCode Help You</span>
+              <span class="heading__subtitle">Let <b>Drafticode</b> Help You</span>
               <h2 class="heading__title">Contact Us</h2>
               <p class="heading__desc">We would love to hear from you. So please ring our bell and we will get back to you.</p>
             </div><!-- /.heading -->
@@ -111,10 +111,10 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                 <div class="contact__panel-icon">
                     <!-- <img src="<?= $base_URI; ?>/app/assets/images/flags/united-states.png" alt="us"> -->
                 </div><!-- /.contact-panel-icon -->
-                <h4 class="contact__panel-title">Bangalore Office</h4>
+                <h4 class="contact__panel-title">Bangalore Office - BTM Layout</h4>
               </div><!-- /.contact-panel-header -->
               <ul class="contact__list list-unstyled">
-                <li><a href="tel: +91 79751 89067"> +91 79751 89067</a></li>
+                <li><a href="tel:+917975189067"> +91 79751 89067</a></li>
                 <li><a href="mailto:info@drafticode.com">contact@drafticode.com</a></li>
                 <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,
                   <br>BTM Layout Stage 1,Near Gamgotri circle<br>Bangalore<br>Karnataka - 560068</li>
@@ -135,7 +135,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                 <h4 class="contact__panel-title">Bhubaneswar Office - Saheed Nagar</h4>
               </div><!-- /.contact-panel-header -->
               <ul class="contact__list list-unstyled">
-                <li><a href="tel: +91 63700 71649"> +91 70083 08511</a></li>
+                <li><a href="tel:+916370071649"> +91 70083 08511</a></li>
                 <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
                 <li>2, Arihant Plaza<br> In-front of OMFED Office<br> Swash Lane, Saheed Nagar<br>Bhubaneswar<br>
                   Odisha- 751007 IN</li>
@@ -156,7 +156,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                 <h4 class="contact__panel-title">Bhubaneswar Office - Patia</h4>
               </div><!-- /.contact-panel-header -->
               <ul class="contact__list list-unstyled">
-                  <li><a href="tel: +91 98532 33951"> +91 98532 33951</a></li>
+                  <li><a href="tel:+919853233951"> +91 98532 33951</a></li>
                   <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
                   <li>Near KIIT TBI<br>Patia, KIIT Square<br>Bhubaneswar,<br>ODISHA- 751024 IN</li>
                   <li>Hours: Mon-Fri: 8am – 7pm</li>

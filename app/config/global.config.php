@@ -43,7 +43,7 @@ $contact_us_route = '/contact-us';
 //* Varaible Values * //
 
 //Variable Assigns
-$title_constant = "Web development company, SEO, SMO & Digital Marketing Agency";
+$title_constant = "Web Development Company, SEO, SMO & Digital Marketing Agency in India";
 
 $server_protocol = strtolower(substr($_SERVER["SERVER_PROTOCOL"], 0, 5)) == 'https' ? 'https' : 'http';
 
