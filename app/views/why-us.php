@@ -39,7 +39,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
        page title
     =========================== -->
     <section id="page-title" class="page-title page-title-layout3 text-center bg-overlay bg-parallax">
-      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/page-titles/2.jpg" alt="background"></div>
+      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/why-us/why-choose-us.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8 offset-xl-2">

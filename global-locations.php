@@ -173,7 +173,7 @@
     </header><!-- /.Header -->
 
     <!-- ========================
-       page title 
+       page title
     =========================== -->
     <section id="page-title" class="page-title bg-overlay bg-parallax">
       <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/page-titles/4.jpg" alt="background"></div>
@@ -193,7 +193,7 @@
       </div><!-- /.container -->
     </section><!-- /.page-title -->
 
-    <!-- =========================== 
+    <!-- ===========================
       locations
     ============================= -->
     <section id="locations" class="locations pb-0">
@@ -309,7 +309,7 @@
       </div><!-- /.container -->
     </section><!-- /.locations -->
 
-    <!-- ========================= 
+    <!-- =========================
             contact 1
       =========================  -->
     <section id="contact1" class="contact contact-1 p-0">

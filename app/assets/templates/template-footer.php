@@ -1,5 +1,164 @@
 <!-- Footer Section Starts Here -->
 <footer id="footer" class="footer">
+
+  <!-- =========================
+          Testimonial #3
+  =========================  -->
+  <section id="testimonial3" class="testimonial testimonial-3 bg-overlay pt-120 pb-120">
+    <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/backgrounds/6.jpg" alt="background"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-6">
+          <span class="heading__subtitle">What Peoples Say!</span>
+          <h2 class="heading__title">Testimonials</h2>
+          <div class="testimonial-panel-wrap">
+            <div class="carousel owl-carousel carousel-arrows" data-slide="1" data-slide-md="1" data-slide-sm="1"
+              data-autoplay="true" data-nav="true" data-dots="false" data-space="0" data-loop="true" data-speed="800">
+              <!-- Testimonial #1 -->
+              <div class=" testimonial-item">
+                <div class="testimonial__content">
+                  <p class="testimonial__desc">DraftIcode is one of the best web development company , they provide best service .
+                    They know what Client requirements very well. They made one of my website and I really like that one.
+And thanks to Swati she provide me logo and that was really cool.☺️ Best of luck Draftcode .</p>
+                </div><!-- /.testimonial-content -->
+                <div class="d-flex align-items-center">
+                  <div class="testimonial__thumb">
+                      <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/3.jpg" alt="author thumb">
+                  </div><!-- /.testimonial-thumb -->
+                  <div class="testimonial__meta">
+                    <h5 class="testimonial__meta-title">Subhasish Sahoo</h5>
+                    <!-- <p class="testimonial__meta-desc">Pro Moving</p> -->
+                  </div><!-- /.testimonial-meta -->
+                </div><!-- /.testimonial-meta-wrapper -->
+              </div><!-- /. testimonial-item -->
+              <!-- Testimonial #2 -->
+              <div class=" testimonial-item">
+                <div class="testimonial__content">
+                  <p class="testimonial__desc">Thanks for that wonderful posters u made for our association.
+                    The content was completely covered with making it clumsy...and the colour.
+                    Combination u used were so superb .looking forward to work with u even more ..keep growing </p>
+                </div><!-- /.testimonial-content -->
+                <div class="d-flex align-items-center">
+                  <div class="testimonial__thumb">
+                      <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
+                  </div><!-- /.testimonial-thumb -->
+                  <div class="testimonial__meta">
+                    <h5 class="testimonial__meta-title">Ragini Mitra</h5>
+                    <p class="testimonial__meta-desc">Odisha State tennis cricket association<br>
+                    FLIER AND POSTERS DESIGNER</p>
+                  </div><!-- /.testimonial-meta -->
+                </div><!-- /.testimonial-meta-wrapper -->
+              </div><!-- /. testimonial-item -->
+              <!-- Testimonial #3 -->
+              <div class=" testimonial-item">
+                <div class="testimonial__content">
+                  <p class="testimonial__desc">I am really impressed by the quality of services I received from Flatworld Solutions.
+                    You were right on schedule, charged reasonable prices, were professional and courteous in dealings,
+                    and delivered items well before time. I have got a good e-commerce site for my products.
+                     My revenue has increased because of Flatworld and I will definitely use your services again.</p>
+                </div><!-- /.testimonial-content -->
+                <div class="d-flex align-items-center">
+                  <div class="testimonial__thumb">
+                      <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                  </div><!-- /.testimonial-thumb -->
+                  <div class="testimonial__meta">
+                    <!-- <h5 class="testimonial__meta-title">Begha</h5> -->
+                    <p class="testimonial__meta-desc">General Manager<br>ENCORE GROUP</p>
+                  </div><!-- /.testimonial-meta -->
+                </div><!-- /.testimonial-meta-wrapper -->
+              </div><!-- /. testimonial-item -->
+              <!-- Testimonial #4 -->
+              <div class=" testimonial-item">
+                <div class="testimonial__content">
+                  <p class="testimonial__desc">A Website mirrors the company identity, That gives it a face and a soul. Web Designers from the firm ‘MIRROR DESIGN’ Express did that for “Landscape Ventures.” They instantly knew what we wanted to accomplish, they were fast, responsive and relatively affordable.
+The final product was very functional, tasteful and aesthetically nice to look at.
+We already recommended them to other customers and I think that would be the best testimonial and the ultimate recognition.
+Thanks to “DRAFTI CODE ” 👍</p>
+                </div><!-- /.testimonial-content -->
+                <div class="d-flex align-items-center">
+                  <div class="testimonial__thumb">
+                      <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                  </div><!-- /.testimonial-thumb -->
+                  <div class="testimonial__meta">
+                    <!-- <h5 class="testimonial__meta-title">Begha</h5> -->
+                    <p class="testimonial__meta-desc">DEBABRATA<br>LANDSCAPE VENTURES</p>
+                  </div><!-- /.testimonial-meta -->
+                </div><!-- /.testimonial-meta-wrapper -->
+              </div><!-- /. testimonial-item -->
+            </div><!-- /.carousel -->
+          </div>
+        </div><!-- /.col-lg-12 -->
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </section><!-- /.testimonial3 --><br><br>
+
+  <!-- =========================
+          contact 1
+    =========================  -->
+  <section id="contact1" class="contact contact-1 p-0">
+    <div id="map"></div>
+    <script src="<?= $base_URI; ?>/app/assets/js/vendor/google/google-map.js?v=1.0.0"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqrqPZOVegy1VIdyIcndxZY9YGoK-x0Yo&callback=initMap"
+      async defer></script>
+    <div class="container">
+      <div class="contact-panel contact-panel-2">
+        <div class="contact__panel-header d-flex align-items-center">
+          <h4 class="contact__panel-title">Global Locations</h4>
+        </div>
+        <div id="accordion">
+          <div class="accordion-item">
+            <div class="accordion__item-header opened" data-toggle="collapse" data-target="#collapse1">
+              <a class="accordion__item-title" href="#">Bangalore Office - BTM Layout</a>
+            </div><!-- /.accordion-item-header -->
+            <div id="collapse1" class="collapse  show" data-parent="#accordion">
+              <div class="accordion__item-body">
+                <ul class="contact__list list-unstyled">
+                  <li><a href="tel: +91 79751 89067"> +91 79751 89067</a></li>
+                  <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
+                  <li>17,302, Gauri Shankar Nilay<br>Sri Venkateshwara Layout, Old Madiwala,
+                    <br>BTM Layout Stage 1,Near Gamgotri circle<br>Bangalore<br>Karnataka - 560068</li>
+                  <li>Hours: Mon-Fri: 8am – 7pm</li>
+                </ul>
+              </div><!-- /.accordion-item-body -->
+            </div>
+          </div><!-- /.accordion-item -->
+          <div class="accordion-item">
+            <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse2">
+              <a class="accordion__item-title" href="#">Bhubaneswar Office - Saheed Nagar</a>
+            </div><!-- /.accordion-item-header -->
+            <div id="collapse2" class="collapse" data-parent="#accordion">
+              <div class="accordion__item-body">
+                <ul class="contact__list list-unstyled">
+                  <li><a href="tel: +91 63700 71649"> +91 70083 08511</a></li>
+                  <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
+                  <li>2, Arihant Plaza<br> In-front of OMFED Office<br> Swash Lane, Saheed Nagar<br>Bhubaneswar<br>
+                    Odisha- 751007 IN</li>
+                  <li>Hours: Mon-Fri: 8am – 7pm</li>
+                </ul>
+              </div><!-- /.accordion-item-body -->
+            </div>
+          </div><!-- /.accordion-item -->
+          <div class="accordion-item">
+            <div class="accordion__item-header" data-toggle="collapse" data-target="#collapse3">
+              <a class="accordion__item-title" href="#">Bhubaneswar Office -  Patia</a>
+            </div><!-- /.accordion-item-header -->
+            <div id="collapse3" class="collapse" data-parent="#accordion">
+              <div class="accordion__item-body">
+                <ul class="contact__list list-unstyled">
+                <li><a href="tel: +91 98532 33951"> +91 98532 33951</a></li>
+                  <li><a href="mailto:info@drafticode.com">info@drafticode.com</a></li>
+                  <li>Near KIIT TBI<br>Patia, KIIT Square<br>Bhubaneswar,<br>ODISHA- 751024 IN</li>
+                  <li>Hours: Mon-Fri: 8am – 7pm</li>
+                </ul>
+              </div><!-- /.accordion-item-body -->
+            </div>
+          </div><!-- /.accordion-item -->
+        </div>
+      </div><!-- /.contact-panel -->
+    </div><!-- /.container -->
+  </section><!-- /.contact -->
+
+
   <div class="footer-newsletter">
     <div class="container">
       <div class="row">
