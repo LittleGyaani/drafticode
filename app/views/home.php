@@ -396,7 +396,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
       </div><!-- /.container -->
     </section><!-- /.Request Quote Tabs -->
 
-    
+
 
     <!-- =====================
        Clients 1
@@ -484,7 +484,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
     <!-- ======================
            projects Carousel
       ========================= -->
-    <section id="projectsCarousel" class="projects-carousel">
+    <section style="display: none;" id="projectsCarousel" class="projects-carousel">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -651,7 +651,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
     <!-- ======================
       Blog Grid
     ========================= -->
-    <section id="blogGrid" class="blog blog-grid pb-60">
+    <section style="display: none;" id="blogGrid" class="blog blog-grid pb-60">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">

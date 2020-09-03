@@ -236,7 +236,7 @@
       </div><!-- /.carousel -->
     </section><!-- /.slider -->
 
-    <!-- =========================== 
+    <!-- ===========================
       fancybox Layout 3
     ============================= -->
     <section id="fancyboxLayout3" class="fancybox-layout3 p-0">
@@ -321,7 +321,7 @@
       </div><!-- /.container -->
     </section><!-- /.About 1 -->
 
-    <!-- ========================= 
+    <!-- =========================
          Banner 2
     =========================  -->
     <section id="Banner2" class="banner banner-2 p-0">
@@ -468,7 +468,7 @@
       </div><!-- /.container -->
     </section><!-- /.Services layout 2 -->
 
-    <!-- =========================== 
+    <!-- ===========================
       projects Grid layout 2
     ============================= -->
     <section id="projectsGrid" class="projects projects-grid projects-grid-layout2 pb-50">
@@ -592,7 +592,7 @@
       </div><!-- /.container -->
     </section><!-- /.clients 1 -->
 
-    <!-- ========================= 
+    <!-- =========================
             Testimonial #2
     =========================  -->
     <section id="testimonial2" class="testimonial testimonial-2 text-center bg-overlay bg-overlay-grdient-theme pb-90">

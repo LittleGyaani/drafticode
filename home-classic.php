@@ -515,7 +515,7 @@
       </div><!-- /.container -->
     </section><!-- /.clients 1 -->
 
-    <!-- ========================= 
+    <!-- =========================
             Testimonial #3
     =========================  -->
     <section id="testimonial3" class="testimonial testimonial-3 bg-overlay pt-120 pb-120">

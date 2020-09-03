@@ -146,7 +146,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
     <!-- ===========================
       projects Grid layout 2
     ============================= -->
-    <section id="projectsGrid" class="projects projects-grid projects-grid-layout2 pb-50">
+    <section  style="display: none;" id="projectsGrid" class="projects projects-grid projects-grid-layout2 pb-50">
       <div class="projects-bg bg-overlay bg-overlay-gradient-secondary-2">
         <div class=" bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/backgrounds/4.jpg" alt="background"></div>
       </div>
@@ -267,7 +267,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
       </div><!-- /.container -->
     </section><!-- /.clients 1 -->
 
-  
+
     <!-- ===========================
       awards
     ============================= -->
