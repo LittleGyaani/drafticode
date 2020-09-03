@@ -73,7 +73,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-9 col-lg-6">
             <div class="about__img">
-                <img src="<?= $base_URI; ?>/app/assets/images/about/1.jpg" alt="about img" class="img-fluid">
+                <img src="<?= $base_URI; ?>/app/assets/images/about/about-us-body.jpg" alt="about img" class="img-fluid">
               <div class="counter-item-wrapper counters-white">
                 <div class="counter-item">
                   <div class="counter__icon">
@@ -96,7 +96,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
       <div class="container-fluid col-padding-0">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 background-banner bg-overlay">
-            <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/banners/7.jpg" alt="background"></div>
+            <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/about/about-us-body2.jpg" alt="background"></div>
             <div class="video__btn video__btn-white video__btn-right-center">
               <a class="popup-video" href="https://www.youtube.com/watch?4=&v=TKnufs85hXk">
                 <span class="video__player-animation"></span>
@@ -227,7 +227,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.projects-carousel -->
-    
+
     <!-- ======================
       Blog Grid
     ========================= -->

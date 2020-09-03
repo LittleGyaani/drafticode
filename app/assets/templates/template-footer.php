@@ -5,7 +5,7 @@
           Testimonial #3
   =========================  -->
   <section id="testimonial3" class="testimonial testimonial-3 bg-overlay pt-120 pb-120">
-    <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/backgrounds/6.jpg" alt="background"></div>
+    <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/footer/footer-testinomial.jpg" alt="background"></div>
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-6">
@@ -90,7 +90,7 @@ Thanks to “DRAFTI CODE ” 👍</p>
         </div><!-- /.col-lg-12 -->
       </div><!-- /.row -->
     </div><!-- /.container -->
-  </section><!-- /.testimonial3 --><br><br>
+  </section><!-- /.testimonial3 -->
 
   <!-- =========================
           contact 1

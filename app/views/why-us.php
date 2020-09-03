@@ -59,7 +59,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-7">
             <div class="video-banner p-0">
-                <img src="<?= $base_URI; ?>/app/assets/images/banners/6.jpg" alt="background">
+                <img src="<?= $base_URI; ?>/app/assets/images/why-us/why-us-body1.jpg" alt="background">
               <div class="video__btn video__btn-right-center">
                 <a class="popup-video" href="https://www.youtube.com/watch?4=&amp;v=TKnufs85hXk">
                   <span class="video__player-animation"></span>
@@ -267,72 +267,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
       </div><!-- /.container -->
     </section><!-- /.clients 1 -->
 
-    <!-- =========================
-            Testimonial #3
-    =========================  -->
-    <section id="testimonial3" class="testimonial testimonial-3 bg-overlay pt-120 pb-120">
-      <div class="bg-img">  <img src="<?= $base_URI; ?>/app/assets/images/backgrounds/6.jpg" alt="background"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-6">
-            <div class="testimonial-panel-wrap">
-              <div class="carousel owl-carousel carousel-arrows" data-slide="1" data-slide-md="1" data-slide-sm="1"
-                data-autoplay="true" data-nav="true" data-dots="false" data-space="0" data-loop="true" data-speed="800">
-                <!-- Testimonial #1 -->
-                <div class=" testimonial-item">
-                  <div class="testimonial__content">
-                    <p class="testimonial__desc">In my career, I’ve seen great companies serving logistics. But not to
-                      the point where you feel that comfort and trust that we get with DrafticodeCompany.</p>
-                  </div><!-- /.testimonial-content -->
-                  <div class="d-flex align-items-center">
-                    <div class="testimonial__thumb">
-                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/3.jpg" alt="author thumb">
-                    </div><!-- /.testimonial-thumb -->
-                    <div class="testimonial__meta">
-                      <h5 class="testimonial__meta-title">Martin Hope</h5>
-                      <p class="testimonial__meta-desc">Pro Moving</p>
-                    </div><!-- /.testimonial-meta -->
-                  </div><!-- /.testimonial-meta-wrapper -->
-                </div><!-- /. testimonial-item -->
-                <!-- Testimonial #2 -->
-                <div class=" testimonial-item">
-                  <div class="testimonial__content">
-                    <p class="testimonial__desc">Drafticode International customer service is some of the best we
-                      have ever had with ocean forwarders we like to ship as much as possible with you all.</p>
-                  </div><!-- /.testimonial-content -->
-                  <div class="d-flex align-items-center">
-                    <div class="testimonial__thumb">
-                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
-                    </div><!-- /.testimonial-thumb -->
-                    <div class="testimonial__meta">
-                      <h5 class="testimonial__meta-title">Ahmed Abdallah</h5>
-                      <p class="testimonial__meta-desc">The Move Inc</p>
-                    </div><!-- /.testimonial-meta -->
-                  </div><!-- /.testimonial-meta-wrapper -->
-                </div><!-- /. testimonial-item -->
-                <!-- Testimonial #3 -->
-                <div class=" testimonial-item">
-                  <div class="testimonial__content">
-                    <p class="testimonial__desc">Drafticode International customer service is some of the best we
-                      have ever had with ocean forwarders we like to ship as much as possible with you all.</p>
-                  </div><!-- /.testimonial-content -->
-                  <div class="d-flex align-items-center">
-                    <div class="testimonial__thumb">
-                        <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
-                    </div><!-- /.testimonial-thumb -->
-                    <div class="testimonial__meta">
-                      <h5 class="testimonial__meta-title">Begha</h5>
-                      <p class="testimonial__meta-desc">The Move Inc</p>
-                    </div><!-- /.testimonial-meta -->
-                  </div><!-- /.testimonial-meta-wrapper -->
-                </div><!-- /. testimonial-item -->
-              </div><!-- /.carousel -->
-            </div>
-          </div><!-- /.col-lg-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.testimonial3 -->
-
+  
     <!-- ===========================
       awards
     ============================= -->
