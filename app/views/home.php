@@ -474,7 +474,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
               <p class="color-white mb-20">We provide our clients with stunning interfaces that are user-friendly,
                 unique and responsive at the shortest turnaround time possible. We deal with clients
                 from various industries across the globe and our clients always come back to us for more business.</p>
-              <img src="<?= $base_URI; ?>/app/assets/images/about/singnture2.png" alt="singnture">
+              <!-- <img src="<?= $base_URI; ?>/app/assets/images/about/singnture2.png" alt="singnture"> -->
             </div>
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -586,7 +586,81 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                    We're a team of expert & experienced designers and developers who work hard & smart. We strive to deliver
                     the best and stand by our commitment at all times.</p>
               </div><!-- /.heading -->
-              <a href="#" class="btn btn__primary">Schedule An Appointment</a>
+
+                            <!-- Button trigger modal -->
+              <a><button  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Schedule An Appointment</button></a>
+
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Schedule An Appointment</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="col-sm-12 col-md-12 col-lg-8">
+<form class="request-quote-form">
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12">
+<!-- <div class="alert alert-primary text-center mb-45">
+Your form has been successfully submitted.
+</div> -->
+
+</div><!-- /.col-lg-12 -->
+</div><!-- /.row -->
+<div class="row mb-30">
+<div class="col-sm-12 col-md-12 col-lg-12">
+<h5 class="form__title">Personal Data</h5>
+<hr class="mt-0 mb-30">
+</div><!-- /.col-lg-12 -->
+<div class="col-sm-12 col-md-12 col-lg-12">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Company">
+</div>
+</div><!-- /.col-lg-12 -->
+<div class="col-sm-12 col-md-12 col-lg-12">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Name">
+</div>
+</div><!-- /.col-lg-4 -->
+<div class="col-sm-12 col-md-12 col-lg-12">
+<div class="form-group">
+<input type="email" class="form-control" placeholder="Email">
+</div>
+</div><!-- /.col-lg-4 -->
+<div class="col-sm-12 col-md-12 col-lg-12">
+<div class="form-group">
+<input type="tel" class="form-control" placeholder="Phone">
+</div>
+</div><!-- /.col-lg-4 -->
+</div><!-- /.row -->
+
+<div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12">
+<button type="submit" class="btn btn__secondary btn__block">Request A Quote</button>
+</div><!-- /.col-lg-12 -->
+</div><!-- /.row -->
+</form>
+</div>
+      </div>
+      <!-- <div class="modal-footer"> -->
+        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+        <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+      <!-- </div> -->
+    </div>
+  </div>
+</div>
+
+
+
             </div>
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-6 bg-overlay  background-banner">
