@@ -17,13 +17,13 @@
               <!-- Testimonial #1 -->
               <div class=" testimonial-item">
                 <div class="testimonial__content">
-                  <p class="testimonial__desc">DraftIcode is one of the best web development company , they provide best service .
-                    They know what Client requirements very well. They made one of my website and I really like that one.
+                  <p class="testimonial__desc">DraftIcode is one of the best web development company.
+                   They made one of my website and I really like that one.
 And thanks to Swati she provide me logo and that was really cool.☺️ Best of luck Draftcode .</p>
                 </div><!-- /.testimonial-content -->
                 <div class="d-flex align-items-center">
                   <div class="testimonial__thumb">
-                      <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/3.jpg" alt="author thumb">
+                      <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/Subhasis.jpg" alt="author thumb">
                   </div><!-- /.testimonial-thumb -->
                   <div class="testimonial__meta">
                     <h5 class="testimonial__meta-title">Subhasish Sahoo</h5>
@@ -40,7 +40,7 @@ And thanks to Swati she provide me logo and that was really cool.☺️ Best of 
                 </div><!-- /.testimonial-content -->
                 <div class="d-flex align-items-center">
                   <div class="testimonial__thumb">
-                      <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/2.jpg" alt="author thumb">
+                      <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/Ragini mitra.jpeg" alt="author thumb">
                   </div><!-- /.testimonial-thumb -->
                   <div class="testimonial__meta">
                     <h5 class="testimonial__meta-title">Ragini Mitra</h5>
@@ -53,9 +53,8 @@ And thanks to Swati she provide me logo and that was really cool.☺️ Best of 
               <div class=" testimonial-item">
                 <div class="testimonial__content">
                   <p class="testimonial__desc">I am really impressed by the quality of services I received from Flatworld Solutions.
-                    You were right on schedule, charged reasonable prices, were professional and courteous in dealings,
-                    and delivered items well before time. I have got a good e-commerce site for my products.
-                     My revenue has increased because of Flatworld and I will definitely use your services again.</p>
+                   I have got a good e-commerce site for my products.
+                    My revenue has increased because of Flatworld and I will definitely use your services again.</p>
                 </div><!-- /.testimonial-content -->
                 <div class="d-flex align-items-center">
                   <div class="testimonial__thumb">
@@ -70,14 +69,14 @@ And thanks to Swati she provide me logo and that was really cool.☺️ Best of 
               <!-- Testimonial #4 -->
               <div class=" testimonial-item">
                 <div class="testimonial__content">
-                  <p class="testimonial__desc">A Website mirrors the company identity, That gives it a face and a soul. Web Designers from the firm ‘MIRROR DESIGN’ Express did that for “Landscape Ventures.” They instantly knew what we wanted to accomplish, they were fast, responsive and relatively affordable.
-The final product was very functional, tasteful and aesthetically nice to look at.
-We already recommended them to other customers and I think that would be the best testimonial and the ultimate recognition.
-Thanks to “DRAFTI CODE ” 👍</p>
+                  <p class="testimonial__desc">A Website mirrors the company identity, That gives it a face and a soul.
+                They instantly knew what we wanted to accomplish.The final product was very functional and aesthetically
+                nice to look at.
+                Thanks to “DRAFTI CODE ” 👍</p>
                 </div><!-- /.testimonial-content -->
                 <div class="d-flex align-items-center">
                   <div class="testimonial__thumb">
-                      <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/1.jpg" alt="author thumb">
+                      <img src="<?= $base_URI; ?>/app/assets/images/testimonials/thumbs/Debabrata.jpeg" alt="author thumb">
                   </div><!-- /.testimonial-thumb -->
                   <div class="testimonial__meta">
                     <!-- <h5 class="testimonial__meta-title">Begha</h5> -->
