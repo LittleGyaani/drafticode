@@ -69,7 +69,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
         <div class="row text-center">
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="service-item">
-              <div class="service__icon"><i class="icon-air-freight"></i></div>
+              <div class="service__icon"><i class="icon-ecommerce"></i></div>
               <div class="service__content">
                 <h4 class="service__title">Web Development & Design</h4>
                 <p class="service__desc">Websites are the essence of your online presence. We will create a functional website that is customized for your business and drives results.
@@ -82,7 +82,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.col-lg-4 -->
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="service-item">
-              <div class="service__icon"><i class="icon-cargo-ship"></i></div>
+              <div class="service__icon"><i class="icon-smartphone"></i></div>
               <div class="service__content">
                 <h4 class="service__title">Mobile App Development</h4>
                 <p class="service__desc">We design and develop custom mobile application for iOS and Android platforms.
@@ -95,7 +95,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.col-lg-4 -->
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="service-item">
-              <div class="service__icon"><i class="icon-truck"></i></div>
+              <div class="service__icon"><i class="icon-search"></i></div>
               <div class="service__content">
                 <h4 class="service__title">Search Engine Optimization</h4>
                 <p class="service__desc">Search engine advertising, also known as pay-per-click advertising helps you reach new customers
@@ -108,7 +108,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.col-lg-4 -->
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="service-item">
-              <div class="service__icon"><i class="icon-forklift"></i></div>
+              <div class="service__icon"><i class="icon-speech-bubble"></i></div>
               <div class="service__content">
                 <h4 class="service__title">Social Media Marketing</h4>
                 <p class="service__desc">We help you with social media management, advertising and strategic content creation to
@@ -121,7 +121,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.col-lg-4 -->
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="service-item">
-              <div class="service__icon"><i class="icon-conveyor"></i></div>
+              <div class="service__icon"><i class="icon-wishlist"></i></div>
               <div class="service__content">
                 <h4 class="service__title">Content Marketing</h4>
                 <p class="service__desc">Content marketing helps you increase visibility, traffic and brand awareness.
@@ -134,7 +134,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.col-lg-4 -->
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="service-item">
-              <div class="service__icon"><i class="icon-box-2"></i></div>
+              <div class="service__icon"><i class="icon-signboard"></i></div>
               <div class="service__content">
                 <h4 class="service__title">Digital Marketing Strategy</h4>
                 <p class="service__desc">Get your own digital marketing strategy built from scratch.
