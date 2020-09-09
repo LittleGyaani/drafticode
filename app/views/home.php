@@ -42,7 +42,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
       <div class="owl-carousel thumbs-carousel carousel-arrows" data-slider-id="slider1" data-dots="false"
         data-autoplay="true" data-nav="true" data-transition="fade" data-animate-out="fadeOut" data-animate-in="fadeIn">
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider-1.jpg" alt="slide img"></div>
+          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider1.1.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
@@ -88,7 +88,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
         <div class="slide-item align-v-h bg-overlay">
-          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider4.jpg" alt="slide img"></div>
+          <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/sliders/slider4.0.jpg" alt="slide img"></div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8">
@@ -127,13 +127,13 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
             </div><!-- /.owl-thumbs -->
           </div><!-- /.col-lg-12 -->
           <div class="col-sm-12 col-md-12 col-lg-12 d-none d-lg-block">
-            <a class="btn btn__video btn__video-lg popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
+            <a class="btn btn__video btn__video-lg popup-video" href="<?= $base_URI; ?>/app/assets/images/brochure/DIGITAL MARKETING.pdf" alt="DIGITAL MARKETING.pdf">
               <div class="video__player">
                 <span class="video__player-animation"></span>
                 <span class="video__player-animation video__player-animation-2"></span>
-                <i class="fa fa-play"></i>
+                <i class="fa fa-cloud-download"></i>
               </div>
-              <span class="video__btn-title">Watch Our Presentation!</span>
+              <span class="video__btn-title">Download Our Digital Marketing Brochure</span>
             </a><!-- /.btn__video-->
           </div><!-- /.col-lg-12 -->
         </div><!-- /.row -->
