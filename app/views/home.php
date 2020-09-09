@@ -49,8 +49,8 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                 <div class="slide__content">
                   <h2 class="slide__title">Build Up Your Business Online</h2>
                   <p class="slide__desc">Our approach and experience in all aspects of Website Development and Digital Marketing, assisting our potential clients reaching out their requirements.</p>
-                  <a href="#" class="btn btn__primary btn__hover2 mr-30">Our Services</a>
-                  <a href="#" class="btn btn__white">About Us</a>
+                  <a href="<?= $base_URI; ?>/services" class="btn btn__primary btn__hover2 mr-30">Our Services</a>
+                  <a href="<?= $base_URI; ?>/our-company/about-us" class="btn btn__white">About Us</a>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-lg-8 -->
             </div><!-- /.row -->
@@ -65,8 +65,8 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <h2 class="slide__title">Affordable Prices and Great Solutions</h2>
                   <p class="slide__desc">Through our design, technology and marketing strategy, you can connect with and engage your
                     audience at extremely competitive prices.</p>
-                  <a href="#" class="btn btn__white mr-30">About Us</a>
-                  <a href="#" class="btn btn__primary btn__hover2">Our Services</a>
+                  <a href="<?= $base_URI; ?>/our-company/about-us" class="btn btn__white mr-30">About Us</a>
+                  <a href="<?= $base_URI; ?>/services" class="btn btn__primary btn__hover2">Our Services</a>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-lg-8 -->
             </div><!-- /.row -->
@@ -80,8 +80,8 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                 <div class="slide__content">
                   <h2 class="slide__title">Focused on Business</h2>
                   <p class="slide__desc">We are focused on satisfaction of our customers and their business success. We make life easy for everyone.</p>
-                  <a href="#" class="btn btn__primary btn__hover2 mr-30">Our Services</a>
-                  <a href="#" class="btn btn__white">About Us</a>
+                  <a href="<?= $base_URI; ?>/services" class="btn btn__primary btn__hover2 mr-30">Our Services</a>
+                  <a href="<?= $base_URI; ?>/our-company/about-us" class="btn btn__white">About Us</a>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-lg-8 -->
             </div><!-- /.row -->
@@ -97,7 +97,7 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                   <p class="slide__desc">We go beyond traditional development and strategies approach. We help brands to
                      increase their visibility, engagement, and revenue.</p>
                   <a href="#" class="btn btn__white mr-30">Get Started</a>
-                  <a href="#" class="btn btn__primary btn__hover2">Our Services</a>
+                  <a href="<?= $base_URI; ?>/services" class="btn btn__primary btn__hover2">Our Services</a>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-lg-8 -->
             </div><!-- /.row -->
@@ -440,13 +440,13 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
           <div class="col-sm-12 col-md-12 col-lg-6 background-banner bg-overlay">
             <div class="bg-img"><img src="<?= $base_URI; ?>/app/assets/images/banners/banner1.jpg" alt="background"></div>
             <div class="video__btn video__btn-white video__btn-right-center">
-              <a class="popup-video" href="https://www.youtube.com/watch?4=&v=TKnufs85hXk">
+              <!-- <a class="popup-video" href="https://www.youtube.com/watch?4=&v=TKnufs85hXk">
                 <span class="video__player-animation"></span>
                 <span class="video__player-animation video__player-animation-2"></span>
                 <div class="video__player">
                   <i class="fa fa-play"></i>
                 </div>
-              </a>
+              </a> -->
             </div><!-- /.video -->
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-6">
