@@ -5377,7 +5377,7 @@ textarea.form-control {
 }
 
 .testimonial-3 .testimonial-panel-wrap .carousel-arrows .owl-nav .owl-prev:before {
-    content: "î¥¤";
+    content: "";
     font-size: 10px
 }
 
@@ -5386,7 +5386,7 @@ textarea.form-control {
 }
 
 .testimonial-3 .testimonial-panel-wrap .carousel-arrows .owl-nav .owl-next:before {
-    content: "î¥¥";
+    content: "";
     font-size: 10px
 }
 

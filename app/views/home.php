@@ -590,77 +590,6 @@ require 'app/tools/obfuscator/SmartObfuscator/SmartObfuscator.php';
                             <!-- Button trigger modal -->
               <a><button  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                 Schedule An Appointment</button></a>
-
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button> -->
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Schedule An Appointment</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="col-sm-12 col-md-12 col-lg-8">
-<form class="request-quote-form">
-<div class="row">
-<div class="col-sm-12 col-md-12 col-lg-12">
-<!-- <div class="alert alert-primary text-center mb-45">
-Your form has been successfully submitted.
-</div> -->
-
-</div><!-- /.col-lg-12 -->
-</div><!-- /.row -->
-<div class="row mb-30">
-<div class="col-sm-12 col-md-12 col-lg-12">
-<h5 class="form__title">Personal Data</h5>
-<hr class="mt-0 mb-30">
-</div><!-- /.col-lg-12 -->
-<div class="col-sm-12 col-md-12 col-lg-12">
-<div class="form-group">
-<input type="text" class="form-control" placeholder="Company">
-</div>
-</div><!-- /.col-lg-12 -->
-<div class="col-sm-12 col-md-12 col-lg-12">
-<div class="form-group">
-<input type="text" class="form-control" placeholder="Name">
-</div>
-</div><!-- /.col-lg-4 -->
-<div class="col-sm-12 col-md-12 col-lg-12">
-<div class="form-group">
-<input type="email" class="form-control" placeholder="Email">
-</div>
-</div><!-- /.col-lg-4 -->
-<div class="col-sm-12 col-md-12 col-lg-12">
-<div class="form-group">
-<input type="tel" class="form-control" placeholder="Phone">
-</div>
-</div><!-- /.col-lg-4 -->
-</div><!-- /.row -->
-
-<div class="row">
-<div class="col-sm-12 col-md-12 col-lg-12">
-<button type="submit" class="btn btn__secondary btn__block">Request A Quote</button>
-</div><!-- /.col-lg-12 -->
-</div><!-- /.row -->
-</form>
-</div>
-      </div>
-      <!-- <div class="modal-footer"> -->
-        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-        <!-- <button type="button" class="btn btn-primary">Submit</button> -->
-      <!-- </div> -->
-    </div>
-  </div>
-</div>
-
-
-
             </div>
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-6 bg-overlay  background-banner">
@@ -816,8 +745,6 @@ Your form has been successfully submitted.
       </div><!-- /.container -->
     </section><!-- /.blog Grid -->
 
-
-
     <!-- ========================
             Footer
     ========================== -->
@@ -833,4 +760,10 @@ Your form has been successfully submitted.
 <?php
 //Calling Scripts Section
 include 'app/assets/templates/template-scripts.php';
+?>
+
+<!-- Modals Section -->
+<?php
+//Calling Modals Section
+include 'app/assets/templates/template-modals.php';
 ?>
