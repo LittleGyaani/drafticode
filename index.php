@@ -14,7 +14,7 @@ if ($site_status === 'DEVELOPMENT') //If Site is still under development
   else
     $router->setBasePath('/demo/drafticode'); //Our Demo Website or Preproduction URL
 else
-  $router->setBasePath('/'); //Live Production Website
+  $router->setBasePath(''); //Live Production Website
 
 // ** Define All Routes for the Website **//
 
