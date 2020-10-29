@@ -38,7 +38,7 @@
 <meta property='og:description' content="Drafticode is a top notch Digital Marketing Company, Software Development & Web Development Agency in India." />
 <meta property='og:type' content="Website" />
 <meta property='og:url' content="https://drafticode.com/" />
-<meta property="og:image" content="https://drafticode.com/app/assets/images/favicon/dc-favicon.png" />
+<meta property="og:image" content="https://drafticode.com/app/assets/images/logo/DC-Logo.png" />
 <meta property='og:image:width' content="256" />
 <meta property='og:image:height' content="256" />
 <meta property='og:image:type' content="image/png" />
@@ -48,7 +48,7 @@
 <meta property="twitter:url" content="https://drafticode.com/"/>
 <meta property="twitter:title" content="Digital Marketing Agency, Web & App Development Company in India : Drafticode"/>
 <meta property="twitter:description" content="Drafticode is a top notch Digital Marketing Company, Software Development & Web Development Agency in India."/>
-<meta property="twitter:image" content="https://drafticode.com/app/assets/images/favicon/dc-favicon.png"/>
+<meta property="twitter:image" content="https://drafticode.com/app/assets/images/logo/DC-Logo.png"/>
 
 <!-- LD JSON SCHEMA -->
 <script type="application/ld+json">
@@ -95,3 +95,13 @@
 }
 </script>
  <!-- Meta Section Ends Here -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EXG0CGXD70"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EXG0CGXD70');
+</script>
